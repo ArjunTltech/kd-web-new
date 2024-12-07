@@ -1,6 +1,13 @@
+import React from 'react';
 import { Accordion } from "react-bootstrap";
 
-const RaveloAccordion = ({ event, active, onClick, title }) => {
+const RaveloAccordion = ({ 
+  event, 
+  active, 
+  onClick, 
+  title, 
+  children 
+}) => {
   return (
     <div
       className="accordion-item"
@@ -21,14 +28,11 @@ const RaveloAccordion = ({ event, active, onClick, title }) => {
       </h5>
       <Accordion.Collapse eventKey={event}>
         <div className="accordion-body">
-          <p>
-            To take a trivial example which undertakes laborious physical
-            exercise except to obtain some advantage pleasure annoying
-            consequences
-          </p>
+          {children}
         </div>
       </Accordion.Collapse>
     </div>
   );
 };
+
 export default RaveloAccordion;
