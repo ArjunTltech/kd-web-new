@@ -115,9 +115,11 @@ const Header1 = ({ sidebarClick }) => {
                 <div className="logo">
                   <Link href="/">
                     <img
-                      src="assets/images/logos/logo.png"
+                      src="https://www.keraladrives.com/upload/logo.png"
                       alt="Logo"
                       title="Logo"
+                      class="img-fluid"
+                      style={{ height: "50px" }}
                     />
                   </Link>
                 </div>
@@ -169,9 +171,11 @@ const Header2 = ({ sidebarClick }) => {
                 <div className="logo">
                   <Link href="/">
                     <img
-                      src="assets/images/logos/logo-two.png"
+                      src="https://www.keraladrives.com/upload/logo.png"
                       alt="Logo"
                       title="Logo"
+                      class="img-fluid"
+                      style={{ height: "50px" }}
                     />
                   </Link>
                 </div>
@@ -199,7 +203,13 @@ const Header2 = ({ sidebarClick }) => {
           </div>
           <div className="logo text-lg-center">
             <Link href="/">
-              <img src="assets/images/logos/logo-two.png" alt="Logo" />
+            <img
+                      src="https://www.keraladrives.com/upload/logo.png"
+                      alt="Logo"
+                      title="Logo"
+                      class="img-fluid"
+                      style={{ height: "50px" }}
+                    />
             </Link>
           </div>
           <hr className="my-40" />
@@ -401,10 +411,12 @@ const Header3 = ({ sidebarClick }) => {
               <div className="logo-outer">
                 <div className="logo">
                   <Link href="/">
-                    <img
-                      src="assets/images/logos/logo-two.png"
+                  <img
+                      src="https://www.keraladrives.com/upload/logo.png"
                       alt="Logo"
                       title="Logo"
+                      class="img-fluid"
+                      style={{ height: "50px" }}
                     />
                   </Link>
                 </div>
@@ -422,7 +434,7 @@ const Header3 = ({ sidebarClick }) => {
                 >
                   <span data-hover="Enquire">Enquire</span>
                   <i className="fal fa-arrow-right" />
-                </Link>    
+                </Link>
               </div>
             </div>
           </div>
