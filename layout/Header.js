@@ -31,17 +31,26 @@ const Menu = () => {
           className="navbar-collapse  clearfix"
         >
           <ul className="navigation clearfix">
-            <li className="dropdown current">
-              <a href="#">Home</a>
+            <li>
+              <Link href="/">Home</Link>
+            </li>
+            <li>
+              <Link href="about">About</Link>
+            </li>
+            <li className="dropdown">
+              <a href="#">Packages</a>
               <ul>
                 <li>
-                  <Link href="/">Travel Agency</Link>
+                  <Link href="tour-grid">Honeymoon Packages</Link>
                 </li>
                 <li>
-                  <Link href="index2">City Tou</Link>
+                  <Link href="tour-grid">Educational Tours</Link>
                 </li>
                 <li>
-                  <Link href="index3">Tour Package</Link>
+                  <Link href="tour-grid">Traditional Experiences</Link>
+                </li>
+                <li>
+                  <Link href="tour-grid">Group Adventures</Link>
                 </li>
               </ul>
               <div className="dropdown-btn">
@@ -49,87 +58,16 @@ const Menu = () => {
               </div>
             </li>
             <li>
-              <Link href="about">About</Link>
-            </li>
-            <li className="dropdown">
-              <a href="#">Tours</a>
-              <ul>
-                <li>
-                  <Link href="tour-list">Tour List</Link>
-                </li>
-                <li>
-                  <Link href="tour-grid">Tour Grid</Link>
-                </li>
-                <li>
-                  <Link href="tour-sidebar">Tour Sidebar</Link>
-                </li>
-                <li>
-                  <Link href="tour-details">Tour Details</Link>
-                </li>
-                <li>
-                  <Link href="tour-guide">Tour Guide</Link>
-                </li>
-              </ul>
-              <div className="dropdown-btn">
-                <span className="far fa-angle-down" />
-              </div>
-            </li>
-            <li className="dropdown">
-              <a href="#">Destinations</a>
-              <ul>
-                <li>
-                  <Link href="destination1">Destination 01</Link>
-                </li>
-                <li>
-                  <Link href="destination2">Destination 02</Link>
-                </li>
-                <li>
-                  <Link href="destination-details">Destination Details</Link>
-                </li>
-              </ul>
-              <div className="dropdown-btn">
-                <span className="far fa-angle-down" />
-              </div>
+              <Link href="destination1">Destinations</Link>
             </li>
             <li className="dropdown">
               <a href="#">Pages</a>
               <ul>
                 <li>
-                  <Link href="pricing">Pricing</Link>
-                </li>
-                <li>
                   <Link href="faqs">faqs</Link>
                 </li>
-                <li className="dropdown">
-                  <a href="#">Gallery</a>
-                  <ul>
-                    <li>
-                      <Link href="gellery-grid">Gallery Grid</Link>
-                    </li>
-                    <li>
-                      <Link href="gellery-slider">Gallery Slider</Link>
-                    </li>
-                  </ul>
-                  <div className="dropdown-btn">
-                    <span className="far fa-angle-down" />
-                  </div>
-                </li>
-                <li className="dropdown">
-                  <a href="#">products</a>
-                  <ul>
-                    <li>
-                      <Link href="shop">Our Products</Link>
-                    </li>
-                    <li>
-                      <Link href="product-details">Product Details</Link>
-                    </li>
-                  </ul>
-                  <div className="dropdown-btn">
-                    <span className="far fa-angle-down" />
-                  </div>
-                </li>
                 <li>
-                  <Link href="contact">Contact Us</Link>
+                  <Link href="gellery-grid">Gallery</Link>
                 </li>
                 <li>
                   <Link href="404">404 Error</Link>
@@ -139,19 +77,8 @@ const Menu = () => {
                 <span className="far fa-angle-down" />
               </div>
             </li>
-            <li className="dropdown">
-              <a href="#">blog</a>
-              <ul>
-                <li>
-                  <Link href="blog">blog List</Link>
-                </li>
-                <li>
-                  <Link href="blog-details">blog details</Link>
-                </li>
-              </ul>
-              <div className="dropdown-btn">
-                <span className="far fa-angle-down" />
-              </div>
+            <li>
+              <Link href="blog">Blogs</Link>
             </li>
           </ul>
         </Accordion.Collapse>
@@ -177,10 +104,6 @@ const Header = ({ header }) => {
 export default Header;
 
 const Header1 = ({ sidebarClick }) => {
-  const [toggleSearch, setToggleSearch] = useState(false);
-  const domNode = useClickOutside(() => {
-    setToggleSearch(false);
-  });
   return (
     <Fragment>
       <header className="main-header header-one white-menu menu-absolute fixed-header">
@@ -204,46 +127,15 @@ const Header1 = ({ sidebarClick }) => {
                 <Menu />
                 {/* Main Menu End*/}
               </div>
-              {/* Nav Search */}
-              <div className="nav-search">
-                <button
-                  className="far fa-search"
-                  onClick={() => setToggleSearch(!toggleSearch)}
-                />
-                <form
-                  action="#"
-                  className={toggleSearch ? "" : "hide"}
-                  ref={domNode}
-                >
-                  <input
-                    type="text"
-                    placeholder="Search"
-                    className="searchbox"
-                    required
-                  />
-                  <button
-                    type="submit"
-                    className="searchbutton far fa-search"
-                  />
-                </form>
-              </div>
               {/* Menu Button */}
               <div className="menu-btns py-10">
                 <Link
-                  href="contact"
+                  href="https://enquiry.keraladrives.com/"
                   className="theme-btn style-two bgc-secondary"
                 >
-                  <span data-hover="Book Now">Book Now</span>
+                  <span data-hover="Enquire">Enquire</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
-                {/* menu sidbar */}
-                <div className="menu-sidebar" onClick={() => sidebarClick()}>
-                  <button className="bg-transparent">
-                    <span className="icon-bar" />
-                    <span className="icon-bar" />
-                    <span className="icon-bar" />
-                  </button>
-                </div>
               </div>
             </div>
           </div>
@@ -258,11 +150,11 @@ const Header2 = ({ sidebarClick }) => {
   const [activeMenu, setActiveMenu] = useState("");
   const [multiMenu, setMultiMenu] = useState("");
   const activeMenuSet = (value) =>
-      setActiveMenu(activeMenu === value ? "" : value),
+    setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
       value === activeMenu ? { display: "block" } : { display: "none" };
   const multiMenuSet = (value) =>
-      setMultiMenu(multiMenu === value ? "" : value),
+    setMultiMenu(multiMenu === value ? "" : value),
     multiMenuActiveLi = (value) =>
       value === multiMenu ? { display: "block" } : { display: "none" };
 
@@ -467,10 +359,10 @@ const Header2 = ({ sidebarClick }) => {
             </li>
           </ul>
           <Link
-            href="contact"
+            href="https://enquiry.keraladrives.com/"
             className="theme-btn style-two style-three mt-15 mb-55"
           >
-            <span data-hover="Book Now">Book Now</span>
+            <span data-hover="Enquire">Enquire</span>
             <i className="fal fa-arrow-right" />
           </Link>
           <hr className="mb-65" />
@@ -525,20 +417,12 @@ const Header3 = ({ sidebarClick }) => {
               {/* Menu Button */}
               <div className="menu-btns py-10">
                 <Link
-                  href="contact"
+                  href="https://enquiry.keraladrives.com/"
                   className="theme-btn style-two bgc-secondary"
                 >
-                  <span data-hover="Book Now">Book Now</span>
+                  <span data-hover="Enquire">Enquire</span>
                   <i className="fal fa-arrow-right" />
-                </Link>
-                {/* menu sidbar */}
-                <div className="menu-sidebar" onClick={() => sidebarClick()}>
-                  <button className="bg-transparent">
-                    <span className="icon-bar" />
-                    <span className="icon-bar" />
-                    <span className="icon-bar" />
-                  </button>
-                </div>
+                </Link>    
               </div>
             </div>
           </div>
