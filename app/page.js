@@ -585,7 +585,7 @@ const page = () => {
                 <div className="col-md-6">
                   <div className="feature-item">
                     <div className="icon">
-                      <i className="flaticon-tent" />
+                      <i className="flaticon-kayak" />
                     </div>
                     <div className="content">
                       <h5>
@@ -598,7 +598,7 @@ const page = () => {
                   </div>
                   <div className="feature-item">
                     <div className="icon">
-                      <i className="flaticon-tent" />
+                      <i className="flaticon-climbing" />
                     </div>
                     <div className="content">
                       <h5>
@@ -613,7 +613,7 @@ const page = () => {
                 <div className="col-md-6">
                   <div className="feature-item mt-20">
                     <div className="icon">
-                      <i className="flaticon-tent" />
+                      <i className="flaticon-climbing" />
                     </div>
                     <div className="content">
                       <h5>
@@ -626,7 +626,7 @@ const page = () => {
                   </div>
                   <div className="feature-item">
                     <div className="icon">
-                      <i className="flaticon-tent" />
+                      <i className="flaticon-bonfire" />
                     </div>
                     <div className="content">
                       <h5>
