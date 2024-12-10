@@ -21,7 +21,7 @@ const page = () => {
           </h1>
           <div
             className="main-hero-image bgs-cover"
-            style={{ backgroundImage: "url(assets/images/hero/hero.jpg)" }}
+            style={{ backgroundImage: "url(assets/images/hero/hero-banner.jpg)" }}
           />
         </div>
         {/* <SearchFilter /> */}
