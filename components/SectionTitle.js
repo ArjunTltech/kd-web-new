@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import Counter from "./Counter";
 const SectionTitle = ({
   title,
-  countValue = 34500,
+  countValue,
   subtitle1 = "One site",
   subtitle2 = "most popular experience you’ll remember",
   bg,

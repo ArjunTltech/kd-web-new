@@ -39,8 +39,8 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <SectionTitle
-                  title={"Discover the World's Treasures with Ravelo"}
-                  countValue={34500}
+                  title={"Your Gateway to South India’s Finest Destinations"}
+                  countValue={500}
                   subtitle1={"One site"}
                   subtitle2={"most popular experience you’ll remember"}
                 />
@@ -228,12 +228,11 @@ const page = () => {
               >
                 <div className="section-title mb-25">
                   <h2>
-                    Travel with Confidence Top Reasons to Choose Our Agency
+                  Your Travel Partner for Seamless and Memorable Journeys
                   </h2>
                 </div>
                 <p>
-                  We go above and beyond to make your travel dreams reality
-                  hidden gems and must-see attractions
+                We don&apos;t just plan trips, we craft experiences that stay with you forever.
                 </p>
                 <div className="divider counter-text-wrap mt-45 mb-55">
                   <span>
@@ -244,7 +243,7 @@ const page = () => {
                         data-speed={3000}
                         data-stop={25}
                       >
-                        <Counter end={25} />
+                        <Counter end={7} />
                       </span>{" "}
                       Years
                     </span>{" "}
@@ -255,28 +254,29 @@ const page = () => {
                   <div className="col-6">
                     <div className="counter-item counter-text-wrap">
                       <span
-                        className="count-text k-plus"
+                        className="count-text plus"
                         data-speed={3000}
                         data-stop={3}
                       >
-                        <Counter end={3} />
+                        <Counter end={500} />
                       </span>
-                      <span className="counter-title">Popular Destination</span>
+                      <span className="counter-title">Stunning  Destinations</span>
                     </div>
                   </div>
                   <div className="col-6">
                     <div className="counter-item counter-text-wrap">
                       <span
-                        className="count-text m-plus"
+                        className="count-text k-plus"
                         data-speed={3000}
                         data-stop={9}
                       >
-                        <Counter end={9} />
+                        <Counter end={10} />
                       </span>
-                      <span className="counter-title">Satisfied Clients</span>
+                      <span className="counter-title">Happy Travelers</span>
                     </div>
                   </div>
                 </div>
+                
                 <Link href="destination1" className="theme-btn mt-10 style-two">
                   <span data-hover="Explore Destinations">
                     Explore Destinations
@@ -333,8 +333,9 @@ const page = () => {
                   data-aos-offset={50}
                 >
                   <SectionTitle
-                    title={"Explore Popular Destinations"}
+                    title={"Explore Popular Destinations in Kerala and South India"}
                     subtitle2="most popular experience"
+                    countValue={500}
                   />
                 </div>
               </div>
@@ -544,8 +545,7 @@ const page = () => {
               >
                 <div className="section-title mb-60">
                   <h2>
-                    The Ultimate Travel Experience Features That Set Our Agency
-                    Apart
+                    Activities We Provide
                   </h2>
                 </div>
                 <div className="features-customer-box">
@@ -606,7 +606,7 @@ const page = () => {
                         <Link href="tour-details">Houseboat Cruises</Link>
                       </h5>
                       <p>
-                      Drift along Kerala’s enchanting backwaters
+                        Drift along Kerala’s enchanting backwaters
                       </p>
                     </div>
                   </div>
@@ -619,7 +619,7 @@ const page = () => {
                         <Link href="tour-details">Trekking Adventures</Link>
                       </h5>
                       <p>
-                      Conquer the green trails of Coorg and Wayanad
+                        Conquer the green trails of Coorg and Wayanad
                       </p>
                     </div>
                   </div>
@@ -634,7 +634,7 @@ const page = () => {
                         <Link href="tour-details">Wildlife Safaris</Link>
                       </h5>
                       <p>
-                      Witness exotic wildlife in their natural habitats
+                        Witness exotic wildlife in their natural habitats
                       </p>
                     </div>
                   </div>
@@ -647,11 +647,11 @@ const page = () => {
                         <Link href="tour-details">Cultural Tours</Link>
                       </h5>
                       <p>
-                      Be part of South India&apos;s vibrant festivals and art forms
+                        Be part of South India&apos;s vibrant festivals and art forms
                       </p>
                     </div>
                   </div>
-                  
+
                 </div>
               </div>
             </div>
@@ -659,8 +659,8 @@ const page = () => {
         </div>
       </section>
       {/* Features Area end */}
-      
-      
+
+
       {/* Testimonials Area start */}
       <section className="testimonials-area rel z-1">
         <div className="container">
