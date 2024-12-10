@@ -24,7 +24,7 @@ const page = () => {
             style={{ backgroundImage: "url(assets/images/hero/hero.jpg)" }}
           />
         </div>
-        <SearchFilter />
+        {/* <SearchFilter /> */}
       </section>
       {/* Hero Area End */}
       {/* Destinations Area start */}
@@ -603,10 +603,10 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h5>
-                        <Link href="tour-details">Tent Camping</Link>
+                        <Link href="tour-details">Houseboat Cruises</Link>
                       </h5>
                       <p>
-                        Tent camping is wonderful way to connect with nature
+                      Drift along Kerala’s enchanting backwaters
                       </p>
                     </div>
                   </div>
@@ -616,10 +616,10 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h5>
-                        <Link href="tour-details">Kayaking</Link>
+                        <Link href="tour-details">Trekking Adventures</Link>
                       </h5>
                       <p>
-                        Kayaking is a thrilling outdoor activity that adventure
+                      Conquer the green trails of Coorg and Wayanad
                       </p>
                     </div>
                   </div>
@@ -631,11 +631,10 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h5>
-                        <Link href="tour-details">Mountain Biking</Link>
+                        <Link href="tour-details">Wildlife Safaris</Link>
                       </h5>
                       <p>
-                        Mountain biking is exhilarating sport that physical
-                        fitness
+                      Witness exotic wildlife in their natural habitats
                       </p>
                     </div>
                   </div>
@@ -645,14 +644,14 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h5>
-                        <Link href="tour-details">Fishing &amp; Boat</Link>
+                        <Link href="tour-details">Cultural Tours</Link>
                       </h5>
                       <p>
-                        Fishing and boat bring joy quintessential activities
-                        that
+                      Be part of South India&apos;s vibrant festivals and art forms
                       </p>
                     </div>
                   </div>
+                  
                 </div>
               </div>
             </div>
@@ -660,317 +659,8 @@ const page = () => {
         </div>
       </section>
       {/* Features Area end */}
-      {/* Hotel Area start */}
-      <section className="hotel-area bgc-black py-100 rel z-1">
-        <div className="container-fluid">
-          <div className="row justify-content-center">
-            <div className="col-lg-12">
-              <div
-                className="section-title text-white text-center counter-text-wrap mb-70"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <SectionTitle
-                  title={"Discover the World's Class Top Hotel"}
-                  subtitle2="most popular experience you’ll remember"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-xxl-6 col-xl-8 col-lg-10">
-              <div
-                className="destination-item style-three"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <div className="ratting">
-                    <i className="fas fa-star" /> 4.8
-                  </div>
-                  <a href="#" className="heart">
-                    <i className="fas fa-heart" />
-                  </a>
-                  <img
-                    src="assets/images/destinations/hotel1.jpg"
-                    alt="Hotel"
-                  />
-                </div>
-                <div className="content">
-                  <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Ao Nang, Thailand
-                  </span>
-                  <h5>
-                    <Link href="destination-details">
-                      The brown bench near swimming pool Hotel
-                    </Link>
-                  </h5>
-                  <ul className="list-style-one">
-                    <li>
-                      <i className="fal fa-bed-alt" /> 2 Bed room
-                    </li>
-                    <li>
-                      <i className="fal fa-hat-chef" /> 1 kitchen
-                    </li>
-                    <li>
-                      <i className="fal fa-bath" /> 2 Wash room
-                    </li>
-                    <li>
-                      <i className="fal fa-router" /> Internet
-                    </li>
-                  </ul>
-                  <div className="destination-footer">
-                    <span className="price">
-                      <span>$85.00</span>/per night
-                    </span>
-                    <a href="#" className="read-more">
-                      Book Now <i className="fal fa-angle-right" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xxl-6 col-xl-8 col-lg-10">
-              <div
-                className="destination-item style-three"
-                data-aos="fade-up"
-                data-aos-delay={50}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <div className="ratting">
-                    <i className="fas fa-star" /> 4.8
-                  </div>
-                  <a href="#" className="heart">
-                    <i className="fas fa-heart" />
-                  </a>
-                  <img
-                    src="assets/images/destinations/hotel2.jpg"
-                    alt="Hotel"
-                  />
-                </div>
-                <div className="content">
-                  <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Kigali, Rwanda
-                  </span>
-                  <h5>
-                    <Link href="destination-details">
-                      Green trees and body of water Marriott Hotel
-                    </Link>
-                  </h5>
-                  <ul className="list-style-one">
-                    <li>
-                      <i className="fal fa-bed-alt" /> 2 Bed room
-                    </li>
-                    <li>
-                      <i className="fal fa-hat-chef" /> 1 kitchen
-                    </li>
-                    <li>
-                      <i className="fal fa-bath" /> 2 Wash room
-                    </li>
-                    <li>
-                      <i className="fal fa-router" /> Internet
-                    </li>
-                  </ul>
-                  <div className="destination-footer">
-                    <span className="price">
-                      <span>$85.00</span>/per night
-                    </span>
-                    <a href="#" className="read-more">
-                      Book Now <i className="fal fa-angle-right" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xxl-6 col-xl-8 col-lg-10">
-              <div
-                className="destination-item style-three"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="content">
-                  <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Ao Nang, Thailand
-                  </span>
-                  <h5>
-                    <a href="#">Painted house surrounded with trees Hotel</a>
-                  </h5>
-                  <ul className="list-style-one">
-                    <li>
-                      <i className="fal fa-bed-alt" /> 2 Bed room
-                    </li>
-                    <li>
-                      <i className="fal fa-hat-chef" /> 1 kitchen
-                    </li>
-                    <li>
-                      <i className="fal fa-bath" /> 2 Wash room
-                    </li>
-                    <li>
-                      <i className="fal fa-router" /> Internet
-                    </li>
-                  </ul>
-                  <div className="destination-footer">
-                    <span className="price">
-                      <span>$85.00</span>/per night
-                    </span>
-                    <a href="#" className="read-more">
-                      Book Now <i className="fal fa-angle-right" />
-                    </a>
-                  </div>
-                </div>
-                <div className="image">
-                  <div className="ratting">
-                    <i className="fas fa-star" /> 4.8
-                  </div>
-                  <a href="#" className="heart">
-                    <i className="fas fa-heart" />
-                  </a>
-                  <img
-                    src="assets/images/destinations/hotel3.jpg"
-                    alt="Hotel"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xxl-6 col-xl-8 col-lg-10">
-              <div
-                className="destination-item style-three"
-                data-aos="fade-up"
-                data-aos-delay={50}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="content">
-                  <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Ao Nang, Thailand
-                  </span>
-                  <h5>
-                    <a href="#">house pool Jungle Pool Indonesia Hotel</a>
-                  </h5>
-                  <ul className="list-style-one">
-                    <li>
-                      <i className="fal fa-bed-alt" /> 2 Bed room
-                    </li>
-                    <li>
-                      <i className="fal fa-hat-chef" /> 1 kitchen
-                    </li>
-                    <li>
-                      <i className="fal fa-bath" /> 2 Wash room
-                    </li>
-                    <li>
-                      <i className="fal fa-router" /> Internet
-                    </li>
-                  </ul>
-                  <div className="destination-footer">
-                    <span className="price">
-                      <span>$85.00</span>/per night
-                    </span>
-                    <a href="#" className="read-more">
-                      Book Now <i className="fal fa-angle-right" />
-                    </a>
-                  </div>
-                </div>
-                <div className="image">
-                  <div className="ratting">
-                    <i className="fas fa-star" /> 4.8
-                  </div>
-                  <a href="#" className="heart">
-                    <i className="fas fa-heart" />
-                  </a>
-                  <img
-                    src="assets/images/destinations/hotel4.jpg"
-                    alt="Hotel"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="hotel-more-btn text-center mt-40">
-            <Link href="destination2" className="theme-btn style-four">
-              <span data-hover="Explore More Hotel">Explore More Hotel</span>
-              <i className="fal fa-arrow-right" />
-            </Link>
-          </div>
-        </div>
-      </section>
-      {/* Hotel Area end */}
-      {/* Mobile App Area start */}
-      <section className="mobile-app-area py-100 rel z-1">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-5">
-              <div
-                className="mobile-app-content rmb-55"
-                data-aos="fade-left"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="section-title mb-30">
-                  <h2>
-                    We Are Available On the Store Get Our Mobile Apps Very
-                    Easily
-                  </h2>
-                </div>
-                <p>
-                  We go above and beyond to make your travel dreams a reality.
-                  Trust us to handle the details so you can creating
-                  unforgettable memories. Explore the world with confidence
-                </p>
-                <ul className="list-style-two mt-35 mb-30">
-                  <li>Experience Agency</li>
-                  <li>Professional Team</li>
-                  <li>Low Cost Travel</li>
-                  <li>Online Support 24/7</li>
-                </ul>
-                <div className="google-play-app-store">
-                  <a href="#">
-                    <img
-                      src="assets/images/mobile-app/g-play.jpg"
-                      alt="Google Play"
-                    />
-                  </a>
-                  <a href="#">
-                    <img
-                      src="assets/images/mobile-app/a-store.jpg"
-                      alt="App Store"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-7">
-              <div className="mobile-app-images">
-                <div className="bg">
-                  <img src="assets/images/mobile-app/phone-bg.png" alt="BG" />
-                </div>
-                <div className="images">
-                  <img
-                    src="assets/images/mobile-app/phone2.png"
-                    alt="Phone"
-                    data-aos="fade-down-left"
-                    data-aos-duration={1500}
-                    data-aos-offset={50}
-                  />
-                  <img src="assets/images/mobile-app/phone.png" alt="Phone" />
-                  <img
-                    src="assets/images/mobile-app/phone3.png"
-                    alt="Phone"
-                    data-aos="fade-up-right"
-                    data-aos-duration={1500}
-                    data-aos-offset={50}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Mobile App Area end */}
+      
+      
       {/* Testimonials Area start */}
       <section className="testimonials-area rel z-1">
         <div className="container">
@@ -1080,7 +770,7 @@ const page = () => {
         </div>
       </section>
       {/* CTA Area end */}
-      {/* Blog Area start */}
+      {/* Blog Area start
       <section className="blog-area py-70 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
@@ -1214,7 +904,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </ReveloLayout>
   );
 };
