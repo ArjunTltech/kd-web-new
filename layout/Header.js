@@ -11,7 +11,13 @@ const Menu = () => {
         <div className="navbar-header">
           <div className="mobile-logo">
             <Link href="/">
-              <img src="assets/images/logos/logo.png" alt="Logo" title="Logo" />
+            <img
+                      src="https://www.keraladrives.com/upload/logo.png"
+                      alt="Logo"
+                      title="Logo"
+                      className="img-fluid"
+                      style={{ height: "30px" }}
+                    />
             </Link>
           </div>
           {/* Toggle Button */}
@@ -115,7 +121,7 @@ const Header1 = ({ sidebarClick }) => {
                 <div className="logo">
                   <Link href="/">
                     <img
-                      src="https://www.keraladrives.com/upload/logo.png"
+                      src="/assets/images/logos/logo-white.png"
                       alt="Logo"
                       title="Logo"
                       class="img-fluid"
@@ -171,7 +177,7 @@ const Header2 = ({ sidebarClick }) => {
                 <div className="logo">
                   <Link href="/">
                     <img
-                      src="https://www.keraladrives.com/upload/logo.png"
+                      src="/assets/images/logos/logo-white.png"
                       alt="Logo"
                       title="Logo"
                       class="img-fluid"
@@ -204,7 +210,7 @@ const Header2 = ({ sidebarClick }) => {
           <div className="logo text-lg-center">
             <Link href="/">
             <img
-                      src="https://www.keraladrives.com/upload/logo.png"
+                      src="/assets/images/logos/logo-white.png"
                       alt="Logo"
                       title="Logo"
                       class="img-fluid"
