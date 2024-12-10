@@ -603,10 +603,10 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h5>
-                        <Link href="tour-details">Tent Camping</Link>
+                        <Link href="tour-details">Houseboat Cruises</Link>
                       </h5>
                       <p>
-                        Tent camping is wonderful way to connect with nature
+                      Drift along Kerala’s enchanting backwaters
                       </p>
                     </div>
                   </div>
@@ -616,10 +616,10 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h5>
-                        <Link href="tour-details">Kayaking</Link>
+                        <Link href="tour-details">Trekking Adventures</Link>
                       </h5>
                       <p>
-                        Kayaking is a thrilling outdoor activity that adventure
+                      Conquer the green trails of Coorg and Wayanad
                       </p>
                     </div>
                   </div>
@@ -631,11 +631,10 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h5>
-                        <Link href="tour-details">Mountain Biking</Link>
+                        <Link href="tour-details">Wildlife Safaris</Link>
                       </h5>
                       <p>
-                        Mountain biking is exhilarating sport that physical
-                        fitness
+                      Witness exotic wildlife in their natural habitats
                       </p>
                     </div>
                   </div>
@@ -645,14 +644,14 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h5>
-                        <Link href="tour-details">Fishing &amp; Boat</Link>
+                        <Link href="tour-details">Cultural Tours</Link>
                       </h5>
                       <p>
-                        Fishing and boat bring joy quintessential activities
-                        that
+                      Be part of South India&apos;s vibrant festivals and art forms
                       </p>
                     </div>
                   </div>
+                  
                 </div>
               </div>
             </div>

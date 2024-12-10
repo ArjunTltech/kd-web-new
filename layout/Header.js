@@ -124,7 +124,7 @@ const Header1 = ({ sidebarClick }) => {
                       src="/assets/images/logos/logo-white.png"
                       alt="Logo"
                       title="Logo"
-                      class="img-fluid"
+                      className="img-fluid"
                       style={{ height: "50px" }}
                     />
                   </Link>
@@ -180,7 +180,7 @@ const Header2 = ({ sidebarClick }) => {
                       src="/assets/images/logos/logo-white.png"
                       alt="Logo"
                       title="Logo"
-                      class="img-fluid"
+                      className="img-fluid"
                       style={{ height: "50px" }}
                     />
                   </Link>
@@ -213,7 +213,7 @@ const Header2 = ({ sidebarClick }) => {
                       src="/assets/images/logos/logo-white.png"
                       alt="Logo"
                       title="Logo"
-                      class="img-fluid"
+                      className="img-fluid"
                       style={{ height: "50px" }}
                     />
             </Link>
@@ -421,7 +421,7 @@ const Header3 = ({ sidebarClick }) => {
                       src="https://www.keraladrives.com/upload/logo.png"
                       alt="Logo"
                       title="Logo"
-                      class="img-fluid"
+                      className="img-fluid"
                       style={{ height: "50px" }}
                     />
                   </Link>
