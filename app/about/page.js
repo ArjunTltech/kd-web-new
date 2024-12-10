@@ -453,7 +453,7 @@ const page = () => {
           >
             <img src="assets/images/video/video-bg.jpg" alt="Video" />
             <a
-              href="https://www.youtube.com/watch?v=9Y7ma241N8k"
+              href="https://youtu.be/QkGTIixpvYw?si=-K63ngdKF4FpUIcl"
               className="mfp-iframe video-play"
               tabIndex={-1}
             >
@@ -543,7 +543,7 @@ const page = () => {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <h6>We’re recommended by:</h6>
+              <h6>We&apos;re recommended by:</h6>
             </div>
             <Client />
           </div>

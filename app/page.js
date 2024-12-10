@@ -350,17 +350,15 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-                      <a href="#" className="heart">
-                        <i className="fas fa-heart" />
-                      </a>
+                     
                       <img
-                        src="assets/images/destinations/destination1.jpg"
+                        src="/assets/images/destinations/munnar.jpg"
                         alt="Destination"
                       />
                     </div>
                     <div className="content">
                       <h6>
-                        <Link href="destination-details">Thailand beach</Link>
+                        <Link href="destination-details">Munnar, Kerala</Link>
                       </h6>
                       <span className="time">
                         5352+ tours &amp; 856+ Activity
@@ -380,17 +378,17 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-                      <a href="#" className="heart">
+                      {/* <a href="#" className="heart">
                         <i className="fas fa-heart" />
-                      </a>
+                      </a> */}
                       <img
-                        src="assets/images/destinations/destination2.jpg"
+                        src="/assets/images/destinations/alleppy.jpg"
                         alt="Destination"
                       />
                     </div>
                     <div className="content">
                       <h6>
-                        <Link href="destination-details">Parga, Greece</Link>
+                        <Link href="destination-details">Alappuzha, Kerala</Link>
                       </h6>
                       <span className="time">
                         5352+ tours &amp; 856+ Activity
@@ -410,18 +408,15 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-                      <a href="#" className="heart">
-                        <i className="fas fa-heart" />
-                      </a>
                       <img
-                        src="assets/images/destinations/destination3.jpg"
+                        src="assets/images/destinations/hampi2.jpg"
                         alt="Destination"
                       />
                     </div>
                     <div className="content">
                       <h6>
                         <Link href="destination-details">
-                          Castellammare del Golfo, Italy
+                          Hampi, Karnataka
                         </Link>
                       </h6>
                       <span className="time">
@@ -441,18 +436,15 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-                      <a href="#" className="heart">
-                        <i className="fas fa-heart" />
-                      </a>
                       <img
-                        src="assets/images/destinations/destination4.jpg"
+                        src="/assets/images/destinations/rameshwaram.jpeg"
                         alt="Destination"
                       />
                     </div>
                     <div className="content">
                       <h6>
                         <Link href="destination-details">
-                          Reserve of Canada, Canada
+                        Rameshwaram, Tamilnadu
                         </Link>
                       </h6>
                       <span className="time">
@@ -473,18 +465,15 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-                      <a href="#" className="heart">
-                        <i className="fas fa-heart" />
-                      </a>
                       <img
-                        src="assets/images/destinations/destination5.jpg"
+                        src="assets/images/destinations/Coorg.jpg"
                         alt="Destination"
                       />
                     </div>
                     <div className="content">
                       <h6>
                         <Link href="destination-details">
-                          Dubai united states
+                          Coorg, Karnataka
                         </Link>
                       </h6>
                       <span className="time">
@@ -496,7 +485,7 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-3 col-md-6">
+                {/* <div className="col-xl-3 col-md-6">
                   <div
                     className="destination-item style-two"
                     data-aos="flip-up"
@@ -505,9 +494,6 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-                      <a href="#" className="heart">
-                        <i className="fas fa-heart" />
-                      </a>
                       <img
                         src="assets/images/destinations/destination6.jpg"
                         alt="Destination"
@@ -525,7 +511,7 @@ const page = () => {
                       </a>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
