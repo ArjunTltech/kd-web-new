@@ -41,7 +41,7 @@ const page = () => {
         </div>
       </section>
       {/* Page Banner End */}
-      {/* Destination Gallery start */}
+      {/* Destination Gallery start
       <div className="destination-gallery">
         <div className="container-fluid">
           <div className="row gap-10 justify-content-center rel">
@@ -94,7 +94,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Destination Gallery End */}
       {/* About Us Area start */}
       <section className="about-us-area pt-90 pb-100 rel z-1">
@@ -141,12 +141,16 @@ const page = () => {
               data-aos-offset={50}
             >
               <div className="destination-map">
-                <iframe
+                {/* <iframe
                   src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d96777.16150026117!2d-74.00840582560909!3d40.71171357405996!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1706508986625!5m2!1sen!2sbd"
                   style={{ border: 0, width: "100%" }}
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
+                /> */}
+                <img
+                  src="assets/images/destinations/destination-details5.jpg"
+                  alt="Destination"
                 />
               </div>
             </div>
@@ -173,7 +177,7 @@ const page = () => {
         </div>
       </section>
       {/* Destinations Area end */}
-      {/* Features Tours Area start */}
+      Features Tours Area start
       <section className="features-tour-area bgc-black text-white pt-100 pb-50 rel z-1">
         <div className="container">
           <div className="row justify-content-between align-items-center pb-25">

@@ -1,7 +1,8 @@
 export const destinations = [
     {
         id: 1,
-        image: "assets/images/destinations/munnar-circle.png",
+        image: "/assets/images/destinations/munnar-circle.png",
+        imageDetail: "/assets/images/destinations/munnar-detail.jpg",
         altText: "Munnar",
         slug: "munnar",
         name: "Munnar",
@@ -51,7 +52,7 @@ export const destinations = [
     },
     {
         id: 6,
-        image: "assets/images/destinations/Coorg-circle.png",
+        image: "/assets/images/destinations/Coorg-circle.png",
         altText: "Coorg",
         slug: "coorg",
         name: "Coorg",
