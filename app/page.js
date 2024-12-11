@@ -68,10 +68,10 @@ const page = () => {
                   <span className="location">
                     <i className="fal fa-map-marker-alt" /> Alappuzha, Kerala
                   </span>
-                  <h5>
-                    <Link href="destination-details">
+                  <h5 className="text-white">
+                    
                     Glide through serene waters on luxurious houseboats
-                    </Link>
+                    
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -106,10 +106,10 @@ const page = () => {
                   <span className="location">
                     <i className="fal fa-map-marker-alt" /> Munnar, Kerala
                   </span>
-                  <h5>
-                    <Link href="destination-details">
+                  <h5 className="text-white">
+                    
                     Breathe in the fresh mountain air amidst endless tea gardens
-                    </Link>
+                    
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -147,10 +147,10 @@ const page = () => {
                   <span className="location">
                     <i className="fal fa-map-marker-alt" /> Varkala, Kerala
                   </span>
-                  <h5>
-                    <Link href="destination-details">
+                  <h5 className="text-white">
+                   
                     Unwind on pristine beaches with dramatic cliff views
-                    </Link>
+                   
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -190,10 +190,10 @@ const page = () => {
                   <span className="location">
                     <i className="fal fa-map-marker-alt" /> Ooty, Tamilnadu
                   </span>
-                  <h5>
-                    <Link href="destination-details">
+                  <h5 className="text-white">
+                   
                     Experience the charm of this iconic hill station
-                    </Link>
+                    
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -231,10 +231,10 @@ const page = () => {
                   <span className="location">
                     <i className="fal fa-map-marker-alt" /> Rameshawaram, Tamilnadu
                   </span>
-                  <h5>
-                    <Link href="destination-details">
+                  <h5 className="text-white">
+                    
                     Find peace at this spiritual and historic gem
-                    </Link>
+                    
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -272,10 +272,9 @@ const page = () => {
                   <span className="location">
                     <i className="fal fa-map-marker-alt" /> Coorg, Karnataka
                   </span>
-                  <h5>
-                    <Link href="destination-details">
+                  <h5 className="text-white">
                     Explore the "Scotland of India" and its lush coffee plantations!
-                    </Link>
+                    
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -798,7 +797,7 @@ const page = () => {
             >
               <div
                 className="cta-item"
-                style={{ backgroundImage: "url(assets/images/cta/traditional-package.jpg)" }}
+                style={{ backgroundImage: "url(assets/images/cta/traditional-package.png)" }}
               >
                 <span className="category">Traditonal</span>
                 <h2>Step into Tradition, Experience the Essence!</h2>

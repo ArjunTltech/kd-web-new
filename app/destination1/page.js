@@ -6,7 +6,7 @@ import Link from "next/link";
 const page = () => {
   return (
     <ReveloLayout>
-      <Banner pageTitle={"Destination 01"} search={true} />
+      <Banner pageTitle={"Destinations"} search={true} />
       <section className="destinations-page-area pt-95 pb-90 rel z-1">
         <div className="container">
           <div className="row justify-content-center">

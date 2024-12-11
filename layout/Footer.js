@@ -149,17 +149,17 @@ const Footer1 = () => {
                   Uncover South India&apos;s Hidden Gems &ndash; Where Every Trip Turns Into a Timeless Memory!
                 </p>
                 <div className="social-style-one mt-15">
-                  <Link href="contact">
+                  <Link href="https://g.co/kgs/NBtXs71" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-google" />
+                  </Link>
+                  <Link href="https://www.facebook.com/keraladrivestourstravel" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-facebook-f" />
                   </Link>
-                  <Link href="contact">
+                  <Link href="https://www.instagram.com/kerala_drives" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-instagram" />
+                  </Link>
+                  <Link href="https://www.youtube.com/channel/UC3tmfmBZf5Ufqo2JSEwj6BA?sub_confirmation=1" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-youtube" />
-                  </Link>
-                  <Link href="contact">
-                    <i className="fab fa-pinterest" />
-                  </Link>
-                  <Link href="contact">
-                    <i className="fab fa-twitter" />
                   </Link>
                 </div>
               </div>
