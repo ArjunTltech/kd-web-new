@@ -21,7 +21,7 @@ const page = () => {
           </h1>
           <div
             className="main-hero-image bgs-cover"
-            style={{ backgroundImage: "url(assets/images/hero/hero.jpg)" }}
+            style={{ backgroundImage: "url(assets/images/hero/hero-banner.jpg)" }}
           />
         </div>
         {/* <SearchFilter /> */}
@@ -39,8 +39,8 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <SectionTitle
-                  title={"Discover the World's Treasures with Ravelo"}
-                  countValue={34500}
+                  title={"Your Gateway to South India’s Finest Destinations"}
+                  countValue={500}
                   subtitle1={"One site"}
                   subtitle2={"most popular experience you’ll remember"}
                 />
@@ -59,30 +59,27 @@ const page = () => {
                   <div className="ratting">
                     <i className="fas fa-star" /> 4.8
                   </div>
-                  <a href="#" className="heart">
-                    <i className="fas fa-heart" />
-                  </a>
                   <img
-                    src="assets/images/destinations/visiting-place1.jpg"
+                    src="assets/images/destinations/alleppy-backwaters.jpg"
                     alt="Destination"
                   />
                 </div>
                 <div className="content">
                   <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Tours, France
+                    <i className="fal fa-map-marker-alt" /> Alappuzha, Kerala
                   </span>
-                  <h5>
-                    <Link href="destination-details">
-                      Brown Concrete Building Basilica St Martin
-                    </Link>
+                  <h5 className="text-white">
+                    
+                    Glide through serene waters on luxurious houseboats
+                    
                   </h5>
-                  <span className="time">3 days 2 nights - Couple</span>
+                  {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
                 <div className="destination-footer">
                   <span className="price">
-                    <span>$58.00</span>/per person
+                    <span>₹5,000</span> Onwards
                   </span>
-                  <a href="#" className="read-more">
+                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
                     Book Now <i className="fal fa-angle-right" />
                   </a>
                 </div>
@@ -100,30 +97,27 @@ const page = () => {
                   <div className="ratting">
                     <i className="fas fa-star" /> 4.8
                   </div>
-                  <a href="#" className="heart">
-                    <i className="fas fa-heart" />
-                  </a>
                   <img
-                    src="assets/images/destinations/visiting-place2.jpg"
+                    src="assets/images/destinations/munnar-tea-estate.jpg"
                     alt="Destination"
                   />
                 </div>
                 <div className="content">
                   <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Wildest, Italy
+                    <i className="fal fa-map-marker-alt" /> Munnar, Kerala
                   </span>
-                  <h5>
-                    <Link href="destination-details">
-                      Blue lake water view taken travel with daytime
-                    </Link>
+                  <h5 className="text-white">
+                    
+                    Breathe in the fresh mountain air amidst endless tea gardens
+                    
                   </h5>
-                  <span className="time">3 days 2 nights - Couple</span>
+                  {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
                 <div className="destination-footer">
                   <span className="price">
-                    <span>$63.00</span>/per person
+                  <span>₹6,500</span> Onwards
                   </span>
-                  <a href="#" className="read-more">
+                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
                     Book Now <i className="fal fa-angle-right" />
                   </a>
                 </div>
@@ -141,30 +135,73 @@ const page = () => {
                   <div className="ratting">
                     <i className="fas fa-star" /> 4.8
                   </div>
-                  <a href="#" className="heart">
+                  {/* <a href="#" className="heart">
                     <i className="fas fa-heart" />
-                  </a>
+                  </a> */}
                   <img
-                    src="assets/images/destinations/visiting-place3.jpg"
+                    src="assets/images/destinations/varkala-beach.jpg"
                     alt="Destination"
                   />
                 </div>
                 <div className="content">
                   <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Rome, Italy
+                    <i className="fal fa-map-marker-alt" /> Varkala, Kerala
                   </span>
-                  <h5>
-                    <Link href="destination-details">
-                      Woman standing near Colosseum, Rome
-                    </Link>
+                  <h5 className="text-white">
+                   
+                    Unwind on pristine beaches with dramatic cliff views
+                   
                   </h5>
-                  <span className="time">3 days 2 nights - Couple</span>
+                  {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
                 <div className="destination-footer">
                   <span className="price">
-                    <span>$42</span>/per person
+                  <span>₹5,200</span> Onwards
                   </span>
-                  <a href="#" className="read-more">
+                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
+                    Book Now <i className="fal fa-angle-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div className="row justify-content-center">
+            <div className="col-xxl-3 col-xl-4 col-md-6">
+              <div
+                className="destination-item"
+                data-aos="fade-up"
+                data-aos-delay={300}
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <div className="ratting">
+                    <i className="fas fa-star" /> 4.8
+                  </div>
+                  {/* <a href="#" className="heart">
+                    <i className="fas fa-heart" />
+                  </a> */}
+                  <img
+                    src="assets/images/destinations/Ooty-hills.jpg"
+                    alt="Destination"
+                  />
+                </div>
+                <div className="content">
+                  <span className="location">
+                    <i className="fal fa-map-marker-alt" /> Ooty, Tamilnadu
+                  </span>
+                  <h5 className="text-white">
+                   
+                    Experience the charm of this iconic hill station
+                    
+                  </h5>
+                  {/* <span className="time">3 days 2 nights - Couple</span> */}
+                </div>
+                <div className="destination-footer">
+                  <span className="price">
+                    <span>₹7,000</span> Onwards
+                  </span>
+                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
                     Book Now <i className="fal fa-angle-right" />
                   </a>
                 </div>
@@ -182,30 +219,70 @@ const page = () => {
                   <div className="ratting">
                     <i className="fas fa-star" /> 4.8
                   </div>
-                  <a href="#" className="heart">
+                  {/* <a href="#" className="heart">
                     <i className="fas fa-heart" />
-                  </a>
+                  </a> */}
                   <img
-                    src="assets/images/destinations/visiting-place4.jpg"
+                    src="/assets/images/destinations/rameshawaram-t.jpeg"
                     alt="Destination"
                   />
                 </div>
                 <div className="content">
                   <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Rome, Italy
+                    <i className="fal fa-map-marker-alt" /> Rameshawaram, Tamilnadu
                   </span>
-                  <h5>
-                    <Link href="destination-details">
-                      Woman standing near Colosseum, Rome
-                    </Link>
+                  <h5 className="text-white">
+                    
+                    Find peace at this spiritual and historic gem
+                    
                   </h5>
-                  <span className="time">3 days 2 nights - Couple</span>
+                  {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
                 <div className="destination-footer">
                   <span className="price">
-                    <span>$52.00</span>/per person
+                    <span>₹5,500</span> Onwards
                   </span>
-                  <a href="#" className="read-more">
+                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
+                    Book Now <i className="fal fa-angle-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-xxl-3 col-xl-4 col-md-6">
+              <div
+                className="destination-item"
+                data-aos="fade-up"
+                data-aos-delay={300}
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <div className="ratting">
+                    <i className="fas fa-star" /> 4.8
+                  </div>
+                  {/* <a href="#" className="heart">
+                    <i className="fas fa-heart" />
+                  </a> */}
+                  <img
+                    src="/assets/images/destinations/Coorg-coffee.jpg"
+                    alt="Destination"
+                  />
+                </div>
+                <div className="content">
+                  <span className="location">
+                    <i className="fal fa-map-marker-alt" /> Coorg, Karnataka
+                  </span>
+                  <h5 className="text-white">
+                    Explore the "Scotland of India" and its lush coffee plantations!
+                    
+                  </h5>
+                  {/* <span className="time">3 days 2 nights - Couple</span> */}
+                </div>
+                <div className="destination-footer">
+                  <span className="price">
+                    <span>₹6,000</span> Onwards
+                  </span>
+                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
                     Book Now <i className="fal fa-angle-right" />
                   </a>
                 </div>
@@ -228,12 +305,11 @@ const page = () => {
               >
                 <div className="section-title mb-25">
                   <h2>
-                    Travel with Confidence Top Reasons to Choose Our Agency
+                  Your Travel Partner for Seamless and Memorable Journeys
                   </h2>
                 </div>
                 <p>
-                  We go above and beyond to make your travel dreams reality
-                  hidden gems and must-see attractions
+                We don&apos;t just plan trips, we craft experiences that stay with you forever.
                 </p>
                 <div className="divider counter-text-wrap mt-45 mb-55">
                   <span>
@@ -244,7 +320,7 @@ const page = () => {
                         data-speed={3000}
                         data-stop={25}
                       >
-                        <Counter end={25} />
+                        <Counter end={7} />
                       </span>{" "}
                       Years
                     </span>{" "}
@@ -255,28 +331,29 @@ const page = () => {
                   <div className="col-6">
                     <div className="counter-item counter-text-wrap">
                       <span
-                        className="count-text k-plus"
+                        className="count-text plus"
                         data-speed={3000}
                         data-stop={3}
                       >
-                        <Counter end={3} />
+                        <Counter end={500} />
                       </span>
-                      <span className="counter-title">Popular Destination</span>
+                      <span className="counter-title">Stunning  Destinations</span>
                     </div>
                   </div>
                   <div className="col-6">
                     <div className="counter-item counter-text-wrap">
                       <span
-                        className="count-text m-plus"
+                        className="count-text k-plus"
                         data-speed={3000}
                         data-stop={9}
                       >
-                        <Counter end={9} />
+                        <Counter end={10} />
                       </span>
-                      <span className="counter-title">Satisfied Clients</span>
+                      <span className="counter-title">Happy Travelers</span>
                     </div>
                   </div>
                 </div>
+                
                 <Link href="destination1" className="theme-btn mt-10 style-two">
                   <span data-hover="Explore Destinations">
                     Explore Destinations
@@ -333,8 +410,9 @@ const page = () => {
                   data-aos-offset={50}
                 >
                   <SectionTitle
-                    title={"Explore Popular Destinations"}
+                    title={"Explore Popular Destinations in Kerala and South India"}
                     subtitle2="most popular experience"
+                    countValue={500}
                   />
                 </div>
               </div>
@@ -349,17 +427,15 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-                      <a href="#" className="heart">
-                        <i className="fas fa-heart" />
-                      </a>
+                     
                       <img
-                        src="assets/images/destinations/destination1.jpg"
+                        src="/assets/images/destinations/munnar.jpg"
                         alt="Destination"
                       />
                     </div>
                     <div className="content">
                       <h6>
-                        <Link href="destination-details">Thailand beach</Link>
+                        <Link href="destination-details">Munnar, Kerala</Link>
                       </h6>
                       <span className="time">
                         5352+ tours &amp; 856+ Activity
@@ -379,17 +455,17 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-                      <a href="#" className="heart">
+                      {/* <a href="#" className="heart">
                         <i className="fas fa-heart" />
-                      </a>
+                      </a> */}
                       <img
-                        src="assets/images/destinations/destination2.jpg"
+                        src="/assets/images/destinations/alleppy.jpg"
                         alt="Destination"
                       />
                     </div>
                     <div className="content">
                       <h6>
-                        <Link href="destination-details">Parga, Greece</Link>
+                        <Link href="destination-details">Alappuzha, Kerala</Link>
                       </h6>
                       <span className="time">
                         5352+ tours &amp; 856+ Activity
@@ -409,18 +485,15 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-                      <a href="#" className="heart">
-                        <i className="fas fa-heart" />
-                      </a>
                       <img
-                        src="assets/images/destinations/destination3.jpg"
+                        src="assets/images/destinations/hampi2.jpg"
                         alt="Destination"
                       />
                     </div>
                     <div className="content">
                       <h6>
                         <Link href="destination-details">
-                          Castellammare del Golfo, Italy
+                          Hampi, Karnataka
                         </Link>
                       </h6>
                       <span className="time">
@@ -440,18 +513,15 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-                      <a href="#" className="heart">
-                        <i className="fas fa-heart" />
-                      </a>
                       <img
-                        src="assets/images/destinations/destination4.jpg"
+                        src="/assets/images/destinations/rameshwaram.jpeg"
                         alt="Destination"
                       />
                     </div>
                     <div className="content">
                       <h6>
                         <Link href="destination-details">
-                          Reserve of Canada, Canada
+                        Rameshwaram, Tamilnadu
                         </Link>
                       </h6>
                       <span className="time">
@@ -472,18 +542,15 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-                      <a href="#" className="heart">
-                        <i className="fas fa-heart" />
-                      </a>
                       <img
-                        src="assets/images/destinations/destination5.jpg"
+                        src="assets/images/destinations/Coorg.jpg"
                         alt="Destination"
                       />
                     </div>
                     <div className="content">
                       <h6>
                         <Link href="destination-details">
-                          Dubai united states
+                          Coorg, Karnataka
                         </Link>
                       </h6>
                       <span className="time">
@@ -504,17 +571,14 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-                      <a href="#" className="heart">
-                        <i className="fas fa-heart" />
-                      </a>
                       <img
-                        src="assets/images/destinations/destination6.jpg"
+                        src="assets/images/destinations/wayanad.jpg"
                         alt="Destination"
                       />
                     </div>
                     <div className="content">
                       <h6>
-                        <Link href="destination-details">Milos, Greece</Link>
+                        <Link href="destination-details">Wayanad, Kerala</Link>
                       </h6>
                       <span className="time">
                         5352+ tours &amp; 856+ Activity
@@ -544,8 +608,7 @@ const page = () => {
               >
                 <div className="section-title mb-60">
                   <h2>
-                    The Ultimate Travel Experience Features That Set Our Agency
-                    Apart
+                    Activities We Provide
                   </h2>
                 </div>
                 <div className="features-customer-box">
@@ -599,27 +662,27 @@ const page = () => {
                 <div className="col-md-6">
                   <div className="feature-item">
                     <div className="icon">
-                      <i className="flaticon-tent" />
+                      <i className="flaticon-kayak" />
                     </div>
                     <div className="content">
                       <h5>
                         <Link href="tour-details">Houseboat Cruises</Link>
                       </h5>
                       <p>
-                      Drift along Kerala’s enchanting backwaters
+                        Drift along Kerala&apos;s enchanting backwaters
                       </p>
                     </div>
                   </div>
                   <div className="feature-item">
                     <div className="icon">
-                      <i className="flaticon-tent" />
+                      <i className="flaticon-climbing" />
                     </div>
                     <div className="content">
                       <h5>
                         <Link href="tour-details">Trekking Adventures</Link>
                       </h5>
                       <p>
-                      Conquer the green trails of Coorg and Wayanad
+                        Conquer the green trails of Coorg and Wayanad
                       </p>
                     </div>
                   </div>
@@ -627,31 +690,31 @@ const page = () => {
                 <div className="col-md-6">
                   <div className="feature-item mt-20">
                     <div className="icon">
-                      <i className="flaticon-tent" />
+                      <i className="flaticon-climbing" />
                     </div>
                     <div className="content">
                       <h5>
                         <Link href="tour-details">Wildlife Safaris</Link>
                       </h5>
                       <p>
-                      Witness exotic wildlife in their natural habitats
+                        Witness exotic wildlife in their natural habitats
                       </p>
                     </div>
                   </div>
                   <div className="feature-item">
                     <div className="icon">
-                      <i className="flaticon-tent" />
+                      <i className="flaticon-bonfire" />
                     </div>
                     <div className="content">
                       <h5>
                         <Link href="tour-details">Cultural Tours</Link>
                       </h5>
                       <p>
-                      Be part of South India&apos;s vibrant festivals and art forms
+                        Be part of South India&apos;s vibrant festivals and art forms
                       </p>
                     </div>
                   </div>
-                  
+
                 </div>
               </div>
             </div>
@@ -659,8 +722,8 @@ const page = () => {
         </div>
       </section>
       {/* Features Area end */}
-      
-      
+
+
       {/* Testimonials Area start */}
       <section className="testimonials-area rel z-1">
         <div className="container">
@@ -712,15 +775,15 @@ const page = () => {
             >
               <div
                 className="cta-item"
-                style={{ backgroundImage: "url(assets/images/cta/cta1.jpg)" }}
+                style={{ backgroundImage: "url(assets/images/cta/honeymoon.jpg)" }}
               >
-                <span className="category">Tent Camping</span>
-                <h2>Explore the world best tourism</h2>
+                <span className="category">Honeymoon</span>
+                <h2>Romantic Escapes: Honeymoon in Paradise</h2>
                 <Link
                   href="tour-details"
                   className="theme-btn style-two bgc-secondary"
                 >
-                  <span data-hover="Explore Tours">Explore Tours</span>
+                  <span data-hover="Explore Package">Explore Package</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
               </div>
@@ -734,12 +797,12 @@ const page = () => {
             >
               <div
                 className="cta-item"
-                style={{ backgroundImage: "url(assets/images/cta/cta2.jpg)" }}
+                style={{ backgroundImage: "url(assets/images/cta/traditional-package.png)" }}
               >
-                <span className="category">Sea Beach</span>
-                <h2>World largest Sea Beach in Thailand</h2>
+                <span className="category">Traditonal</span>
+                <h2>Step into Tradition, Experience the Essence!</h2>
                 <Link href="tour-details" className="theme-btn style-two">
-                  <span data-hover="Explore Tours">Explore Tours</span>
+                <span data-hover="Explore Package">Explore Package</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
               </div>
@@ -753,15 +816,15 @@ const page = () => {
             >
               <div
                 className="cta-item"
-                style={{ backgroundImage: "url(assets/images/cta/cta3.jpg)" }}
+                style={{ backgroundImage: "url(assets/images/cta/educational-package.jpg)" }}
               >
-                <span className="category">Water Falls</span>
-                <h2>Largest Water falls Bali, Indonesia</h2>
+                <span className="category">Educational</span>
+                <h2>Learn, Explore, Grow!</h2>
                 <Link
                   href="tour-details"
                   className="theme-btn style-two bgc-secondary"
                 >
-                  <span data-hover="Explore Tours">Explore Tours</span>
+                   <span data-hover="Explore Package">Explore Package</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
               </div>
