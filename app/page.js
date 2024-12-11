@@ -17,14 +17,17 @@ const page = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            tour &amp; Travel
+            tours &amp; Travels
           </h1>
+          
           <div
             className="main-hero-image bgs-cover"
             style={{ backgroundImage: "url(assets/images/hero/hero-banner.jpg)" }}
           />
+          
         </div>
         {/* <SearchFilter /> */}
+        
       </section>
       {/* Hero Area End */}
       {/* Destinations Area start */}
@@ -80,7 +83,7 @@ const page = () => {
                     <span>₹5,000</span> Onwards
                   </span>
                   <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
-                    Book Now <i className="fal fa-angle-right" />
+                    Enquire <i className="fal fa-angle-right" />
                   </a>
                 </div>
               </div>
@@ -118,7 +121,7 @@ const page = () => {
                   <span>₹6,500</span> Onwards
                   </span>
                   <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
-                    Book Now <i className="fal fa-angle-right" />
+                    Enquire <i className="fal fa-angle-right" />
                   </a>
                 </div>
               </div>
@@ -159,7 +162,7 @@ const page = () => {
                   <span>₹5,200</span> Onwards
                   </span>
                   <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
-                    Book Now <i className="fal fa-angle-right" />
+                    Enquire <i className="fal fa-angle-right" />
                   </a>
                 </div>
               </div>
@@ -202,7 +205,7 @@ const page = () => {
                     <span>₹7,000</span> Onwards
                   </span>
                   <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
-                    Book Now <i className="fal fa-angle-right" />
+                    Enquire <i className="fal fa-angle-right" />
                   </a>
                 </div>
               </div>
@@ -229,7 +232,7 @@ const page = () => {
                 </div>
                 <div className="content">
                   <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Rameshawaram, Tamilnadu
+                    <i className="fal fa-map-marker-alt" /> Rameshwaram, Tamilnadu
                   </span>
                   <h5 className="text-white">
                     
@@ -243,7 +246,7 @@ const page = () => {
                     <span>₹5,500</span> Onwards
                   </span>
                   <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
-                    Book Now <i className="fal fa-angle-right" />
+                    Enquire <i className="fal fa-angle-right" />
                   </a>
                 </div>
               </div>
@@ -283,7 +286,7 @@ const page = () => {
                     <span>₹6,000</span> Onwards
                   </span>
                   <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
-                    Book Now <i className="fal fa-angle-right" />
+                    Enquire <i className="fal fa-angle-right" />
                   </a>
                 </div>
               </div>
@@ -829,6 +832,7 @@ const page = () => {
                 </Link>
               </div>
             </div>
+            
           </div>
         </div>
       </section>
@@ -884,7 +888,7 @@ const page = () => {
                   <img src="assets/images/blog/blog1.jpg" alt="Blog" />
                 </div>
                 <Link href="blog-details" className="theme-btn">
-                  <span data-hover="Book Now">Read More</span>
+                  <span data-hover="Enquire">Read More</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
               </div>
@@ -922,7 +926,7 @@ const page = () => {
                   <img src="assets/images/blog/blog2.jpg" alt="Blog" />
                 </div>
                 <Link href="blog-details" className="theme-btn">
-                  <span data-hover="Book Now">Read More</span>
+                  <span data-hover="Enquire">Read More</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
               </div>
@@ -960,7 +964,7 @@ const page = () => {
                   <img src="assets/images/blog/blog3.jpg" alt="Blog" />
                 </div>
                 <Link href="blog-details" className="theme-btn">
-                  <span data-hover="Book Now">Read More</span>
+                  <span data-hover="Enquire">Read More</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
               </div>

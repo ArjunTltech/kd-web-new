@@ -1,4 +1,5 @@
 "use client";
+import { destinations } from "../../constants/destinations";
 import { sliderProps } from "@/utility/sliderprops";
 import Link from "next/link";
 import Slider from "react-slick";
@@ -6,7 +7,20 @@ import Slider from "react-slick";
 const Destination = () => {
   return (
     <Slider {...sliderProps.destination} className="destination-active">
-      <div
+       {destinations.map((destination) => (
+        <div className="destination-item style-two" key={destination.id}>
+          <div className="image">
+            <img src={destination.image} alt="Destination" />
+          </div>
+          <div className="content">
+            <h6>
+            <Link href={`/destination-details/${destination.slug}`}>{destination.name}</Link>
+            </h6>
+            <span className="tours">{destination.toursCount} tours</span>
+          </div>
+        </div>
+       ))}
+      {/* <div
         className="destination-item style-two"
         data-aos="fade-up"
         data-aos-duration={1500}
@@ -124,7 +138,7 @@ const Destination = () => {
           </h6>
           <span className="tours">258 tours</span>
         </div>
-      </div>
+      </div> */}
     </Slider>
   );
 };

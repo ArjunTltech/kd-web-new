@@ -334,7 +334,7 @@ const Footer1 = () => {
             <div className="col-lg-5">
               <div className="copyright-text text-center text-lg-start">
                 <p>
-                  &copy;2024 <a href="">Kerala Drives</a>, All rights reserved
+                  &copy;2024 <a href="https://www.tltechnologies.net">TL TECHNOLOGIES PVT LTD</a>, All rights reserved
                 </p>
               </div>
             </div>
@@ -526,7 +526,7 @@ const Footer2 = ({ insta }) => {
             <div className="col-lg-5">
               <div className="copyright-text text-center text-lg-start">
                 <p>
-                  &copy;2024 <a href="">Kerala Drives</a>, All rights reserved
+                  &copy;2024 <a href="https://www.tltechnologies.net">TL TECHNOLOGIES PVT LTD</a>, All rights reserved
                 </p>
               </div>
             </div>

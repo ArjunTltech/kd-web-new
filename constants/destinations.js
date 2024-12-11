@@ -1,7 +1,8 @@
 export const destinations = [
     {
         id: 1,
-        image: "assets/images/destinations/munnar-circle.png",
+        image: "/assets/images/destinations/munnar-circle.png",
+        imageDetail: "/assets/images/destinations/munnar-detail.jpg",
         altText: "Munnar",
         slug: "munnar",
         name: "Munnar",
@@ -21,7 +22,7 @@ export const destinations = [
     },
     {
         id: 3,
-        image: "/assets/images/destinations/varkala-beach.jpg",
+        image: "/assets/images/destinations/varkala-circle.png",
         altText: "Varkala",
         slug: "varkala",
         name: "Varkala",
@@ -41,7 +42,7 @@ export const destinations = [
     },
     {
         id: 5,
-        image: "assets/images/destinations/destination-five2.jpg",
+        image: "/assets/images/destinations/rameswaram-circle.png",
         altText: "Rameshwaram",
         slug: "rameshwaram",
         name: "Rameshwaram",
@@ -51,7 +52,7 @@ export const destinations = [
     },
     {
         id: 6,
-        image: "assets/images/destinations/Coorg-circle.png",
+        image: "/assets/images/destinations/Coorg-circle.png",
         altText: "Coorg",
         slug: "coorg",
         name: "Coorg",
