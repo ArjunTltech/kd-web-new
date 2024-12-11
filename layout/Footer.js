@@ -140,13 +140,13 @@ const Footer1 = () => {
                 <div className="footer-logo mb-25">
                   <Link href="/">
                     <img src="/assets/images/logos/logo-white.png"
-                    title="Logo"
-                    className="img-fluid"
-                    style={{ height: "50px" }} />
+                      title="Logo"
+                      className="img-fluid"
+                      style={{ height: "50px" }} />
                   </Link>
                 </div>
                 <p>
-                Uncover South India&apos;s Hidden Gems &ndash; Where Every Trip Turns Into a Timeless Memory!
+                  Uncover South India&apos;s Hidden Gems &ndash; Where Every Trip Turns Into a Timeless Memory!
                 </p>
                 <div className="social-style-one mt-15">
                   <Link href="contact">
@@ -286,7 +286,7 @@ const Footer1 = () => {
                 </ul>
               </div>
             </div>
-            
+
             <div
               className="col col-md-6 col-10 col-small"
               data-aos="fade-up"
@@ -300,22 +300,28 @@ const Footer1 = () => {
                 </div>
                 <ul className="list-style-one">
                   <li>
-                    <i className="fal fa-map-marked-alt" /> 578 Level, D-block
-                    45 Street Melbourne, Australia
+                    <i className="fal fa-map-marked-alt" /> S.M.M Vetturoad,
+                    Trivandrum, Kerala, 695582
                   </li>
                   <li>
                     <i className="fal fa-envelope" />{" "}
-                    <a href="mailto:supportrevelo@gmail.com">
-                      supportrevelo@gmail.com
+                    <a href="mailto:info@keraladrives.com">
+                      info@keraladrives.com
                     </a>
                   </li>
                   <li>
+                    <i className="fal fa-envelope" />{" "}
+                    <a href="mailto:info.uae@keraladrives.com">
+                      info.uae@keraladrives.com
+                    </a>
+                  </li>
+                  {/* <li>
                     <i className="fal fa-clock" /> Mon - Fri, 08am - 05pm
                   </li>
                   <li>
                     <i className="fal fa-phone-volume" />{" "}
                     <a href="callto:+88012334588">+880 (123) 345 88</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -344,8 +350,11 @@ const Footer1 = () => {
             </div>
           </div>
           {/* Scroll Top Button */}
-          <button className="scroll-top scroll-to-target" data-target="html">
-            <img src="assets/images/icons/scroll-up.png" alt="Scroll  Up" />
+          <button
+            className="scroll-top scroll-to-target"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          >
+            <img src="assets/images/icons/scroll-up.png" alt="Scroll Up" />
           </button>
         </div>
       </div>
@@ -356,9 +365,8 @@ const Footer1 = () => {
 const Footer2 = ({ insta }) => {
   return (
     <footer
-      className={`main-footer footer-two bgp-bottom bgc-black rel z-15 ${
-        insta ? "" : "pt-100 pb-115"
-      }`}
+      className={`main-footer footer-two bgp-bottom bgc-black rel z-15 ${insta ? "" : "pt-100 pb-115"
+        }`}
       style={{
         backgroundImage: "url(assets/images/backgrounds/footer-two.png)",
       }}
@@ -376,10 +384,10 @@ const Footer2 = ({ insta }) => {
               <div className="footer-widget footer-text">
                 <div className="footer-logo mb-40">
                   <Link href="/">
-                  <img src="/assets/images/logos/logo-white.png"
-                    title="Logo"
-                    className="img-fluid"
-                    style={{ height: "50px" }} />
+                    <img src="/assets/images/logos/logo-white.png"
+                      title="Logo"
+                      className="img-fluid"
+                      style={{ height: "50px" }} />
                   </Link>
                 </div>
                 <div className="footer-map">
@@ -487,19 +495,25 @@ const Footer2 = ({ insta }) => {
                 </div>
                 <ul className="list-style-one">
                   <li>
-                    <i className="fal fa-map-marked-alt" /> 578 Level, D-block
-                    45 Street Melbourne, Australia
+                    <i className="fal fa-map-marked-alt" /> S.M.M Vetturoad,
+                    Trivandrum, Kerala, 695582
                   </li>
                   <li>
                     <i className="fal fa-envelope" />{" "}
-                    <a href="mailto:supportrevelo@gmail.com">
-                      supportrevelo @gmail.com
+                    <a href="mailto:info@keraladrives.com">
+                      info@keraladrives.com
                     </a>
                   </li>
                   <li>
+                    <i className="fal fa-envelope" />{" "}
+                    <a href="mailto:info.uae@keraladrives.com">
+                      info.uae@keraladrives.com
+                    </a>
+                  </li>
+                  {/* <li>
                     <i className="fal fa-phone-volume" />{" "}
                     <a href="callto:+88012334588">+880 (123) 345 88</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -511,7 +525,7 @@ const Footer2 = ({ insta }) => {
           <div className="row">
             <div className="col-lg-5">
               <div className="copyright-text text-center text-lg-start">
-               <p>
+                <p>
                   &copy;2024 <a href="">Kerala Drives</a>, All rights reserved
                 </p>
               </div>
