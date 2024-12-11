@@ -21,7 +21,7 @@ export const destinations = [
     },
     {
         id: 3,
-        image: "/assets/images/destinations/varkala-beach.jpg",
+        image: "/assets/images/destinations/varkala-circle.png",
         altText: "Varkala",
         slug: "varkala",
         name: "Varkala",
@@ -41,7 +41,7 @@ export const destinations = [
     },
     {
         id: 5,
-        image: "assets/images/destinations/destination-five2.jpg",
+        image: "/assets/images/destinations/rameswaram-circle.png",
         altText: "Rameshwaram",
         slug: "rameshwaram",
         name: "Rameshwaram",
