@@ -67,7 +67,7 @@ const Menu = () => {
               <Link href="destination1">Destinations</Link>
             </li>
             <li className="dropdown">
-              <a href="#">Pages</a>
+              <a href="#">Explore</a>
               <ul>
                 <li>
                   <Link href="faqs">faqs</Link>
@@ -296,10 +296,10 @@ const Header2 = ({ sidebarClick }) => {
               </div>
             </li>
             <li className="dropdown">
-              <a href="#" onClick={() => activeMenuSet("Pages")}>
-                Pages
+              <a href="#" onClick={() => activeMenuSet("Explore")}>
+                Explore
               </a>
-              <ul style={activeLi("Pages")}>
+              <ul style={activeLi("Explore")}>
                 <li>
                   <Link href="pricing">Pricing</Link>
                 </li>
@@ -349,7 +349,7 @@ const Header2 = ({ sidebarClick }) => {
               </ul>
               <div
                 className="dropdown-btn"
-                onClick={() => activeMenuSet("Pages")}
+                onClick={() => activeMenuSet("Explore")}
               >
                 <span className="far fa-angle-down" />
               </div>
