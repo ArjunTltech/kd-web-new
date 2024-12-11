@@ -59,30 +59,27 @@ const page = () => {
                   <div className="ratting">
                     <i className="fas fa-star" /> 4.8
                   </div>
-                  <a href="#" className="heart">
-                    <i className="fas fa-heart" />
-                  </a>
                   <img
-                    src="assets/images/destinations/visiting-place1.jpg"
+                    src="assets/images/destinations/alleppy-backwaters.jpg"
                     alt="Destination"
                   />
                 </div>
                 <div className="content">
                   <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Tours, France
+                    <i className="fal fa-map-marker-alt" /> Alappuzha, Kerala
                   </span>
                   <h5>
                     <Link href="destination-details">
-                      Brown Concrete Building Basilica St Martin
+                    Glide through serene waters on luxurious houseboats
                     </Link>
                   </h5>
-                  <span className="time">3 days 2 nights - Couple</span>
+                  {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
                 <div className="destination-footer">
                   <span className="price">
-                    <span>$58.00</span>/per person
+                    <span>₹5,000</span> Onwards
                   </span>
-                  <a href="#" className="read-more">
+                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
                     Book Now <i className="fal fa-angle-right" />
                   </a>
                 </div>
@@ -100,30 +97,27 @@ const page = () => {
                   <div className="ratting">
                     <i className="fas fa-star" /> 4.8
                   </div>
-                  <a href="#" className="heart">
-                    <i className="fas fa-heart" />
-                  </a>
                   <img
-                    src="assets/images/destinations/visiting-place2.jpg"
+                    src="assets/images/destinations/munnar-tea-estate.jpg"
                     alt="Destination"
                   />
                 </div>
                 <div className="content">
                   <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Wildest, Italy
+                    <i className="fal fa-map-marker-alt" /> Munnar, Kerala
                   </span>
                   <h5>
                     <Link href="destination-details">
-                      Blue lake water view taken travel with daytime
+                    Breathe in the fresh mountain air amidst endless tea gardens
                     </Link>
                   </h5>
-                  <span className="time">3 days 2 nights - Couple</span>
+                  {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
                 <div className="destination-footer">
                   <span className="price">
-                    <span>$63.00</span>/per person
+                  <span>₹6,500</span> Onwards
                   </span>
-                  <a href="#" className="read-more">
+                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
                     Book Now <i className="fal fa-angle-right" />
                   </a>
                 </div>
@@ -141,28 +135,112 @@ const page = () => {
                   <div className="ratting">
                     <i className="fas fa-star" /> 4.8
                   </div>
-                  <a href="#" className="heart">
+                  {/* <a href="#" className="heart">
                     <i className="fas fa-heart" />
-                  </a>
+                  </a> */}
                   <img
-                    src="assets/images/destinations/visiting-place3.jpg"
+                    src="assets/images/destinations/varkala-beach.jpg"
                     alt="Destination"
                   />
                 </div>
                 <div className="content">
                   <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Rome, Italy
+                    <i className="fal fa-map-marker-alt" /> Varkala, Kerala
                   </span>
                   <h5>
                     <Link href="destination-details">
-                      Woman standing near Colosseum, Rome
+                    Unwind on pristine beaches with dramatic cliff views
                     </Link>
                   </h5>
-                  <span className="time">3 days 2 nights - Couple</span>
+                  {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
                 <div className="destination-footer">
                   <span className="price">
-                    <span>$42</span>/per person
+                  <span>₹5,200</span> Onwards
+                  </span>
+                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
+                    Book Now <i className="fal fa-angle-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div className="row justify-content-center">
+            <div className="col-xxl-3 col-xl-4 col-md-6">
+              <div
+                className="destination-item"
+                data-aos="fade-up"
+                data-aos-delay={300}
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <div className="ratting">
+                    <i className="fas fa-star" /> 4.8
+                  </div>
+                  {/* <a href="#" className="heart">
+                    <i className="fas fa-heart" />
+                  </a> */}
+                  <img
+                    src="assets/images/destinations/Ooty-hills.jpg"
+                    alt="Destination"
+                  />
+                </div>
+                <div className="content">
+                  <span className="location">
+                    <i className="fal fa-map-marker-alt" /> Ooty, Tamilnadu
+                  </span>
+                  <h5>
+                    <Link href="destination-details">
+                    Experience the charm of this iconic hill station
+                    </Link>
+                  </h5>
+                  {/* <span className="time">3 days 2 nights - Couple</span> */}
+                </div>
+                <div className="destination-footer">
+                  <span className="price">
+                    <span>₹7,000</span> Onwards
+                  </span>
+                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
+                    Book Now <i className="fal fa-angle-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-xxl-3 col-xl-4 col-md-6">
+              <div
+                className="destination-item"
+                data-aos="fade-up"
+                data-aos-delay={300}
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <div className="ratting">
+                    <i className="fas fa-star" /> 4.8
+                  </div>
+                  {/* <a href="#" className="heart">
+                    <i className="fas fa-heart" />
+                  </a> */}
+                  <img
+                    src="/assets/images/destinations/rameshawaram-t.jpeg"
+                    alt="Destination"
+                  />
+                </div>
+                <div className="content">
+                  <span className="location">
+                    <i className="fal fa-map-marker-alt" /> Rameshawaram, Tamilnadu
+                  </span>
+                  <h5>
+                    <Link href="destination-details">
+                    Find peace at this spiritual and historic gem
+                    </Link>
+                  </h5>
+                  {/* <span className="time">3 days 2 nights - Couple</span> */}
+                </div>
+                <div className="destination-footer">
+                  <span className="price">
+                    <span>₹5,500</span> Onwards
                   </span>
                   <a href="#" className="read-more">
                     Book Now <i className="fal fa-angle-right" />
@@ -182,28 +260,28 @@ const page = () => {
                   <div className="ratting">
                     <i className="fas fa-star" /> 4.8
                   </div>
-                  <a href="#" className="heart">
+                  {/* <a href="#" className="heart">
                     <i className="fas fa-heart" />
-                  </a>
+                  </a> */}
                   <img
-                    src="assets/images/destinations/visiting-place4.jpg"
+                    src="/assets/images/destinations/Coorg-coffee.jpg"
                     alt="Destination"
                   />
                 </div>
                 <div className="content">
                   <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Rome, Italy
+                    <i className="fal fa-map-marker-alt" /> Coorg, Karnataka
                   </span>
                   <h5>
                     <Link href="destination-details">
-                      Woman standing near Colosseum, Rome
+                    Explore the "Scotland of India" and its lush coffee plantations!
                     </Link>
                   </h5>
-                  <span className="time">3 days 2 nights - Couple</span>
+                  {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
                 <div className="destination-footer">
                   <span className="price">
-                    <span>$52.00</span>/per person
+                    <span>₹6,000</span> Onwards
                   </span>
                   <a href="#" className="read-more">
                     Book Now <i className="fal fa-angle-right" />
@@ -485,7 +563,7 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-                {/* <div className="col-xl-3 col-md-6">
+                <div className="col-xl-3 col-md-6">
                   <div
                     className="destination-item style-two"
                     data-aos="flip-up"
@@ -495,13 +573,13 @@ const page = () => {
                   >
                     <div className="image">
                       <img
-                        src="assets/images/destinations/destination6.jpg"
+                        src="assets/images/destinations/wayanad.jpg"
                         alt="Destination"
                       />
                     </div>
                     <div className="content">
                       <h6>
-                        <Link href="destination-details">Milos, Greece</Link>
+                        <Link href="destination-details">Wayanad, Kerala</Link>
                       </h6>
                       <span className="time">
                         5352+ tours &amp; 856+ Activity
@@ -511,7 +589,7 @@ const page = () => {
                       </a>
                     </div>
                   </div>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
@@ -592,7 +670,7 @@ const page = () => {
                         <Link href="tour-details">Houseboat Cruises</Link>
                       </h5>
                       <p>
-                        Drift along Kerala’s enchanting backwaters
+                        Drift along Kerala&apos;s enchanting backwaters
                       </p>
                     </div>
                   </div>
