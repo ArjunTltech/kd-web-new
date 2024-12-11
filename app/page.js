@@ -242,7 +242,7 @@ const page = () => {
                   <span className="price">
                     <span>₹5,500</span> Onwards
                   </span>
-                  <a href="#" className="read-more">
+                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
                     Book Now <i className="fal fa-angle-right" />
                   </a>
                 </div>
@@ -283,7 +283,7 @@ const page = () => {
                   <span className="price">
                     <span>₹6,000</span> Onwards
                   </span>
-                  <a href="#" className="read-more">
+                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
                     Book Now <i className="fal fa-angle-right" />
                   </a>
                 </div>
@@ -776,15 +776,15 @@ const page = () => {
             >
               <div
                 className="cta-item"
-                style={{ backgroundImage: "url(assets/images/cta/cta1.jpg)" }}
+                style={{ backgroundImage: "url(assets/images/cta/honeymoon.jpg)" }}
               >
-                <span className="category">Tent Camping</span>
-                <h2>Explore the world best tourism</h2>
+                <span className="category">Honeymoon</span>
+                <h2>Romantic Escapes: Honeymoon in Paradise</h2>
                 <Link
                   href="tour-details"
                   className="theme-btn style-two bgc-secondary"
                 >
-                  <span data-hover="Explore Tours">Explore Tours</span>
+                  <span data-hover="Explore Package">Explore Package</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
               </div>
@@ -798,12 +798,12 @@ const page = () => {
             >
               <div
                 className="cta-item"
-                style={{ backgroundImage: "url(assets/images/cta/cta2.jpg)" }}
+                style={{ backgroundImage: "url(assets/images/cta/traditional-package.jpg)" }}
               >
-                <span className="category">Sea Beach</span>
-                <h2>World largest Sea Beach in Thailand</h2>
+                <span className="category">Traditonal</span>
+                <h2>Step into Tradition, Experience the Essence!</h2>
                 <Link href="tour-details" className="theme-btn style-two">
-                  <span data-hover="Explore Tours">Explore Tours</span>
+                <span data-hover="Explore Package">Explore Package</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
               </div>
@@ -817,15 +817,15 @@ const page = () => {
             >
               <div
                 className="cta-item"
-                style={{ backgroundImage: "url(assets/images/cta/cta3.jpg)" }}
+                style={{ backgroundImage: "url(assets/images/cta/educational-package.jpg)" }}
               >
-                <span className="category">Water Falls</span>
-                <h2>Largest Water falls Bali, Indonesia</h2>
+                <span className="category">Educational</span>
+                <h2>Learn, Explore, Grow!</h2>
                 <Link
                   href="tour-details"
                   className="theme-btn style-two bgc-secondary"
                 >
-                  <span data-hover="Explore Tours">Explore Tours</span>
+                   <span data-hover="Explore Package">Explore Package</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
               </div>
