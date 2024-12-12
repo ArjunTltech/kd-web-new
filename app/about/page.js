@@ -32,8 +32,7 @@ const page = () => {
                   <div className="col-lg-8 pe-lg-5 me-lg-5">
                     <div className="section-title mb-25">
                       <h2>
-                        Experience and Professional Tours &amp; Travel Agency in
-                        the World
+                       Crafting Dreams, One Journey at a Time
                       </h2>
                     </div>
                   </div>
@@ -43,24 +42,20 @@ const page = () => {
                         Years Of Experience
                       </span>
                       <span className="text">We have</span>
-                      <span className="years">28+</span>
+                      <span className="years">7+</span>
                     </div>
                   </div>
                   <div className="col-md-8">
                     <p>
-                      We specialize in crafting unforgettable city experiences
-                      for travelers seeking discover the heart and soul of urban
-                      landscapes. Our expertly guided tours take journey through
-                      vibrant streets, historic landmarks, and hidden gems of
-                      each city.
+                    With over a decade of experience, we bring unparalleled expertise in curating extraordinary travel experiences.
                     </p>
                     <ul className="list-style-two mt-35">
-                      <li>Experience Agency</li>
-                      <li>Professional Team</li>
-                      <li>Low Cost Travel</li>
-                      <li>Online Support 24/7</li>
+                      <li>Affordable Luxury</li>
+                      <li>24/7 Support</li>
+                      <li>Hassle-Free Travel</li>
+                      <li>Personalized Plans</li>
                     </ul>
-                    <Link href="about" className="theme-btn style-three mt-30">
+                    <Link href="destination1" className="theme-btn style-three mt-30">
                       <span data-hover="Explore Tours">Explore Tours</span>
                       <i className="fal fa-arrow-right" />
                     </Link>
@@ -171,16 +166,16 @@ const page = () => {
                 <div className="row pt-25">
                   <div className="col-6">
                     <div className="counter-item counter-text-wrap">
-                      <span className="count-text k-plus">
-                        <Counter end={3} />
+                      <span className="count-text plus">
+                        <Counter end={500} />
                       </span>
                       <span className="counter-title">Popular Destination</span>
                     </div>
                   </div>
                   <div className="col-6">
                     <div className="counter-item counter-text-wrap">
-                      <span className="count-text m-plus">
-                        <Counter end={9} />
+                      <span className="count-text k-plus">
+                        <Counter end={10} />
                       </span>
                       <span className="counter-title">Satisfied Clients</span>
                     </div>
@@ -533,23 +528,6 @@ const page = () => {
         </div>
       </section>
       {/* Testimonials Area end */}
-      {/* Client Logo Area start */}
-      <div className="client-logo-area mb-100">
-        <div className="container">
-          <div className="client-logo-wrap pt-60 pb-55">
-            <div
-              className="text-center mb-40"
-              data-aos="zoom-in"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <h6>We&apos;re recommended by:</h6>
-            </div>
-            <Client />
-          </div>
-        </div>
-      </div>
-      {/* Client Logo Area end */}
     </ReveloLayout>
   );
 };

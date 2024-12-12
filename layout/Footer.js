@@ -269,19 +269,16 @@ const Footer1 = () => {
                 </div>
                 <ul className="list-style-three">
                   <li>
-                    <Link href="destination-details">African Safaris</Link>
+                    <Link href="destination-details/munnar">Munnar</Link>
                   </li>
                   <li>
-                    <Link href="destination-details">Alaska &amp; Canada</Link>
+                    <Link href="destination-details">Coorg</Link>
                   </li>
                   <li>
-                    <Link href="destination-details">South America</Link>
+                    <Link href="destination-details">Alappuzha</Link>
                   </li>
                   <li>
-                    <Link href="destination-details">Middle East</Link>
-                  </li>
-                  <li>
-                    <Link href="destination-details">South America</Link>
+                    <Link href="destination-details">Rameshwaram</Link>
                   </li>
                 </ul>
               </div>
@@ -341,10 +338,13 @@ const Footer1 = () => {
             <div className="col-lg-7 text-center text-lg-end">
               <ul className="footer-bottom-nav">
                 <li>
-                  <Link href="about">Terms</Link>
+                  <Link href="">Terms</Link>
                 </li>
                 <li>
-                  <Link href="about">Privacy Policy</Link>
+                  <Link href="">Privacy Policy</Link>
+                </li>
+                <li>
+                  <Link href="">Disclaimer</Link>
                 </li>
               </ul>
             </div>
@@ -468,16 +468,16 @@ const Footer2 = ({ insta }) => {
                 </div>
                 <ul className="list-style-three">
                   <li>
-                    <Link href="destination-details">African Safaris</Link>
+                    <Link href="destination-details/munnar">Munnar</Link>
                   </li>
                   <li>
-                    <Link href="destination-details">Alaska &amp; Canada</Link>
+                    <Link href="destination-details">Coorg</Link>
                   </li>
                   <li>
-                    <Link href="destination-details">South America</Link>
+                    <Link href="destination-details">Alappuzha</Link>
                   </li>
                   <li>
-                    <Link href="destination-details">Middle East</Link>
+                    <Link href="destination-details">Rameshwaram</Link>
                   </li>
                 </ul>
               </div>
@@ -533,10 +533,13 @@ const Footer2 = ({ insta }) => {
             <div className="col-lg-7 text-center text-lg-end">
               <ul className="footer-bottom-nav">
                 <li>
-                  <Link href="about">Terms</Link>
+                  <Link href="">Terms</Link>
                 </li>
                 <li>
-                  <Link href="about">Privacy Policy</Link>
+                  <Link href="">Privacy Policy</Link>
+                </li>
+                <li>
+                  <Link href="">Disclaimer</Link>
                 </li>
               </ul>
             </div>
