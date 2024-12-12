@@ -182,7 +182,7 @@ const page = () => {
                   </div>
                 </div>
                 <Link
-                  href="destination-details"
+                  href="destination1"
                   className="theme-btn mt-10 style-two"
                 >
                   <span data-hover="Explore Destinations">

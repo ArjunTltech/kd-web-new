@@ -13,6 +13,7 @@ export const destinations = [
     {
         id: 2,
         image:"/assets/images/destinations/alappuzha-cirlce.png",
+        imageDetail: "/assets/images/destinations/alappuzha-detail.jpg",
         altText: "Alappuzha",
         slug: "alappuzha",
         name: "Alappuzha",
@@ -23,6 +24,7 @@ export const destinations = [
     {
         id: 3,
         image: "/assets/images/destinations/varkala-circle.png",
+        imageDetail: "/assets/images/destinations/varkala-detail.jpg",
         altText: "Varkala",
         slug: "varkala",
         name: "Varkala",
@@ -33,6 +35,7 @@ export const destinations = [
     {
         id: 4,
         image: "/assets/images/destinations/ooty-circle.png",
+        imageDetail: "/assets/images/destinations/ooty-detail.jpg",
         altText: "Ooty",
         slug: "ooty",
         name: "Ooty",
@@ -43,6 +46,7 @@ export const destinations = [
     {
         id: 5,
         image: "/assets/images/destinations/rameswaram-circle.png",
+        imageDetail: "/assets/images/destinations/rameswaram-detail.jpg",
         altText: "Rameshwaram",
         slug: "rameshwaram",
         name: "Rameshwaram",
@@ -53,6 +57,7 @@ export const destinations = [
     {
         id: 6,
         image: "/assets/images/destinations/Coorg-circle.png",
+        imageDetail: "/assets/images/destinations/coorg-detail.jpg",
         altText: "Coorg",
         slug: "coorg",
         name: "Coorg",
@@ -63,6 +68,7 @@ export const destinations = [
     {
         id: 7,
         image: "/assets/images/destinations/hampi-circle.png",
+        imageDetail: "/assets/images/destinations/hampi-detail.jpg",
         altText: "Hampi",
         slug: "hampi",
         name: "Hampi",

@@ -78,7 +78,7 @@ const page = ({ params }) => {
                                     well as the cultural
                                 </p>
                                 <Link
-                                    href="destination-details"
+                                    href="/destination1"
                                     className="theme-btn mt-25 style-two"
                                 >
                                     <span data-hover="Explore Destinations">
