@@ -355,7 +355,7 @@ const page = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            <SectionTitle title={"How to Benefit Our Ravelo Tours & Travels"} />
+            <SectionTitle title={"Benefits of Traveling with Kerala Drives"} />
           </div>
           <div className="row">
             <div
@@ -370,9 +370,9 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="destination-details">Best Rate Guarantee</Link>
+                    <Link href="destination-details">Affordable Luxury</Link>
                   </h5>
-                  <p>Tent camping is wonderful way to connect with nature</p>
+                  <p>Top-tier experiences at competitive prices</p>
                 </div>
               </div>
             </div>
@@ -389,10 +389,10 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="destination-details">Diverse Destinations</Link>
+                    <Link href="destination-details">Personalized Plans</Link>
                   </h5>
                   <p>
-                    Mountain biking is exhilarat sport that physical fitness
+                  Itineraries tailored to your preferences
                   </p>
                 </div>
               </div>
@@ -406,13 +406,13 @@ const page = () => {
             >
               <div className="feature-item style-two">
                 <div className="icon">
-                  <i className="flaticon-booking" />
+                  <i className="flaticon-online-chat" />
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="destination-details">Fast Booking</Link>
+                    <Link href="destination-details">24/7 Support</Link>
                   </h5>
-                  <p>Kayaking is a thrilling outdoor activity that adventure</p>
+                  <p>Round-the-clock assistance from our friendly team</p>
                 </div>
               </div>
             </div>
@@ -429,9 +429,9 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="destination-details">Best Travel Guide</Link>
+                    <Link href="destination-details">Hassle-Free Travel</Link>
                   </h5>
-                  <p>Fishing and boat quintessent activities that bring</p>
+                  <p>From booking to final departure, we handle it all</p>
                 </div>
               </div>
             </div>

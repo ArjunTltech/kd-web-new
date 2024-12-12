@@ -24,7 +24,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className="row gap-10 row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-2 justify-content-center">
+          <div className="row gap-10  row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-2 justify-content-center">
             {destinations.map((destination) => (
               <div className="col" key={destination.id}>
                 <div
@@ -45,7 +45,6 @@ const page = () => {
                         {destination.name}
                       </Link>
                     </h6>
-                    <span className="tours">{destination.toursCount} tours</span>
                   </div>
                 </div>
               </div>
