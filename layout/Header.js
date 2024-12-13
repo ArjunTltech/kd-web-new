@@ -3,21 +3,27 @@ import useClickOutside from "@/utility/useClickOutside";
 import Link from "next/link";
 import { Fragment, useState } from "react";
 import { Accordion } from "react-bootstrap";
+import { usePathname } from 'next/navigation';
 
 const Menu = () => {
+  const pathname = usePathname();
+  const logoSrc = pathname === '/' 
+    ? '/assets/images/logos/kdlogo-white.png' 
+    : '/assets/images/logos/kdlogo-black.png';
+
   return (
     <nav className="main-menu navbar-expand-lg">
       <Accordion>
         <div className="navbar-header">
           <div className="mobile-logo">
             <Link href="/">
-            <img
-                      src="https://www.keraladrives.com/upload/logo.png"
-                      alt="Logo"
-                      title="Logo"
-                      className="img-fluid"
-                      style={{ height: "30px" }}
-                    />
+              <img
+                src={logoSrc} // Use dynamic logo source
+                alt="Logo"
+                title="Logo"
+                className="img-fluid"
+                style={{ height: "35px" }}
+              />
             </Link>
           </div>
           {/* Toggle Button */}
@@ -70,7 +76,7 @@ const Menu = () => {
               <a href="#">Explore</a>
               <ul>
                 <li>
-                  <Link href="/faqs">faqs</Link>
+                  <Link href="/faqs">FAQs</Link>
                 </li>
                 <li>
                   <Link href="/gellery-grid">Gallery</Link>
@@ -121,7 +127,7 @@ const Header1 = ({ sidebarClick }) => {
                 <div className="logo">
                   <Link href="/">
                     <img
-                      src="/assets/images/logos/logo-white.png"
+                      src="/assets/images/logos/kdlogo-white.png" // home page logo
                       alt="Logo"
                       title="Logo"
                       className="img-fluid"
@@ -210,7 +216,7 @@ const Header2 = ({ sidebarClick }) => {
           <div className="logo text-lg-center">
             <Link href="/">
             <img
-                      src="/assets/images/logos/logo-white.png"
+                      src="/assets/images/logos/kdlogo-black.png"
                       alt="Logo"
                       title="Logo"
                       className="img-fluid"
@@ -418,7 +424,7 @@ const Header3 = ({ sidebarClick }) => {
                 <div className="logo">
                   <Link href="/">
                   <img
-                      src="https://www.keraladrives.com/upload/logo.png"
+                       src="/assets/images/logos/kdlogo-black.png"
                       alt="Logo"
                       title="Logo"
                       className="img-fluid"

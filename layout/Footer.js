@@ -139,7 +139,7 @@ const Footer1 = () => {
               <div className="footer-widget footer-text">
                 <div className="footer-logo mb-25">
                   <Link href="/">
-                    <img src="/assets/images/logos/logo-white.png"
+                    <img src="/assets/images/logos/kdlogo-white.png"
                       title="Logo"
                       className="img-fluid"
                       style={{ height: "50px" }} />
@@ -384,7 +384,7 @@ const Footer2 = ({ insta }) => {
               <div className="footer-widget footer-text">
                 <div className="footer-logo mb-40">
                   <Link href="/">
-                    <img src="/assets/images/logos/logo-white.png"
+                    <img src="/assets/images/logos/kdlogo-white.png"
                       title="Logo"
                       className="img-fluid"
                       style={{ height: "50px" }} />
