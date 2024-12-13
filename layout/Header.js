@@ -41,22 +41,22 @@ const Menu = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="about">About</Link>
+              <Link href="/about">About</Link>
             </li>
             <li className="dropdown">
               <a href="#">Packages</a>
               <ul>
                 <li>
-                  <Link href="tour-grid">Honeymoon Packages</Link>
+                  <Link href="/tour-grid">Honeymoon Packages</Link>
                 </li>
                 <li>
-                  <Link href="tour-grid">Educational Tours</Link>
+                  <Link href="/tour-grid">Educational Tours</Link>
                 </li>
                 <li>
-                  <Link href="tour-grid">Traditional Experiences</Link>
+                  <Link href="/tour-grid">Traditional Experiences</Link>
                 </li>
                 <li>
-                  <Link href="tour-grid">Group Adventures</Link>
+                  <Link href="/tour-grid">Group Adventures</Link>
                 </li>
               </ul>
               <div className="dropdown-btn">
@@ -64,19 +64,19 @@ const Menu = () => {
               </div>
             </li>
             <li>
-              <Link href="destination1">Destinations</Link>
+              <Link href="/destination1">Destinations</Link>
             </li>
             <li className="dropdown">
               <a href="#">Explore</a>
               <ul>
                 <li>
-                  <Link href="faqs">faqs</Link>
+                  <Link href="/faqs">faqs</Link>
                 </li>
                 <li>
-                  <Link href="gellery-grid">Gallery</Link>
+                  <Link href="/gellery-grid">Gallery</Link>
                 </li>
                 <li>
-                  <Link href="404">404 Error</Link>
+                  <Link href="/404">404 Error</Link>
                 </li>
               </ul>
               <div className="dropdown-btn">
@@ -84,7 +84,7 @@ const Menu = () => {
               </div>
             </li>
             <li>
-              <Link href="blog">Blogs</Link>
+              <Link href="/blog">Blogs</Link>
             </li>
           </ul>
         </Accordion.Collapse>
@@ -243,7 +243,7 @@ const Header2 = ({ sidebarClick }) => {
               </div>
             </li>
             <li>
-              <Link href="about">About</Link>
+              <Link href="/about">About</Link>
             </li>
             <li className="dropdown">
               <a href="#" onClick={() => activeMenuSet("Tours")}>
@@ -251,19 +251,19 @@ const Header2 = ({ sidebarClick }) => {
               </a>
               <ul style={activeLi("Tours")}>
                 <li>
-                  <Link href="tour-list">Tour List</Link>
+                  <Link href="/tour-list">Tour List</Link>
                 </li>
                 <li>
-                  <Link href="tour-grid">Tour Grid</Link>
+                  <Link href="/tour-grid">Tour Grid</Link>
                 </li>
                 <li>
-                  <Link href="tour-sidebar">Tour Sidebar</Link>
+                  <Link href="/tour-sidebar">Tour Sidebar</Link>
                 </li>
                 <li>
-                  <Link href="tour-details">Tour Details</Link>
+                  <Link href="/tour-details">Tour Details</Link>
                 </li>
                 <li>
-                  <Link href="tour-guide">Tour Guide</Link>
+                  <Link href="/tour-guide">Tour Guide</Link>
                 </li>
               </ul>
               <div
@@ -279,13 +279,13 @@ const Header2 = ({ sidebarClick }) => {
               </a>
               <ul style={activeLi("Destinations")}>
                 <li>
-                  <Link href="destination1">Destination 01</Link>
+                  <Link href="/destination1">Destination 01</Link>
                 </li>
                 <li>
-                  <Link href="destination2">Destination 02</Link>
+                  <Link href="/destination2">Destination 02</Link>
                 </li>
                 <li>
-                  <Link href="destination-details">Destination Details</Link>
+                  <Link href="/destination-details">Destination Details</Link>
                 </li>
               </ul>
               <div
@@ -301,23 +301,23 @@ const Header2 = ({ sidebarClick }) => {
               </a>
               <ul style={activeLi("Explore")}>
                 <li>
-                  <Link href="pricing">Pricing</Link>
+                  <Link href="/pricing">Pricing</Link>
                 </li>
                 <li>
-                  <Link href="faqs">faqs</Link>
+                  <Link href="/faqs">faqs</Link>
                 </li>
-                <li className="dropdown">
+                <li className="/dropdown">
                   <a href="#">Gallery</a>
                   <ul style={multiMenuActiveLi("Gallery")}>
                     <li>
-                      <Link href="gellery-grid">Gallery Grid</Link>
+                      <Link href="/gellery-grid">Gallery Grid</Link>
                     </li>
                     <li>
-                      <Link href="gellery-slider">Gallery Slider</Link>
+                      <Link href="/gellery-slider">Gallery Slider</Link>
                     </li>
                   </ul>
                   <div
-                    className="dropdown-btn"
+                    className="/dropdown-btn"
                     onClick={() => multiMenuSet("Gallery")}
                   >
                     <span className="far fa-angle-down" />
@@ -327,10 +327,10 @@ const Header2 = ({ sidebarClick }) => {
                   <a href="#">products</a>
                   <ul style={multiMenuActiveLi("products")}>
                     <li>
-                      <Link href="shop">Our Products</Link>
+                      <Link href="/shop">Our Products</Link>
                     </li>
                     <li>
-                      <Link href="product-details">Product Details</Link>
+                      <Link href="/product-details">Product Details</Link>
                     </li>
                   </ul>
                   <div
@@ -341,10 +341,10 @@ const Header2 = ({ sidebarClick }) => {
                   </div>
                 </li>
                 <li>
-                  <Link href="contact">Contact Us</Link>
+                  <Link href="/contact">Contact Us</Link>
                 </li>
                 <li>
-                  <Link href="404">404 Error</Link>
+                  <Link href="/404">404 Error</Link>
                 </li>
               </ul>
               <div
@@ -360,10 +360,10 @@ const Header2 = ({ sidebarClick }) => {
               </a>
               <ul style={activeLi("blog")}>
                 <li>
-                  <Link href="blog">blog List</Link>
+                  <Link href="/blog">blog List</Link>
                 </li>
                 <li>
-                  <Link href="blog-details">blog details</Link>
+                  <Link href="/blog-details">blog details</Link>
                 </li>
               </ul>
               <div
