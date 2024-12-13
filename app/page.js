@@ -19,15 +19,15 @@ const page = () => {
           >
             tours &amp; Travels
           </h1>
-          
+
           <div
             className="main-hero-image bgs-cover"
             style={{ backgroundImage: "url(assets/images/hero/hero-banner.jpg)" }}
           />
-          
+
         </div>
         {/* <SearchFilter /> */}
-        
+
       </section>
       {/* Hero Area End */}
       {/* Destinations Area start */}
@@ -72,9 +72,9 @@ const page = () => {
                     <i className="fal fa-map-marker-alt" /> Alappuzha, Kerala
                   </span>
                   <h5 className="text-white">
-                    
+
                     Glide through serene waters on luxurious houseboats
-                    
+
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -110,15 +110,15 @@ const page = () => {
                     <i className="fal fa-map-marker-alt" /> Munnar, Kerala
                   </span>
                   <h5 className="text-white">
-                    
+
                     Breathe in the fresh mountain air amidst endless tea gardens
-                    
+
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
                 <div className="destination-footer">
                   <span className="price">
-                  <span>₹6,500</span> Onwards
+                    <span>₹6,500</span> Onwards
                   </span>
                   <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
                     Enquire <i className="fal fa-angle-right" />
@@ -151,15 +151,15 @@ const page = () => {
                     <i className="fal fa-map-marker-alt" /> Varkala, Kerala
                   </span>
                   <h5 className="text-white">
-                   
+
                     Unwind on pristine beaches with dramatic cliff views
-                   
+
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
                 <div className="destination-footer">
                   <span className="price">
-                  <span>₹5,200</span> Onwards
+                    <span>₹5,200</span> Onwards
                   </span>
                   <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
                     Enquire <i className="fal fa-angle-right" />
@@ -167,8 +167,8 @@ const page = () => {
                 </div>
               </div>
             </div>
-            </div>
-            <div className="row justify-content-center">
+          </div>
+          <div className="row justify-content-center">
             <div className="col-xxl-3 col-xl-4 col-md-6">
               <div
                 className="destination-item"
@@ -194,9 +194,9 @@ const page = () => {
                     <i className="fal fa-map-marker-alt" /> Ooty, Tamilnadu
                   </span>
                   <h5 className="text-white">
-                   
+
                     Experience the charm of this iconic hill station
-                    
+
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -235,9 +235,9 @@ const page = () => {
                     <i className="fal fa-map-marker-alt" /> Rameshwaram, Tamilnadu
                   </span>
                   <h5 className="text-white">
-                    
+
                     Find peace at this spiritual and historic gem
-                    
+
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -277,7 +277,7 @@ const page = () => {
                   </span>
                   <h5 className="text-white">
                     Explore the "Scotland of India" and its lush coffee plantations!
-                    
+
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -308,11 +308,11 @@ const page = () => {
               >
                 <div className="section-title mb-25">
                   <h2>
-                  Your Travel Partner for Seamless and Memorable Journeys
+                    Your Travel Partner for Seamless and Memorable Journeys
                   </h2>
                 </div>
                 <p>
-                We don&apos;t just plan trips, we craft experiences that stay with you forever.
+                  We don&apos;t just plan trips, we craft experiences that stay with you forever.
                 </p>
                 <div className="divider counter-text-wrap mt-45 mb-55">
                   <span>
@@ -356,8 +356,8 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-                
-                <Link href="destination1" className="theme-btn mt-10 style-two">
+
+                <Link href="/destination" className="theme-btn mt-10 style-two">
                   <span data-hover="Explore Destinations">
                     Explore Destinations
                   </span>
@@ -430,7 +430,7 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-                     
+
                       <img
                         src="/assets/images/destinations/munnar.jpg"
                         alt="Destination"
@@ -524,7 +524,7 @@ const page = () => {
                     <div className="content">
                       <h6>
                         <Link href="destination-details">
-                        Rameshwaram, Tamilnadu
+                          Rameshwaram, Tamilnadu
                         </Link>
                       </h6>
                       <span className="time">
@@ -637,7 +637,7 @@ const page = () => {
                       />
                       <span>4k+</span>
                     </div>
-                    <h6>850K+ Happy Customer</h6>
+                    <h6>10K+ Happy Customer</h6>
                     <div className="divider style-two counter-text-wrap my-25">
                       <span>
                         <span
@@ -645,7 +645,7 @@ const page = () => {
                           data-speed={3000}
                           data-stop={25}
                         >
-                          0
+                          7
                         </span>{" "}
                         Years
                       </span>
@@ -755,10 +755,23 @@ const page = () => {
                 >
                   <div className="section-title mb-55">
                     <h2>
-                      <span>5280</span> Global Clients Say About Us Services
+                      <span>5280</span> Here&apos;s What Our Travelers Have to Say
                     </h2>
                   </div>
                   <Testimonial />
+                  <div className="divider style-one">
+                    <Link
+                      href="https://www.google.com/maps/place/Kerala+Drives+Tours+%26+Travels/@8.5824746,76.8616363,898m/data=!3m1!1e3!4m8!3m7!1s0x3b05be56ffffffff:0x1c586a8fbc63e2b4!8m2!3d8.5824693!4d76.8642112!9m1!1b1!16s%2Fg%2F11kptjgzb3?entry=ttu&g_ep=EgoyMDI0MTIxMC4wIKXMDSoASAFQAw%3D%3D"
+                      className="theme-btn mt-10 style-two"
+                      target="_blank" // Opens in a new tab
+                      rel="noopener noreferrer" // Improves security
+                    >
+                      <span data-hover="Check out our reviews!">
+                        Check out our reviews!
+                      </span>
+                      <i className="fal fa-arrow-right" />
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -805,7 +818,7 @@ const page = () => {
                 <span className="category">Traditonal</span>
                 <h2>Step into Tradition, Experience the Essence!</h2>
                 <Link href="tour-details" className="theme-btn style-two">
-                <span data-hover="Explore Package">Explore Package</span>
+                  <span data-hover="Explore Package">Explore Package</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
               </div>
@@ -827,12 +840,12 @@ const page = () => {
                   href="tour-details"
                   className="theme-btn style-two bgc-secondary"
                 >
-                   <span data-hover="Explore Package">Explore Package</span>
+                  <span data-hover="Explore Package">Explore Package</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>

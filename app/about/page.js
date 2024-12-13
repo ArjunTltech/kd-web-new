@@ -55,7 +55,7 @@ const page = () => {
                       <li>Hassle-Free Travel</li>
                       <li>Personalized Plans</li>
                     </ul>
-                    <Link href="destination1" className="theme-btn style-three mt-30">
+                    <Link href="/destination" className="theme-btn style-three mt-30">
                       <span data-hover="Explore Tours">Explore Tours</span>
                       <i className="fal fa-arrow-right" />
                     </Link>
@@ -182,7 +182,7 @@ const page = () => {
                   </div>
                 </div>
                 <Link
-                  href="destination1"
+                  href="/destination"
                   className="theme-btn mt-10 style-two"
                 >
                   <span data-hover="Explore Destinations">
