@@ -1,48 +1,43 @@
 "use client";
 import ReveloLayout from "@/layout/ReveloLayout";
 
-const TermsAndConditions = () => {
-  const terms = [
+const Disclaimer = () => {
+  const disclaimerSections = [
     {
-      title: "Booking Confirmation",
+      title: "General Information",
       points: [
-        "Bookings are confirmed only after receipt of full payment or advance payment as agreed.",
-        "Rates quoted are subject to change if confirmation is delayed."
+        "The information provided on this website is for general purposes only and subject to change without notice."
       ]
     },
     {
-      title: "Cancellation and Refund Policy",
+      title: "Accuracy of Information",
       points: [
-        "Cancellations made 7 days before the start date will incur a 20% cancellation fee.",
-        "Cancellations within 7 days of the start date are non-refundable.",
-        "Refunds (if applicable) will be processed within 10-15 business days."
+        "While we strive for accuracy, Kerala Drives is not responsible for any errors or omissions on the website."
       ]
     },
     {
-      title: "Liability",
+      title: "Third-Party Links",
       points: [
-        "Kerala Drives is not liable for delays or cancellations due to unforeseen circumstances such as natural disasters, strikes, or political unrest.",
-        "Customers are advised to purchase travel insurance for added protection."
+        "The website may contain links to third-party websites. Kerala Drives is not responsible for the content or privacy practices of these sites."
       ]
     },
     {
-      title: "Customer Responsibilities",
+      title: "Travel Risks",
       points: [
-        "Ensure all travel documents (IDs, permits) are valid and up-to-date.",
-        "Respect local customs and follow the guide/driver's instructions."
+        "Customers are responsible for their safety during travel. Kerala Drives is not liable for injuries, loss, or damages during the trip."
       ]
     },
     {
-      title: "Itinerary Changes",
+      title: "Use of Services",
       points: [
-        "Kerala Drives reserves the right to alter the itinerary in case of unforeseen circumstances for the safety and comfort of customers."
+        "By using our services, you agree to hold Kerala Drives harmless from any claims arising from the use of our website or services."
       ]
     }
   ];
 
   return (
     <ReveloLayout insta>
-      <section className="page-banner-two rel z-1">
+      <section className="page-banner-two rel z-1 ">
         <div className="container-fluid">
           <hr className="mt-0" />
           <div className="container">
@@ -53,21 +48,20 @@ const TermsAndConditions = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                Terms and Conditions
+                Disclaimer
               </h2>
             </div>
-            
-            <div className="comments  mt-30  mb-60">
+
+            <div className="comments mt-30  mb-60 ">
               <div
-                className="comment-body"
+                className="comment-body mb-5"
                 data-aos="fade-up"
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-              
                 <div className="content">
                   <div className="terms-content">
-                    {terms.map((section, index) => (
+                    {disclaimerSections.map((section, index) => (
                       <div key={index} className="mb-6">
                         <h3 className="h5 h3-md h3-lg mb-3 font-semibold">{`${index + 1}. ${section.title}`}</h3>
                         <ul className="list-disc pl-6 mb-4">
@@ -90,4 +84,4 @@ const TermsAndConditions = () => {
   );
 };
 
-export default TermsAndConditions;
+export default Disclaimer;
