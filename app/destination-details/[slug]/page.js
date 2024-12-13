@@ -95,13 +95,6 @@ const page = ({ params }) => {
                             data-aos-offset={50}
                         >
                             <div className="destination-map">
-                                {/* <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d96777.16150026117!2d-74.00840582560909!3d40.71171357405996!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1706508986625!5m2!1sen!2sbd"
-                  style={{ border: 0, width: "100%" }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                /> */}
                                 <img
                                     src={destination.imageDetail}
                                     alt="Destination"

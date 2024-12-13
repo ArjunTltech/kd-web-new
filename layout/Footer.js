@@ -338,13 +338,13 @@ const Footer1 = () => {
             <div className="col-lg-7 text-center text-lg-end">
               <ul className="footer-bottom-nav">
                 <li>
-                  <Link href="">Terms</Link>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
                 <li>
-                  <Link href="">Privacy Policy</Link>
+                  <Link href="/terms-conditions">Terms & Conditions</Link>
                 </li>
                 <li>
-                  <Link href="">Disclaimer</Link>
+                  <Link href="/disclaimer">Disclaimer</Link>
                 </li>
               </ul>
             </div>
@@ -533,13 +533,13 @@ const Footer2 = ({ insta }) => {
             <div className="col-lg-7 text-center text-lg-end">
               <ul className="footer-bottom-nav">
                 <li>
-                  <Link href="">Terms</Link>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
                 <li>
-                  <Link href="">Privacy Policy</Link>
+                  <Link href="/terms-conditions">Terms & Conditions</Link>
                 </li>
                 <li>
-                  <Link href="">Disclaimer</Link>
+                  <Link href="/disclaimer">Disclaimer</Link>
                 </li>
               </ul>
             </div>
