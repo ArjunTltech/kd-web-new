@@ -20,17 +20,11 @@ const Testimonial = () => {
           </div>
         </div>
         <div className="text">
-          "Our trip was absolutely a perfect, thanks this travel agency! They
-          took care of every detail, from to accommodations, and even suggested
-          incredible experiences"
+          "I had the best experience exploring Kerala with Kerala Drives. Their team is so supportive and professional!"
         </div>
         <div className="author">
-          <div className="image">
-            <img src="assets/images/testimonials/author.jpg" alt="Author" />
-          </div>
           <div className="content">
-            <h5>Randall V. Vasquez</h5>
-            <span>Graphics Designer</span>
+            <h5>Anjali Mishra</h5>
           </div>
         </div>
       </div>
@@ -39,7 +33,7 @@ const Testimonial = () => {
           <div className="quote">
             <i className="flaticon-double-quotes" />
           </div>
-          <h4>Quality Services</h4>
+          <h4>Perfect Trip</h4>
           <div className="ratting">
             <i className="fas fa-star" />
             <i className="fas fa-star" />
@@ -49,17 +43,11 @@ const Testimonial = () => {
           </div>
         </div>
         <div className="text">
-          "Our trip was absolutely a perfect, thanks this travel agency! They
-          took care of every detail, from to accommodations, and even suggested
-          incredible experiences"
+        "The Munnar trip was magical. Kerala Drives went above and beyond to make it perfect!"
         </div>
         <div className="author">
-          <div className="image">
-            <img src="assets/images/testimonials/author.jpg" alt="Author" />
-          </div>
           <div className="content">
-            <h5>Randall V. Vasquez</h5>
-            <span>Graphics Designer</span>
+            <h5>Ramesh Yadav</h5>
           </div>
         </div>
       </div>

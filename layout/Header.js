@@ -64,7 +64,7 @@ const Menu = () => {
               </div>
             </li>
             <li>
-              <Link href="/destination1">Destinations</Link>
+              <Link href="/destination">Destinations</Link>
             </li>
             <li className="dropdown">
               <a href="#">Explore</a>
@@ -279,7 +279,7 @@ const Header2 = ({ sidebarClick }) => {
               </a>
               <ul style={activeLi("Destinations")}>
                 <li>
-                  <Link href="/destination1">Destination 01</Link>
+                  <Link href="/destination">Destination 01</Link>
                 </li>
                 <li>
                   <Link href="/destination2">Destination 02</Link>
