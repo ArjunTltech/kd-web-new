@@ -438,12 +438,10 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h6>
-                        <Link href="destination-details">Munnar, Kerala</Link>
+                        <Link href="/destination-details/munnar">Munnar</Link>
                       </h6>
-                      <span className="time">
-                        5352+ tours &amp; 856+ Activity
-                      </span>
-                      <a href="#" className="more">
+                      
+                      <a href="/destination-details/munnar" className="more">
                         <i className="fas fa-chevron-right" />
                       </a>
                     </div>
@@ -468,12 +466,10 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h6>
-                        <Link href="destination-details">Alappuzha, Kerala</Link>
+                        <Link href="/destination-details/alappuzha">Alappuzha, Kerala</Link>
                       </h6>
-                      <span className="time">
-                        5352+ tours &amp; 856+ Activity
-                      </span>
-                      <a href="#" className="more">
+                      
+                      <a href="/destination-details/alappuzha" className="more">
                         <i className="fas fa-chevron-right" />
                       </a>
                     </div>
@@ -495,14 +491,12 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h6>
-                        <Link href="destination-details">
+                        <Link href="/destination-details/hampi">
                           Hampi, Karnataka
                         </Link>
                       </h6>
-                      <span className="time">
-                        5352+ tours &amp; 856+ Activity
-                      </span>
-                      <a href="#" className="more">
+                      
+                      <a href="/destination-details/hampi" className="more">
                         <i className="fas fa-chevron-right" />
                       </a>
                     </div>
@@ -523,14 +517,12 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h6>
-                        <Link href="destination-details">
+                        <Link href="/destination-details/rameshwaram">
                           Rameshwaram, Tamilnadu
                         </Link>
                       </h6>
-                      <span className="time">
-                        5352+ tours &amp; 856+ Activity
-                      </span>
-                      <a href="#" className="more">
+                     
+                      <a href="/destination-details/rameshwaram" className="more">
                         <i className="fas fa-chevron-right" />
                       </a>
                     </div>
@@ -552,14 +544,12 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h6>
-                        <Link href="destination-details">
+                        <Link href="/destination-details/coorg">
                           Coorg, Karnataka
                         </Link>
                       </h6>
-                      <span className="time">
-                        5352+ tours &amp; 856+ Activity
-                      </span>
-                      <a href="#" className="more">
+                     
+                      <a href="/destination-details/coorg" className="more">
                         <i className="fas fa-chevron-right" />
                       </a>
                     </div>
@@ -581,12 +571,10 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h6>
-                        <Link href="destination-details">Wayanad, Kerala</Link>
+                        <Link href="destination-details/wayanad">Wayanad, Kerala</Link>
                       </h6>
-                      <span className="time">
-                        5352+ tours &amp; 856+ Activity
-                      </span>
-                      <a href="#" className="more">
+                      
+                      <a href="/destination-details/wayanad" className="more">
                         <i className="fas fa-chevron-right" />
                       </a>
                     </div>

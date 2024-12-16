@@ -139,7 +139,7 @@ const Footer1 = () => {
               <div className="footer-widget footer-text">
                 <div className="footer-logo mb-25">
                   <Link href="/">
-                    <img src="/assets/images/logos/logo-white.png"
+                    <img src="/assets/images/logos/kdlogo-white.png"
                       title="Logo"
                       className="img-fluid"
                       style={{ height: "50px" }} />
@@ -312,13 +312,10 @@ const Footer1 = () => {
                       info.uae@keraladrives.com
                     </a>
                   </li>
-                  {/* <li>
-                    <i className="fal fa-clock" /> Mon - Fri, 08am - 05pm
-                  </li>
                   <li>
                     <i className="fal fa-phone-volume" />{" "}
-                    <a href="callto:+88012334588">+880 (123) 345 88</a>
-                  </li> */}
+                    <a href="callto:+918086407979">+91 8086407979</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -331,7 +328,7 @@ const Footer1 = () => {
             <div className="col-lg-5">
               <div className="copyright-text text-center text-lg-start">
                 <p>
-                  &copy;2024 <a href="https://www.tltechnologies.net">TL TECHNOLOGIES PVT LTD</a>, All rights reserved
+                  &copy;2024 <a href="https://www.tltechnologies.net" target="_blank">TL TECHNOLOGIES PVT LTD</a>, All rights reserved
                 </p>
               </div>
             </div>
@@ -384,7 +381,7 @@ const Footer2 = ({ insta }) => {
               <div className="footer-widget footer-text">
                 <div className="footer-logo mb-40">
                   <Link href="/">
-                    <img src="/assets/images/logos/logo-white.png"
+                    <img src="/assets/images/logos/kdlogo-white.png"
                       title="Logo"
                       className="img-fluid"
                       style={{ height: "50px" }} />
@@ -510,10 +507,10 @@ const Footer2 = ({ insta }) => {
                       info.uae@keraladrives.com
                     </a>
                   </li>
-                  {/* <li>
+                  <li>
                     <i className="fal fa-phone-volume" />{" "}
-                    <a href="callto:+88012334588">+880 (123) 345 88</a>
-                  </li> */}
+                    <a href="callto:+918086407979">+91 8086407979</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -526,7 +523,7 @@ const Footer2 = ({ insta }) => {
             <div className="col-lg-5">
               <div className="copyright-text text-center text-lg-start">
                 <p>
-                  &copy;2024 <a href="https://www.tltechnologies.net">TL TECHNOLOGIES PVT LTD</a>, All rights reserved
+                  &copy;2024 <a href="https://www.tltechnologies.net" target="_blank">TL TECHNOLOGIES PVT LTD</a>, All rights reserved
                 </p>
               </div>
             </div>
