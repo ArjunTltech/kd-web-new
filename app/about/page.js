@@ -217,97 +217,12 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <SectionTitle title={"Meet Our Experience Travel Guides"} />
+                <SectionTitle title={"Meet Our Experience Founder"} />
               </div>
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div
-                className="team-item hover-content"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <img src="assets/images/team/guide1.jpg" alt="Guide" />
-                <div className="content">
-                  <h6>John L. Simmons</h6>
-                  <span className="designation">Co-founder</span>
-                  <div className="social-style-one inner-content">
-                    <Link href="contact">
-                      <i className="fab fa-twitter" />
-                    </Link>
-                    <Link href="contact">
-                      <i className="fab fa-facebook-f" />
-                    </Link>
-                    <Link href="contact">
-                      <i className="fab fa-instagram" />
-                    </Link>
-                    <a href="#">
-                      <i className="fab fa-pinterest-p" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div
-                className="team-item hover-content"
-                data-aos="fade-up"
-                data-aos-delay={50}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <img src="assets/images/team/guide2.jpg" alt="Guide" />
-                <div className="content">
-                  <h6>Andrew K. Manley</h6>
-                  <span className="designation">Senior Guide</span>
-                  <div className="social-style-one inner-content">
-                    <Link href="contact">
-                      <i className="fab fa-twitter" />
-                    </Link>
-                    <Link href="contact">
-                      <i className="fab fa-facebook-f" />
-                    </Link>
-                    <Link href="contact">
-                      <i className="fab fa-instagram" />
-                    </Link>
-                    <a href="#">
-                      <i className="fab fa-pinterest-p" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div
-                className="team-item hover-content"
-                data-aos="fade-up"
-                data-aos-delay={100}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <img src="assets/images/team/guide3.jpg" alt="Guide" />
-                <div className="content">
-                  <h6>Drew J. Bridges</h6>
-                  <span className="designation">Travel Guide</span>
-                  <div className="social-style-one inner-content">
-                    <Link href="contact">
-                      <i className="fab fa-twitter" />
-                    </Link>
-                    <Link href="contact">
-                      <i className="fab fa-facebook-f" />
-                    </Link>
-                    <Link href="contact">
-                      <i className="fab fa-instagram" />
-                    </Link>
-                    <a href="#">
-                      <i className="fab fa-pinterest-p" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+          
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div
                 className="team-item hover-content"
@@ -318,8 +233,8 @@ const page = () => {
               >
                 <img src="assets/images/team/guide4.jpg" alt="Guide" />
                 <div className="content">
-                  <h6>Byron F. Simpson</h6>
-                  <span className="designation">Travel Guide</span>
+                  <h6>Sajan Sajan Vohab</h6>
+                  <span className="designation">Founder /  CEO</span>
                   <div className="social-style-one inner-content">
                     <Link href="contact">
                       <i className="fab fa-twitter" />
@@ -337,6 +252,7 @@ const page = () => {
                 </div>
               </div>
             </div>
+            <p  className="col-xl-8 col-lg-8 col-sm-6">Welcome to Kerala Drives, a travel agency that specializes in providing unique travel experiences in God's own country, Kerala. Our passion for travel and exploration led us to create Kerala Drives, where we curate customized travel packages that allow you to explore Kerala's diverse landscapes, rich culture, and heritage.At Kerala Drives, we are committed to providing you with personalized attention and the highest level of service. Our team consists of travel experts who are well-versed in Kerala's geography, culture, and history. Our years of experience in the travel industry have equipped us with the knowledge and expertise to provide you with unforgettable travel experiences.</p>
           </div>
         </div>
       </section>
