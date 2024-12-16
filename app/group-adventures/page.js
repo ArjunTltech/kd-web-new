@@ -8,7 +8,7 @@ const page = () => {
             <Banner
                 pageTitle={"Group Adventures"}
                 pageName={"Group Adventures"}
-                imageUrl="/assets/images/banner/group-adventures-banner.jpg"
+                imageUrl="/assets/images/banner/group-banner.jpg"
                 search={true}
             />
             {/* Adventures Grid Area start */}
