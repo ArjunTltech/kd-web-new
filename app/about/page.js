@@ -5,6 +5,12 @@ import Client from "@/components/slider/Client";
 import Testimonial from "@/components/slider/Testimonial";
 import ReveloLayout from "@/layout/ReveloLayout";
 import Link from "next/link";
+
+
+export const metadata = {
+  title: "About Kerala Drives - Travel & Tour Booking",
+  description: "Kerala Drives",
+};
 const page = () => {
   return (
     <ReveloLayout>
