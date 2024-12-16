@@ -7,16 +7,16 @@ const page = () => {
     return (
         <ReveloLayout>
             <Banner
-                pageTitle={"Honeymoon Packages"}
-                pageName={"Honeymoon Packages"}
-                imageUrl="/assets/images/banner/honeymoon-banner.jpg"
+                pageTitle={"Educational Tours"}
+                pageName={"Educational Tours"}
+                imageUrl="/assets/images/banner/educational-tours.jpg"
                 search={true}
             />
-            {/* Honeymoon Packages Grid Area start */}
+            {/* Educational Tours Grid Area start */}
             <section className="tour-grid-page py-100 rel z-2">
                 <div className="container mb-50">
                     <div className="row justify-content-center">
-                        {/* Romantic Backwaters Getaway */}
+                        {/* Science & Nature Tour */}
                         <div className="col-xl-4 col-md-6 d-flex justify-content-center">
                             <div
                                 className="destination-item tour-grid style-three bgc-lighter"
@@ -27,62 +27,21 @@ const page = () => {
                             >
                                 <div className="image">
                                     <img
-                                         src="assets/images/packages/backwaters.jpg"
-                                        alt="Romantic Backwaters Getaway"
+                                         src="assets/images/packages/Ramakkalmedu.jpg"
+                                        alt="Science & Nature Tour"
                                     />
                                 </div>
                                 <div className="content">
                                     <h5>
-                                        <Link href="destination">Romantic Backwaters Getaway</Link>
+                                        <Link href="destination">Science & Nature Tour (Munnar)</Link>
                                     </h5>
-                                    <p>Experience the serene beauty of Kerala's backwaters with your loved one.</p>
-                                    <ul className="blog-meta">
-                                        <li>
-                                            <i className="far fa-clock" /> 2 days
-                                        </li>
-                                        <li>
-                                            <i className="far fa-user" /> 2 people
-                                        </li>
-                                    </ul>
-                                    <div className="destination-footer">
-                                        <Link
-                                            href="https://enquiry.keraladrives.com"
-                                            target="_blank"
-                                            className="theme-btn style-two style-three"
-                                        >
-                                            <span data-hover="Enquire Now">Enquire Now</span>
-                                            <i className="fal fa-arrow-right" />
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* Munnar Hill Escape */}
-                        <div className="col-xl-4 col-md-6 d-flex justify-content-center">
-                            <div
-                                className="destination-item tour-grid style-three bgc-lighter"
-                                data-aos="fade-up"
-                                data-aos-duration={1500}
-                                data-aos-delay={50}
-                                data-aos-offset={50}
-                            >
-                                <div className="image">
-                                    <img
-                                        src="assets/images/packages/munnar-hills.jpg"
-                                        alt="Munnar Hill Escape"
-                                    />
-                                </div>
-                                <div className="content">
-                                    <h5>
-                                        <Link href="destination">Munnar Hill Escape</Link>
-                                    </h5>
-                                    <p>Relax and unwind in the lush green hills of Munnar with your partner.</p>
+                                    <p>Explore the flora and fauna of Munnar with hands-on science activities.</p>
                                     <ul className="blog-meta">
                                         <li>
                                             <i className="far fa-clock" /> 3 days
                                         </li>
                                         <li>
-                                            <i className="far fa-user" /> 2 people
+                                            <i className="far fa-user" /> 15 students
                                         </li>
                                     </ul>
                                     <div className="destination-footer">
@@ -98,7 +57,7 @@ const page = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* Alleppey Houseboat */}
+                        {/* Historical Walk */}
                         <div className="col-xl-4 col-md-6 d-flex justify-content-center">
                             <div
                                 className="destination-item tour-grid style-three bgc-lighter"
@@ -109,21 +68,21 @@ const page = () => {
                             >
                                 <div className="image">
                                     <img
-                                        src="assets/images/packages/alleppy-houseboat.jpg"
-                                        alt="Alleppey Houseboat"
+                                         src="assets/images/packages/fort-kochi.jpeg"
+                                        alt="Historical Walk"
                                     />
                                 </div>
                                 <div className="content">
                                     <h5>
-                                        <Link href="destination">Alleppey Houseboat</Link>
+                                        <Link href="destination">Historical Walk (Fort Kochi)</Link>
                                     </h5>
-                                    <p>Enjoy a romantic stay in a traditional houseboat on the tranquil backwaters.</p>
+                                    <p>Discover the rich history and culture of Fort Kochi through guided tours.</p>
                                     <ul className="blog-meta">
                                         <li>
                                             <i className="far fa-clock" /> 2 days
                                         </li>
                                         <li>
-                                            <i className="far fa-user" /> 2 people
+                                            <i className="far fa-user" /> 20 students
                                         </li>
                                     </ul>
                                     <div className="destination-footer">

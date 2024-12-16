@@ -1,3 +1,7 @@
+
+
+
+
 export const destinations = [
     {
         id: 1,
@@ -6,20 +10,20 @@ export const destinations = [
         altText: "Munnar",
         slug: "munnar",
         name: "Munnar",
-        tagline:'',
-        description : "" ,
+        tagline: "Explore the serene beauty of Munnar",
+        description: "Munnar, located in the heart of Kerala, is a picturesque hill station surrounded by lush tea gardens, mist-covered hills, and sparkling lakes. Known for its cool climate and breathtaking natural beauty, Munnar offers a peaceful retreat for nature lovers, adventure enthusiasts, and those seeking a break from the hustle and bustle of city life. With its scenic landscapes, diverse wildlife, and tea plantation tours, Munnar provides a truly magical experience for visitors of all kinds",
         toursCount: 258,
         delay: 0,
     },
     {
         id: 2,
-        image:"/assets/images/destinations/alappuzha-cirlce.png",
+        image: "/assets/images/destinations/alappuzha-cirlce.png",
         imageDetail: "/assets/images/destinations/alappuzha-detail.jpg",
         altText: "Alappuzha",
         slug: "alappuzha",
         name: "Alappuzha",
-        tagline:'',
-        description : "" ,
+        tagline: "A serene backwater paradise",
+        description: "Alappuzha, often called the 'Venice of the East', is known for its tranquil backwaters, beautiful houseboats, and scenic landscapes. This charming town is a perfect destination for relaxing boat rides through lush paddy fields and canals, making it a must-visit destination for nature lovers and those seeking a unique cultural experience",
         toursCount: 258,
         delay: 50,
     },
@@ -30,8 +34,8 @@ export const destinations = [
         altText: "Varkala",
         slug: "varkala",
         name: "Varkala",
-        tagline:'',
-        description : "" ,
+        tagline: "Sun, sand, and spiritual solace",
+        description: "Varkala is a coastal town in Kerala, known for its stunning cliffs overlooking the Arabian Sea and the Papanasam Beach. This destination is perfect for a blend of relaxation, spiritual retreat, and adventure. With its ancient temples, serene beaches, and natural beauty, Varkala offers an enriching experience for all types of travelers",
         toursCount: 258,
         delay: 100,
     },
@@ -42,8 +46,8 @@ export const destinations = [
         altText: "Ooty",
         slug: "ooty",
         name: "Ooty",
-        tagline:'',
-        description : "" ,
+        tagline: "The Queen of Hill Stations",
+        description: "Ooty, a famous hill station in Tamil Nadu, is known for its lush landscapes, tea plantations, and cool climate. Often referred to as the 'Queen of Hill Stations', Ooty offers a charming experience with its botanical gardens, serene lakes, and scenic views of the Nilgiri Hills. It is an ideal destination for those looking to escape the summer heat and enjoy nature’s beauty",
         toursCount: 258,
         delay: 100,
     },
@@ -54,8 +58,8 @@ export const destinations = [
         altText: "Rameshwaram",
         slug: "rameshwaram",
         name: "Rameshwaram",
-        tagline:'',
-        description : "" ,
+        tagline: "A spiritual journey to the sacred shores",
+        description: "Rameswaram, located in Tamil Nadu, is one of the holiest pilgrimage sites in India. Known for its historical temples and pristine beaches, Rameswaram offers a peaceful atmosphere for those seeking spiritual solace. The sacred Ramanathaswamy Temple and the beautiful Pamban Bridge are highlights of this revered destination",
         toursCount: 258,
         delay: 150,
     },
@@ -66,8 +70,8 @@ export const destinations = [
         altText: "Coorg",
         slug: "coorg",
         name: "Coorg",
-        tagline:'',
-        description : "" ,
+        tagline: "A land of coffee and scenic hills",
+        description: "Coorg, also known as Kodagu, is a picturesque hill station in Karnataka, renowned for its lush coffee plantations, misty hills, and beautiful landscapes. Known as the 'Scotland of India', Coorg offers a perfect blend of natural beauty and cultural heritage, making it an ideal destination for nature lovers and adventure enthusiasts alike",
         toursCount: 258,
         delay: 150,
     },
@@ -78,8 +82,8 @@ export const destinations = [
         altText: "Hampi",
         slug: "hampi",
         name: "Hampi",
-        tagline:'',
-        description : "" ,
+        tagline: "A journey through history and heritage",
+        description: "Hampi, a UNESCO World Heritage site, is an ancient village in Karnataka known for its stunning ruins and rich history. Once the capital of the Vijayanagara Empire, Hampi is famous for its impressive temples, historical monuments, and unique rock formations, making it a must-visit for history buffs and cultural explorers",
         toursCount: 258,
         delay: 150,
     },
@@ -90,8 +94,8 @@ export const destinations = [
         altText: "Wayanad",
         slug: "wayanad",
         name: "Wayanad",
-        tagline:'',
-        description : "" ,
+        tagline: "Nature’s hidden gem",
+        description: "Wayanad, located in the Western Ghats of Kerala, is a tranquil paradise known for its lush forests, waterfalls, and wildlife sanctuaries. This serene destination offers a perfect escape for nature lovers, adventure seekers, and those looking for a peaceful retreat amidst the beauty of the hills and forests",
         toursCount: 258,
         delay: 150,
     },
@@ -102,8 +106,8 @@ export const destinations = [
         altText: "Thekkady",
         slug: "thekkady",
         name: "Thekkady",
-        tagline:'',
-        description : "" ,
+        tagline: "A haven for wildlife and adventure",
+        description: "Thekkady, located in the Idukki district of Kerala, is famous for its wildlife sanctuary, home to a variety of species including elephants, tigers, and exotic birds. Known for its spice plantations and boating experiences in Periyar Lake, Thekkady is a haven for wildlife enthusiasts and adventure seekers alike",
         toursCount: 258,
         delay: 150,
     },
@@ -114,9 +118,152 @@ export const destinations = [
         altText: "Athirappilly",
         slug: "athirappilly",
         name: "Athirappilly",
-        tagline:'',
-        description : "" ,
+        tagline: "Kerala’s own ‘Niagara Falls’",
+        description: "Athirappilly is known as the 'Niagara of India' for its stunning waterfalls, which are among the largest in Kerala. Located in the Thrissur district, the Athirappilly Waterfalls are surrounded by lush greenery and offer a mesmerizing sight, making it a perfect spot for nature lovers and photographers",
         toursCount: 258,
         delay: 150,
     }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export const destinations = [
+//     {
+//         id: 1,
+//         image: "/assets/images/destinations/munnar-circle.png",
+//         imageDetail: "/assets/images/destinations/munnar-detail.jpg",
+//         altText: "Munnar",
+//         slug: "munnar",
+//         name: "Munnar",
+//         tagline: "Explore the serene beauty of Munnar",
+//         description: "Munnar, located in the heart of Kerala, is a picturesque hill station surrounded by lush tea gardens, mist-covered hills, and sparkling lakes. Known for its cool climate and breathtaking natural beauty, Munnar offers a peaceful retreat for nature lovers, adventure enthusiasts, and those seeking a break from the hustle and bustle of city life. With its scenic landscapes, diverse wildlife, and tea plantation tours, Munnar provides a truly magical experience for visitors of all kinds.",
+//         toursCount: 258,
+//         delay: 0,
+//     },
+//     {
+//         id: 2,
+//         image:"/assets/images/destinations/alappuzha-cirlce.png",
+//         imageDetail: "/assets/images/destinations/alappuzha-detail.jpg",
+//         altText: "Alappuzha",
+//         slug: "alappuzha",
+//         name: "Alappuzha",
+//         tagline:'',
+//         description : "" ,
+//         toursCount: 258,
+//         delay: 50,
+//     },
+//     {
+//         id: 3,
+//         image: "/assets/images/destinations/varkala-circle.png",
+//         imageDetail: "/assets/images/destinations/varkala-detail.jpg",
+//         altText: "Varkala",
+//         slug: "varkala",
+//         name: "Varkala",
+//         tagline:'',
+//         description : "" ,
+//         toursCount: 258,
+//         delay: 100,
+//     },
+//     {
+//         id: 4,
+//         image: "/assets/images/destinations/ooty-circle.png",
+//         imageDetail: "/assets/images/destinations/ooty-detail.jpg",
+//         altText: "Ooty",
+//         slug: "ooty",
+//         name: "Ooty",
+//         tagline:'',
+//         description : "" ,
+//         toursCount: 258,
+//         delay: 100,
+//     },
+//     {
+//         id: 5,
+//         image: "/assets/images/destinations/rameswaram-circle.png",
+//         imageDetail: "/assets/images/destinations/rameswaram-detail.jpg",
+//         altText: "Rameshwaram",
+//         slug: "rameshwaram",
+//         name: "Rameshwaram",
+//         tagline:'',
+//         description : "" ,
+//         toursCount: 258,
+//         delay: 150,
+//     },
+//     {
+//         id: 6,
+//         image: "/assets/images/destinations/Coorg-circle.png",
+//         imageDetail: "/assets/images/destinations/coorg-detail.jpg",
+//         altText: "Coorg",
+//         slug: "coorg",
+//         name: "Coorg",
+//         tagline:'',
+//         description : "" ,
+//         toursCount: 258,
+//         delay: 150,
+//     },
+//     {
+//         id: 7,
+//         image: "/assets/images/destinations/hampi-circle.png",
+//         imageDetail: "/assets/images/destinations/hampi-detail.jpg",
+//         altText: "Hampi",
+//         slug: "hampi",
+//         name: "Hampi",
+//         tagline:'',
+//         description : "" ,
+//         toursCount: 258,
+//         delay: 150,
+//     },
+//     {
+//         id: 8,
+//         image: "/assets/images/destinations/wayanad-circle.png",
+//         imageDetail: "/assets/images/destinations/wayanad-detail.jpg",
+//         altText: "Wayanad",
+//         slug: "wayanad",
+//         name: "Wayanad",
+//         tagline:'',
+//         description : "" ,
+//         toursCount: 258,
+//         delay: 150,
+//     },
+//     {
+//         id: 9,
+//         image: "/assets/images/destinations/thekkady-circle.png",
+//         imageDetail: "/assets/images/destinations/thekkady-detail.jpg",
+//         altText: "Thekkady",
+//         slug: "thekkady",
+//         name: "Thekkady",
+//         tagline:'',
+//         description : "" ,
+//         toursCount: 258,
+//         delay: 150,
+//     },
+//     {
+//         id: 10,
+//         image: "/assets/images/destinations/athirappilly-circle.png",
+//         imageDetail: "/assets/images/destinations/athirappilly-detail.jpg",
+//         altText: "Athirappilly",
+//         slug: "athirappilly",
+//         name: "Athirappilly",
+//         tagline:'',
+//         description : "" ,
+//         toursCount: 258,
+//         delay: 150,
+//     }
+// ];

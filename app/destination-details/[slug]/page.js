@@ -6,10 +6,10 @@ import Subscribe from "@/components/Subscribe";
 import { destinations } from "@/constants/destinations";
 import ReveloLayout from "@/layout/ReveloLayout";
 import Link from "next/link";
-import { notFound} from 'next/navigation';
+import { notFound } from 'next/navigation';
 const page = ({ params }) => {
 
-    const { slug } = params; 
+    const { slug } = params;
     const destination = destinations.find((d) => d.slug === slug);
     if (!destination) {
         notFound();
@@ -62,20 +62,14 @@ const page = ({ params }) => {
                                 data-aos-offset={50}
                             >
                                 <div className="section-title mb-25">
-                                    <span className="h2 mb-15">Welcome to </span>
-                                    <h2>{destination.name}</h2>
+                                    {/* <span className="h6 mb-15">Welcome to </span> */}
+                                    <h3>{destination.tagline}</h3>
                                 </div>
                                 <p>
-                                    Bali, Indonesia, is a tropical paradise renowned for
-                                    breathtaking beaches, vibrant culture, and lush landscapes.
-                                    Located at the westernmost end of the Lesser Sunda Islands,
-                                    Bali boasts a warm, tropical climate that is year-round
-                                    destination visitors are drawn to its picturesque beaches
+                                    {destination.description.split('. ').slice(0, 2).join('. ') + '.'}
                                 </p>
                                 <p>
-                                    The island's rich cultural heritage is evident in numerous
-                                    temples, including the iconic Tanah Lot and Uluwatu Temple, as
-                                    well as the cultural
+                                    {destination.description.split('. ').slice(2).join('. ') + '.'}
                                 </p>
                                 <Link
                                     href="/destination"
@@ -124,7 +118,7 @@ const page = ({ params }) => {
                     <Destination />
                 </div>
             </section>
-            
+
             {/* <Subscribe /> */}
         </ReveloLayout>
     );

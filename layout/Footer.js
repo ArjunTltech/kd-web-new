@@ -215,16 +215,16 @@ const Footer1 = () => {
                 </div>
                 <ul className="list-style-three">
                   <li>
-                    <Link href="tour-grid">Honeymoon</Link>
+                    <Link href="/honeymoon-package">Honeymoon</Link>
                   </li>
                   <li>
-                    <Link href="tour-grid">Educational</Link>
+                    <Link href="/educational-tours">Educational</Link>
                   </li>
                   <li>
-                    <Link href="tour-grid">Traditional</Link>
+                    <Link href="/traditional-experiences">Traditional</Link>
                   </li>
                   <li>
-                    <Link href="tour-grid">Group Adventures</Link>
+                    <Link href="/group-adventures">Group Adventures</Link>
                   </li>
                 </ul>
               </div>
@@ -411,16 +411,16 @@ const Footer2 = ({ insta }) => {
                 </div>
                 <ul className="list-style-three">
                   <li>
-                    <Link href="tour-grid">Honeymoon</Link>
+                    <Link href="/honeymoon-package">Honeymoon</Link>
                   </li>
                   <li>
-                    <Link href="tour-grid">Educational</Link>
+                    <Link href="/educational-tours">Educational</Link>
                   </li>
                   <li>
-                    <Link href="tour-grid">Traditional</Link>
+                    <Link href="/traditional-experiences">Traditional</Link>
                   </li>
                   <li>
-                    <Link href="tour-grid">Group Adventures</Link>
+                    <Link href="/group-adventures">Group Adventures</Link>
                   </li>
                 </ul>
               </div>
