@@ -44,8 +44,8 @@ const page = () => {
                 <SectionTitle
                   title={"Your Gateway to South India’s Finest Destinations"}
                   countValue={500}
-                  subtitle1={"One site"}
-                  subtitle2={"most popular experience you’ll remember"}
+                  subtitle1={""}
+                  subtitle2={"Must-See Experiences in South India"}
                 />
               </div>
             </div>
@@ -681,7 +681,7 @@ const page = () => {
                 <div className="col-md-6">
                   <div className="feature-item mt-20">
                     <div className="icon">
-                      <i className="flaticon-climbing" />
+                      <i className="flaticon-route" />
                     </div>
                     <div className="content">
                       <h5>

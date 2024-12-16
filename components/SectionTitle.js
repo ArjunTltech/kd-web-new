@@ -1,9 +1,10 @@
 import { Fragment } from "react";
 import Counter from "./Counter";
+
 const SectionTitle = ({
   title,
   countValue,
-  subtitle1 = "One site",
+  subtitle1,
   subtitle2 = "most popular experience you’ll remember",
   bg,
 }) => {
@@ -11,13 +12,19 @@ const SectionTitle = ({
     <Fragment>
       <h2>{title}</h2>
       <p>
-        {subtitle1}{" "}
-        <span className={`count-text plus ${bg}`}>
-          <Counter end={countValue} />
-        </span>{" "}
+        {subtitle1}
+        {countValue && countValue > 0 ? (
+          <span className={`count-text plus ${bg}`}>
+            <Counter end={countValue} />
+          </span>
+        ) : (
+          <></>
+        )}
+        {" "}
         {subtitle2}
       </p>
     </Fragment>
   );
 };
+
 export default SectionTitle;
