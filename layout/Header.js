@@ -52,18 +52,18 @@ const Menu = () => {
             <li className="dropdown">
               <a href="#">Packages</a>
               <ul>
-                <li>
-                  <Link href="/honeymoon-package">Honeymoon Packages</Link>
-                </li>
-                <li>
-                  <Link href="/tour-grid">Educational Tours</Link>
-                </li>
-                <li>
-                  <Link href="/tour-grid">Traditional Experiences</Link>
-                </li>
-                <li>
-                  <Link href="/tour-grid">Group Adventures</Link>
-                </li>
+              <li>
+                    <Link href="/honeymoon-package">Honeymoon</Link>
+                  </li>
+                  <li>
+                    <Link href="/educational-tours">Educational</Link>
+                  </li>
+                  <li>
+                    <Link href="/traditional-experiences">Traditional</Link>
+                  </li>
+                  <li>
+                    <Link href="/group-adventures">Group Adventures</Link>
+                  </li>
               </ul>
               <div className="dropdown-btn">
                 <span className="far fa-angle-down" />

@@ -784,7 +784,7 @@ const page = () => {
                 <span className="category">Honeymoon</span>
                 <h2>Romantic Escapes: Honeymoon in Paradise</h2>
                 <Link
-                  href="tour-details"
+                  href="/honeymoon-package"
                   className="theme-btn style-two bgc-secondary"
                 >
                   <span data-hover="Explore Package">Explore Package</span>
