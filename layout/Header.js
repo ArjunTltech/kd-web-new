@@ -53,7 +53,7 @@ const Menu = () => {
               <a href="#">Packages</a>
               <ul>
                 <li>
-                  <Link href="/tour-grid">Honeymoon Packages</Link>
+                  <Link href="/honeymoon-package">Honeymoon Packages</Link>
                 </li>
                 <li>
                   <Link href="/tour-grid">Educational Tours</Link>
