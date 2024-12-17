@@ -6,15 +6,45 @@ import Testimonial from "@/components/slider/Testimonial";
 import ReveloLayout from "@/layout/ReveloLayout";
 import Link from "next/link";
 
-
 export const metadata = {
-  title: "About Kerala Drives - Travel & Tour Booking",
-  description: "Kerala Drives",
+  title: "About Kerala Drives | Your Expert Tour Guide for Kerala & Beyond",
+  description:
+    "Learn more about Kerala Drives - a trusted travel agency offering personalized and eco-friendly tours across Kerala and South India.",
+  keywords: [
+    "about Kerala Drives",
+    "personalized Kerala tours",
+    "eco-friendly tourism",
+    "Kerala travel agency",
+    "customized Kerala tours",
+    "sustainable tourism Kerala",
+    "responsible travel South India",
+    "luxury Kerala travel",
+  ],
+  openGraph: {
+    title: "About Kerala Drives | Your Expert Tour Guide for Kerala & Beyond",
+    description:
+      "Discover what makes Kerala Drives the preferred choice for travelers seeking unique and unforgettable experiences in Kerala.",
+    images: ["/assets/images/about/about-banner.jpg"],
+    type: "website",
+    url: "https://www.keraladrives.com/about",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Kerala Drives | Your Expert Tour Guide for Kerala & Beyond",
+    description:
+      "Your travel partner for personalized and sustainable tours across Kerala and South India.",
+    images: ["/assets/images/about/about-banner.jpg"],
+  },
+  alternates: { canonical: "https://www.keraladrives.com/about" },
 };
+
 const page = () => {
   return (
     <ReveloLayout>
-      <Banner pageTitle={"About Us"} />
+      <Banner
+        pageTitle={"About Us"}
+        imageUrl={"assets/images/about/about_cover_image.jpg"}
+      />
       {/* About Area start */}
       <section className="about-area-two py-100 rel z-1">
         <div className="container">
@@ -37,9 +67,7 @@ const page = () => {
                 <div className="row">
                   <div className="col-lg-8 pe-lg-5 me-lg-5">
                     <div className="section-title mb-25">
-                      <h2>
-                       Crafting Dreams, One Journey at a Time
-                      </h2>
+                      <h2>Crafting Dreams, One Journey at a Time</h2>
                     </div>
                   </div>
                   <div className="col-md-4">
@@ -53,7 +81,8 @@ const page = () => {
                   </div>
                   <div className="col-md-8">
                     <p>
-                    With over a decade of experience, we bring unparalleled expertise in curating extraordinary travel experiences.
+                      With over a decade of experience, we bring unparalleled
+                      expertise in curating extraordinary travel experiences.
                     </p>
                     <ul className="list-style-two mt-35">
                       <li>Affordable Luxury</li>
@@ -61,7 +90,10 @@ const page = () => {
                       <li>Hassle-Free Travel</li>
                       <li>Personalized Plans</li>
                     </ul>
-                    <Link href="/destination" className="theme-btn style-three mt-30">
+                    <Link
+                      href="/destination"
+                      className="theme-btn style-three mt-30"
+                    >
                       <span data-hover="Explore Tours">Explore Tours</span>
                       <i className="fal fa-arrow-right" />
                     </Link>
@@ -187,10 +219,7 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-                <Link
-                  href="/destination"
-                  className="theme-btn mt-10 style-two"
-                >
+                <Link href="/destination" className="theme-btn mt-10 style-two">
                   <span data-hover="Explore Destinations">
                     Explore Destinations
                   </span>
@@ -228,7 +257,6 @@ const page = () => {
             </div>
           </div>
           <div className="row justify-content-center">
-          
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div
                 className="team-item hover-content"
@@ -240,7 +268,7 @@ const page = () => {
                 <img src="assets/images/team/guide4.jpg" alt="Guide" />
                 <div className="content">
                   <h6>Sajan Sajan Vohab</h6>
-                  <span className="designation">Founder /  CEO</span>
+                  <span className="designation">Founder / CEO</span>
                   <div className="social-style-one inner-content">
                     <Link href="contact">
                       <i className="fab fa-twitter" />
@@ -258,7 +286,19 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <p  className="col-xl-8 col-lg-8 col-sm-6">Welcome to Kerala Drives, a travel agency that specializes in providing unique travel experiences in God's own country, Kerala. Our passion for travel and exploration led us to create Kerala Drives, where we curate customized travel packages that allow you to explore Kerala's diverse landscapes, rich culture, and heritage.At Kerala Drives, we are committed to providing you with personalized attention and the highest level of service. Our team consists of travel experts who are well-versed in Kerala's geography, culture, and history. Our years of experience in the travel industry have equipped us with the knowledge and expertise to provide you with unforgettable travel experiences.</p>
+            <p className="col-xl-8 col-lg-8 col-sm-6">
+              Welcome to Kerala Drives, a travel agency that specializes in
+              providing unique travel experiences in God's own country, Kerala.
+              Our passion for travel and exploration led us to create Kerala
+              Drives, where we curate customized travel packages that allow you
+              to explore Kerala's diverse landscapes, rich culture, and
+              heritage.At Kerala Drives, we are committed to providing you with
+              personalized attention and the highest level of service. Our team
+              consists of travel experts who are well-versed in Kerala's
+              geography, culture, and history. Our years of experience in the
+              travel industry have equipped us with the knowledge and expertise
+              to provide you with unforgettable travel experiences.
+            </p>
           </div>
         </div>
       </section>
@@ -308,9 +348,7 @@ const page = () => {
                   <h5>
                     <Link href="destination-details">Personalized Plans</Link>
                   </h5>
-                  <p>
-                  Itineraries tailored to your preferences
-                  </p>
+                  <p>Itineraries tailored to your preferences</p>
                 </div>
               </div>
             </div>
