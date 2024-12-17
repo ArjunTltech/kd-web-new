@@ -76,7 +76,7 @@ const Menu = () => {
               <a href="#">Explore</a>
               <ul>
                 <li>
-                  <Link href="/gellery-grid">Gallery</Link>
+                  <Link href="gallery">Gallery</Link>
                 </li>
                 <li>
                   <Link href="/faqs">FAQs</Link>
@@ -313,7 +313,7 @@ const Header2 = ({ sidebarClick }) => {
                   <a href="#">Gallery</a>
                   <ul style={multiMenuActiveLi("Gallery")}>
                     <li>
-                      <Link href="/gellery-grid">Gallery Grid</Link>
+                      <Link href="gallery">Gallery Grid</Link>
                     </li>
                     <li>
                       <Link href="/gellery-slider">Gallery Slider</Link>
