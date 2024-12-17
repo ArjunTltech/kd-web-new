@@ -43,8 +43,11 @@ export const metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
-
   metadataBase: new URL("https://www.keraladrives.com"),
 };
 export default function RootLayout({ children }) {

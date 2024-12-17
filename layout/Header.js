@@ -76,10 +76,10 @@ const Menu = () => {
               <a href="#">Explore</a>
               <ul>
                 <li>
-                  <Link href="/faqs">FAQs</Link>
+                  <Link href="/gellery-grid">Gallery</Link>
                 </li>
                 <li>
-                  <Link href="/gellery-grid">Gallery</Link>
+                  <Link href="/faqs">FAQs</Link>
                 </li>
                 <li>
                   <Link href="/404">404 Error</Link>
@@ -88,9 +88,6 @@ const Menu = () => {
               <div className="dropdown-btn">
                 <span className="far fa-angle-down" />
               </div>
-            </li>
-            <li>
-              <Link href="/blog">Blogs</Link>
             </li>
           </ul>
         </Accordion.Collapse>
