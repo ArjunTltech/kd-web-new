@@ -245,7 +245,7 @@ const Footer1 = () => {
                     <Link href="about">About Us</Link>
                   </li>
                   <li>
-                    <Link href="blog">Blogs</Link>
+                    <Link href="destination">Destinations</Link>
                   </li>
                   <li>
                     <Link href="gellery-grid">Gallery</Link>
@@ -441,7 +441,7 @@ const Footer2 = ({ insta }) => {
                     <Link href="about">About Us</Link>
                   </li>
                   <li>
-                    <Link href="blog">Blogs</Link>
+                    <Link href="destination">Destinations</Link>
                   </li>
                   <li>
                     <Link href="gellery-grid">Gallery</Link>

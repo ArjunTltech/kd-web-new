@@ -8,7 +8,10 @@ import { destinations } from "../../constants/destinations"
 const page = () => {
   return (
     <ReveloLayout>
-      <Banner pageTitle={"Destinations"} search={true} />
+      <Banner pageTitle={"Destinations"} 
+      pageName={"Honeymoon Packages"}
+      imageUrl="/assets/images/banner/destination-banner.jpg"
+      />
 
       <section className="destinations-page-area pt-95 pb-90 rel z-1">
         <div className="container">
