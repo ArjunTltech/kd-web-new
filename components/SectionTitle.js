@@ -5,7 +5,7 @@ const SectionTitle = ({
   title,
   countValue,
   subtitle1,
-  subtitle2 = "most popular experience you’ll remember",
+  subtitle2,
   bg,
 }) => {
   return (

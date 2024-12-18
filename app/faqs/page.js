@@ -8,6 +8,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Accordion } from "react-bootstrap";
 
+
 const Page = () => {
   const faqItems = [
     {
@@ -166,7 +167,7 @@ const Page = () => {
 
   return (
     <ReveloLayout>
-      <Banner pageTitle={"FAQs"} />
+      <Banner pageTitle={"FAQs"} imageUrl={"/assets/images/banner/faq_banner_image.jpg"}/>
 
       {/* FAQs Area start */}
       <section className="faq-page-area pt-70 pb-85 rel z-1">
