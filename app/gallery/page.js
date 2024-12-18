@@ -6,7 +6,7 @@ import Link from "next/link";
 
 
 export const metadata = {
-  title: "Gallery | Kerala Drives - Memorable Travel Moments Captured",
+  title: "Gallery Kerala Drives | Memorable Travel Moments Captured",
   description:
     "Discover captivating moments from Kerala Drives tours. Explore our photo gallery showcasing houseboat cruises, cultural experiences, wildlife safaris, and scenic South India destinations.",
   keywords: [
