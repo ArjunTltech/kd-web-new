@@ -286,7 +286,10 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <p className="col-xl-8 col-lg-8 col-sm-6">
+            <p className="col-xl-8 col-lg-8 col-sm-6"  data-aos="fade-up"
+                data-aos-delay={150}
+                data-aos-duration={1500}
+                data-aos-offset={50}>
               Welcome to Kerala Drives, a travel agency that specializes in
               providing unique travel experiences in God's own country, Kerala.
               Our passion for travel and exploration led us to create Kerala
