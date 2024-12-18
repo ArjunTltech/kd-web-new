@@ -1,5 +1,40 @@
-"use client";
 import ReveloLayout from "@/layout/ReveloLayout";
+
+export const metadata = {
+  title:
+    "Disclaimer | Limitations, Risks & Terms | Kerala Drives Tours and Travels",
+  description:
+    "Review the disclaimer of Kerala Drives Tours and Travels. Understand limitations, travel risks, third-party links, and terms of use for our services.",
+  keywords: [
+    "Kerala Drives disclaimer",
+    "travel service disclaimer",
+    "terms of use Kerala Drives",
+    "third-party links disclaimer",
+    "travel risks Kerala",
+    "website disclaimer",
+    "user agreement disclaimer",
+  ],
+  openGraph: {
+    title:
+      "Disclaimer | Limitations, Risks & Terms | Kerala Drives Tours and Travels",
+    description:
+      "Learn about travel risks, limitations, and third-party link responsibilities in the Kerala Drives Tours and Travels disclaimer.",
+    images: ["/assets/images/logo.png"],
+    type: "website",
+    url: "https://www.keraladrives.com/disclaimer",
+  },
+  twitter: {
+    card: "summary",
+    title:
+      "Disclaimer | Limitations, Risks & Terms | Kerala Drives Tours and Travels",
+    description:
+      "Understand the limitations, risks, and responsibilities outlined in the Kerala Drives Tours and Travels disclaimer.",
+    images: ["/assets/images/logo.png"],
+  },
+  alternates: {
+    canonical: "https://www.keraladrives.com/disclaimer",
+  },
+};
 
 const Disclaimer = () => {
   const disclaimerSections = [

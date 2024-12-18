@@ -1,5 +1,36 @@
-"use client";
 import ReveloLayout from "@/layout/ReveloLayout";
+
+export const metadata = {
+  title: "Privacy Policy | How Kerala Drives Protects Your Data & Privacy",
+  description:
+    "Learn how Kerala Drives Tours and Travels protects your personal data, ensures privacy, and complies with data protection standards to safeguard your information.",
+  keywords: [
+    "privacy policy Kerala Drives",
+    "data protection policy",
+    "user privacy Kerala Drives",
+    "personal data protection",
+    "Kerala Drives data security",
+    "user data privacy policy",
+  ],
+  openGraph: {
+    title: "Privacy Policy | How Kerala Drives Protects Your Data & Privacy",
+    description:
+      "Understand how we collect, use, and protect your personal information while ensuring the highest standards of privacy and security.",
+    images: ["/assets/images/logo.png"],
+    type: "website",
+    url: "https://www.keraladrives.com/privacy-policy",
+  },
+  twitter: {
+    card: "summary",
+    title: "Privacy Policy | How Kerala Drives Protects Your Data & Privacy",
+    description:
+      "Read Kerala Drives' privacy policy to learn how we handle and protect your personal data responsibly.",
+    images: ["/assets/images/logo.png"],
+  },
+  alternates: {
+    canonical: "https://www.keraladrives.com/privacy-policy",
+  },
+};
 
 const PrivacyPolicy = () => {
   const policy = [
