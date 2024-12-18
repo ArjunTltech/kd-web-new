@@ -141,7 +141,7 @@ const Header1 = ({ sidebarClick }) => {
               {/* Menu Button */}
               <div className="menu-btns py-10">
                 <Link
-                  href="https://enquiry.keraladrives.com/"
+                  href="https://enquiry.keraladrives.com/" target="_blank"
                   className="theme-btn style-two bgc-secondary"
                 >
                   <span data-hover="Enquire">Enquire</span>
@@ -378,7 +378,7 @@ const Header2 = ({ sidebarClick }) => {
             </li>
           </ul>
           <Link
-            href="https://enquiry.keraladrives.com/"
+            href="https://enquiry.keraladrives.com/" target="_blank"
             className="theme-btn style-two style-three mt-15 mb-55"
           >
             <span data-hover="Enquire">Enquire</span>
@@ -438,7 +438,7 @@ const Header3 = ({ sidebarClick }) => {
               {/* Menu Button */}
               <div className="menu-btns py-10">
                 <Link
-                  href="https://enquiry.keraladrives.com/"
+                  href="https://enquiry.keraladrives.com/" target="_blank"
                   className="theme-btn style-two bgc-secondary"
                 >
                   <span data-hover="Enquire">Enquire</span>
