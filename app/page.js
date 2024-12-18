@@ -95,259 +95,260 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center">
-            <div className="col-xxl-3 col-xl-4 col-md-6">
-              <div
-                className="destination-item"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <div className="ratting">
-                    <i className="fas fa-star" /> 4.8
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-xxl-4 col-xl-4 col-md-6">
+                <div
+                  className="destination-item"
+                  data-aos="fade-up"
+                  data-aos-duration={1500}
+                  data-aos-offset={50}
+                >
+                  <div className="image">
+                    <div className="ratting">
+                      <i className="fas fa-star" /> 4.8
+                    </div>
+                    <img
+                      src="assets/images/destinations/alleppy-backwaters.jpg"
+                      alt="Destination"
+                    />
                   </div>
-                  <img
-                    src="assets/images/destinations/alleppy-backwaters.jpg"
-                    alt="Destination"
-                  />
-                </div>
-                <div className="content">
-                  <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Alappuzha, Kerala
-                  </span>
-                  <h5 className="text-white">
-                    Glide through serene waters on luxurious houseboats
-                  </h5>
-                  {/* <span className="time">3 days 2 nights - Couple</span> */}
-                </div>
-                <div className="destination-footer">
-                  <span className="price">
-                    <span>₹5,000</span> Onwards
-                  </span>
-                  <a
-                    href="https://enquiry.keraladrives.com"
-                    target="_blank"
-                    className="read-more"
-                  >
-                    Enquire <i className="fal fa-angle-right" />
-                  </a>
+                  <div className="content">
+                    <span className="location">
+                      <i className="fal fa-map-marker-alt" /> Alappuzha, Kerala
+                    </span>
+                    <h6 className="text-white">
+                      Glide through serene waters on luxurious houseboats
+                    </h6>
+                    {/* <span className="time">3 days 2 nights - Couple</span> */}
+                  </div>
+                  <div className="destination-footer">
+                    <span className="price">
+                      <span>₹5,000</span> Onwards
+                    </span>
+                    <a
+                      href="https://enquiry.keraladrives.com"
+                      target="_blank"
+                      className="read-more"
+                    >
+                      Enquire <i className="fal fa-angle-right" />
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xxl-3 col-xl-4 col-md-6">
-              <div
-                className="destination-item"
-                data-aos="fade-up"
-                data-aos-delay={100}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <div className="ratting">
-                    <i className="fas fa-star" /> 4.8
+              <div className="col-xxl-4 col-xl-4 col-md-6">
+                <div
+                  className="destination-item"
+                  data-aos="fade-up"
+                  data-aos-delay={100}
+                  data-aos-duration={1500}
+                  data-aos-offset={50}
+                >
+                  <div className="image">
+                    <div className="ratting">
+                      <i className="fas fa-star" /> 4.8
+                    </div>
+                    <img
+                      src="assets/images/destinations/munnar-tea-estate.jpg"
+                      alt="Destination"
+                    />
                   </div>
-                  <img
-                    src="assets/images/destinations/munnar-tea-estate.jpg"
-                    alt="Destination"
-                  />
-                </div>
-                <div className="content">
-                  <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Munnar, Kerala
-                  </span>
-                  <h5 className="text-white">
-                    Breathe in the fresh mountain air amidst endless tea gardens
-                  </h5>
-                  {/* <span className="time">3 days 2 nights - Couple</span> */}
-                </div>
-                <div className="destination-footer">
-                  <span className="price">
-                    <span>₹6,500</span> Onwards
-                  </span>
-                  <a
-                    href="https://enquiry.keraladrives.com"
-                    target="_blank"
-                    className="read-more"
-                  >
-                    Enquire <i className="fal fa-angle-right" />
-                  </a>
+                  <div className="content">
+                    <span className="location">
+                      <i className="fal fa-map-marker-alt" /> Munnar, Kerala
+                    </span>
+                    <h6 className="text-white">
+                      Breathe in the fresh mountain air amidst endless tea gardens
+                    </h6>
+                    {/* <span className="time">3 days 2 nights - Couple</span> */}
+                  </div>
+                  <div className="destination-footer">
+                    <span className="price">
+                      <span>₹6,500</span> Onwards
+                    </span>
+                    <a
+                      href="https://enquiry.keraladrives.com"
+                      target="_blank"
+                      className="read-more"
+                    >
+                      Enquire <i className="fal fa-angle-right" />
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xxl-3 col-xl-4 col-md-6">
-              <div
-                className="destination-item"
-                data-aos="fade-up"
-                data-aos-delay={200}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <div className="ratting">
-                    <i className="fas fa-star" /> 4.8
-                  </div>
-                  {/* <a href="#" className="heart">
+              <div className="col-xxl-4 col-xl-4 col-md-6">
+                <div
+                  className="destination-item"
+                  data-aos="fade-up"
+                  data-aos-delay={200}
+                  data-aos-duration={1500}
+                  data-aos-offset={50}
+                >
+                  <div className="image">
+                    <div className="ratting">
+                      <i className="fas fa-star" /> 4.8
+                    </div>
+                    {/* <a href="#" className="heart">
                     <i className="fas fa-heart" />
                   </a> */}
-                  <img
-                    src="assets/images/destinations/varkala-beach.jpg"
-                    alt="Destination"
-                  />
-                </div>
-                <div className="content">
-                  <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Varkala, Kerala
-                  </span>
-                  <h5 className="text-white">
-                    Unwind on pristine beaches with dramatic cliff views
-                  </h5>
-                  {/* <span className="time">3 days 2 nights - Couple</span> */}
-                </div>
-                <div className="destination-footer">
-                  <span className="price">
-                    <span>₹5,200</span> Onwards
-                  </span>
-                  <a
-                    href="https://enquiry.keraladrives.com"
-                    target="_blank"
-                    className="read-more"
-                  >
-                    Enquire <i className="fal fa-angle-right" />
-                  </a>
+                    <img
+                      src="assets/images/destinations/varkala-beach.jpg"
+                      alt="Destination"
+                    />
+                  </div>
+                  <div className="content">
+                    <span className="location">
+                      <i className="fal fa-map-marker-alt" /> Varkala, Kerala
+                    </span>
+                    <h6 className="text-white">
+                      Unwind on pristine beaches with dramatic cliff views
+                    </h6>
+                    {/* <span className="time">3 days 2 nights - Couple</span> */}
+                  </div>
+                  <div className="destination-footer">
+                    <span className="price">
+                      <span>₹5,200</span> Onwards
+                    </span>
+                    <a
+                      href="https://enquiry.keraladrives.com"
+                      target="_blank"
+                      className="read-more"
+                    >
+                      Enquire <i className="fal fa-angle-right" />
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-xxl-3 col-xl-4 col-md-6">
-              <div
-                className="destination-item"
-                data-aos="fade-up"
-                data-aos-delay={300}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <div className="ratting">
-                    <i className="fas fa-star" /> 4.8
-                  </div>
-                  {/* <a href="#" className="heart">
+
+              <div className="col-xxl-4 col-xl-4 col-md-6">
+                <div
+                  className="destination-item"
+                  data-aos="fade-up"
+                  data-aos-delay={300}
+                  data-aos-duration={1500}
+                  data-aos-offset={50}
+                >
+                  <div className="image">
+                    <div className="ratting">
+                      <i className="fas fa-star" /> 4.8
+                    </div>
+                    {/* <a href="#" className="heart">
                     <i className="fas fa-heart" />
                   </a> */}
-                  <img
-                    src="assets/images/destinations/Ooty-hills.jpg"
-                    alt="Destination"
-                  />
-                </div>
-                <div className="content">
-                  <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Ooty, Tamilnadu
-                  </span>
-                  <h5 className="text-white">
-                    Experience the charm of this iconic hill station
-                  </h5>
-                  {/* <span className="time">3 days 2 nights - Couple</span> */}
-                </div>
-                <div className="destination-footer">
-                  <span className="price">
-                    <span>₹7,000</span> Onwards
-                  </span>
-                  <a
-                    href="https://enquiry.keraladrives.com"
-                    target="_blank"
-                    className="read-more"
-                  >
-                    Enquire <i className="fal fa-angle-right" />
-                  </a>
+                    <img
+                      src="assets/images/destinations/Ooty-hills.jpg"
+                      alt="Destination"
+                    />
+                  </div>
+                  <div className="content">
+                    <span className="location">
+                      <i className="fal fa-map-marker-alt" /> Ooty, Tamilnadu
+                    </span>
+                    <h6 className="text-white">
+                      Experience the charm of this iconic hill station
+                    </h6>
+                    {/* <span className="time">3 days 2 nights - Couple</span> */}
+                  </div>
+                  <div className="destination-footer">
+                    <span className="price">
+                      <span>₹7,000</span> Onwards
+                    </span>
+                    <a
+                      href="https://enquiry.keraladrives.com"
+                      target="_blank"
+                      className="read-more"
+                    >
+                      Enquire <i className="fal fa-angle-right" />
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xxl-3 col-xl-4 col-md-6">
-              <div
-                className="destination-item"
-                data-aos="fade-up"
-                data-aos-delay={300}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <div className="ratting">
-                    <i className="fas fa-star" /> 4.8
-                  </div>
-                  {/* <a href="#" className="heart">
+              <div className="col-xxl-4 col-xl-4 col-md-6">
+                <div
+                  className="destination-item"
+                  data-aos="fade-up"
+                  data-aos-delay={300}
+                  data-aos-duration={1500}
+                  data-aos-offset={50}
+                >
+                  <div className="image">
+                    <div className="ratting">
+                      <i className="fas fa-star" /> 4.8
+                    </div>
+                    {/* <a href="#" className="heart">
                     <i className="fas fa-heart" />
                   </a> */}
-                  <img
-                    src="/assets/images/destinations/rameshawaram-t.jpeg"
-                    alt="Destination"
-                  />
-                </div>
-                <div className="content">
-                  <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Rameshwaram,
-                    Tamilnadu
-                  </span>
-                  <h5 className="text-white">
-                    Find peace at this spiritual and historic gem
-                  </h5>
-                  {/* <span className="time">3 days 2 nights - Couple</span> */}
-                </div>
-                <div className="destination-footer">
-                  <span className="price">
-                    <span>₹5,500</span> Onwards
-                  </span>
-                  <a
-                    href="https://enquiry.keraladrives.com"
-                    target="_blank"
-                    className="read-more"
-                  >
-                    Enquire <i className="fal fa-angle-right" />
-                  </a>
+                    <img
+                      src="/assets/images/destinations/rameshawaram-t.jpeg"
+                      alt="Destination"
+                    />
+                  </div>
+                  <div className="content">
+                    <span className="location">
+                      <i className="fal fa-map-marker-alt" /> Rameshwaram,
+                      Tamilnadu
+                    </span>
+                    <h6 className="text-white">
+                      Find peace at this spiritual and historic gem
+                    </h6>
+                    {/* <span className="time">3 days 2 nights - Couple</span> */}
+                  </div>
+                  <div className="destination-footer">
+                    <span className="price">
+                      <span>₹5,500</span> Onwards
+                    </span>
+                    <a
+                      href="https://enquiry.keraladrives.com"
+                      target="_blank"
+                      className="read-more"
+                    >
+                      Enquire <i className="fal fa-angle-right" />
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xxl-3 col-xl-4 col-md-6">
-              <div
-                className="destination-item"
-                data-aos="fade-up"
-                data-aos-delay={300}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <div className="ratting">
-                    <i className="fas fa-star" /> 4.8
-                  </div>
-                  {/* <a href="#" className="heart">
+              <div className="col-xxl-4 col-xl-4 col-md-6">
+                <div
+                  className="destination-item"
+                  data-aos="fade-up"
+                  data-aos-delay={300}
+                  data-aos-duration={1500}
+                  data-aos-offset={50}
+                >
+                  <div className="image">
+                    <div className="ratting">
+                      <i className="fas fa-star" /> 4.8
+                    </div>
+                    {/* <a href="#" className="heart">
                     <i className="fas fa-heart" />
                   </a> */}
-                  <img
-                    src="/assets/images/destinations/Coorg-coffee.jpg"
-                    alt="Destination"
-                  />
-                </div>
-                <div className="content">
-                  <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Coorg, Karnataka
-                  </span>
-                  <h5 className="text-white">
-                    Explore the "Scotland of India" and its lush coffee
-                    plantations!
-                  </h5>
-                  {/* <span className="time">3 days 2 nights - Couple</span> */}
-                </div>
-                <div className="destination-footer">
-                  <span className="price">
-                    <span>₹6,000</span> Onwards
-                  </span>
-                  <a
-                    href="https://enquiry.keraladrives.com"
-                    target="_blank"
-                    className="read-more"
-                  >
-                    Enquire <i className="fal fa-angle-right" />
-                  </a>
+                    <img
+                      src="/assets/images/destinations/Coorg-coffee.jpg"
+                      alt="Destination"
+                    />
+                  </div>
+                  <div className="content">
+                    <span className="location">
+                      <i className="fal fa-map-marker-alt" /> Coorg, Karnataka
+                    </span>
+                    <h6 className="text-white">
+                      Explore the "Scotland of India" and its lush coffee
+                      plantations!
+                    </h6>
+                    {/* <span className="time">3 days 2 nights - Couple</span> */}
+                  </div>
+                  <div className="destination-footer">
+                    <span className="price">
+                      <span>₹6,000</span> Onwards
+                    </span>
+                    <a
+                      href="https://enquiry.keraladrives.com"
+                      target="_blank"
+                      className="read-more"
+                    >
+                      Enquire <i className="fal fa-angle-right" />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -668,7 +669,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <div className="section-title mb-60">
+                <div className="section-title text-center mb-60">
                   <h2>Activities We Provide</h2>
                 </div>
                 <div className="features-customer-box">

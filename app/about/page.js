@@ -482,6 +482,19 @@ const page = () => {
                   </h2>
                 </div>
                 <Testimonial />
+                <div className="divider style-one">
+                    <Link
+                      href="https://www.google.com/maps/place/Kerala+Drives+Tours+%26+Travels/@8.5824746,76.8616363,898m/data=!3m1!1e3!4m8!3m7!1s0x3b05be56ffffffff:0x1c586a8fbc63e2b4!8m2!3d8.5824693!4d76.8642112!9m1!1b1!16s%2Fg%2F11kptjgzb3?entry=ttu&g_ep=EgoyMDI0MTIxMC4wIKXMDSoASAFQAw%3D%3D"
+                      className="theme-btn mt-10 style-two"
+                      target="_blank" // Opens in a new tab
+                      rel="noopener noreferrer" // Improves security
+                    >
+                      <span data-hover="Check out our reviews!">
+                        Check out our reviews!
+                      </span>
+                      <i className="fal fa-arrow-right" />
+                    </Link>
+                  </div>
               </div>
             </div>
           </div>
