@@ -8,6 +8,7 @@ import "@css/slick.min.css";
 import "@css/style.css";
 import "./globals.css";
 import 'rc-slider/assets/index.css';
+import CookieConsent from "@/components/popup/CookieConsent";
 
 export const metadata = {
   title: "Kerala Drives - Travel & Tour Booking",
@@ -53,7 +54,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>{children}
+      <CookieConsent />
+      </body>
+
     </html>
   );
 }
