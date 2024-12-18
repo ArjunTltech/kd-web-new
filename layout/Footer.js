@@ -158,7 +158,7 @@ const Footer1 = () => {
                   <Link href="https://www.instagram.com/kerala_drives" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-instagram" />
                   </Link>
-                  <Link href="https://www.youtube.com/channel/UC3tmfmBZf5Ufqo2JSEwj6BA?sub_confirmation=1" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://www.youtube.com/channel/UC3tmfmBZf5Ufqo2JSEwj6BA" target="_blank">
                     <i className="fab fa-youtube" />
                   </Link>
                 </div>
