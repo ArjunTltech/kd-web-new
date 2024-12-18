@@ -4,6 +4,51 @@ import SectionTitle from "@/components/SectionTitle";
 import Testimonial from "@/components/slider/Testimonial";
 import ReveloLayout from "@/layout/ReveloLayout";
 import Link from "next/link";
+
+export const metadata = {
+  title:
+    "Kerala Drives | Explore South India's Top Travel Destinations & Tours",
+  description:
+    "Explore Kerala, Karnataka, and Tamil Nadu with Kerala Drives. Enjoy houseboat cruises, wildlife safaris, cultural tours, and personalized travel packages.",
+  keywords: [
+    "Kerala travel packages",
+    "houseboat tours Kerala",
+    "South India tourism",
+    "wildlife safaris Kerala",
+    "cultural tours Kerala",
+    "Kerala backwaters",
+    "Munnar tourism",
+    "Alleppey houseboats",
+    "responsible tourism Kerala",
+    "luxury Kerala tours",
+    "eco-tourism South India",
+    "family tours Kerala",
+    "adventure travel Kerala",
+    "honeymoon Kerala",
+    "group tours South India",
+    "solo travel Kerala",
+  ],
+  openGraph: {
+    title:
+      "Kerala Drives | Explore South India's Top Travel Destinations & Tours",
+    description:
+      "Unforgettable houseboat cruises, wildlife safaris, and cultural experiences await you across Kerala, Karnataka, and Tamil Nadu.",
+    images: ["/assets/images/hero/hero-banner.jpg"],
+    type: "website",
+    url: "https://www.keraladrives.com",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Kerala Drives | Explore South India's Top Travel Destinations & Tours",
+    description:
+      "Unforgettable travel experiences across Kerala, Karnataka, and Tamil Nadu. Plan your perfect trip with Kerala Drives.",
+    images: ["/assets/images/hero/hero-banner.jpg"],
+  },
+  alternates: { canonical: "https://www.keraladrives.com" },
+  metadataBase: new URL("https://www.keraladrives.com"),
+};
+
 const page = () => {
   return (
     <ReveloLayout header={1} footer={1}>
@@ -22,12 +67,12 @@ const page = () => {
 
           <div
             className="main-hero-image bgs-cover"
-            style={{ backgroundImage: "url(assets/images/hero/hero-banner.jpg)" }}
+            style={{
+              backgroundImage: "url(assets/images/hero/hero-banner.jpg)",
+            }}
           />
-
         </div>
         {/* <SearchFilter /> */}
-
       </section>
       {/* Hero Area End */}
       {/* Destinations Area start */}
@@ -72,9 +117,7 @@ const page = () => {
                     <i className="fal fa-map-marker-alt" /> Alappuzha, Kerala
                   </span>
                   <h5 className="text-white">
-
                     Glide through serene waters on luxurious houseboats
-
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -82,7 +125,11 @@ const page = () => {
                   <span className="price">
                     <span>₹5,000</span> Onwards
                   </span>
-                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
+                  <a
+                    href="https://enquiry.keraladrives.com"
+                    target="_blank"
+                    className="read-more"
+                  >
                     Enquire <i className="fal fa-angle-right" />
                   </a>
                 </div>
@@ -110,9 +157,7 @@ const page = () => {
                     <i className="fal fa-map-marker-alt" /> Munnar, Kerala
                   </span>
                   <h5 className="text-white">
-
                     Breathe in the fresh mountain air amidst endless tea gardens
-
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -120,7 +165,11 @@ const page = () => {
                   <span className="price">
                     <span>₹6,500</span> Onwards
                   </span>
-                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
+                  <a
+                    href="https://enquiry.keraladrives.com"
+                    target="_blank"
+                    className="read-more"
+                  >
                     Enquire <i className="fal fa-angle-right" />
                   </a>
                 </div>
@@ -151,9 +200,7 @@ const page = () => {
                     <i className="fal fa-map-marker-alt" /> Varkala, Kerala
                   </span>
                   <h5 className="text-white">
-
                     Unwind on pristine beaches with dramatic cliff views
-
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -161,7 +208,11 @@ const page = () => {
                   <span className="price">
                     <span>₹5,200</span> Onwards
                   </span>
-                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
+                  <a
+                    href="https://enquiry.keraladrives.com"
+                    target="_blank"
+                    className="read-more"
+                  >
                     Enquire <i className="fal fa-angle-right" />
                   </a>
                 </div>
@@ -194,9 +245,7 @@ const page = () => {
                     <i className="fal fa-map-marker-alt" /> Ooty, Tamilnadu
                   </span>
                   <h5 className="text-white">
-
                     Experience the charm of this iconic hill station
-
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -204,7 +253,11 @@ const page = () => {
                   <span className="price">
                     <span>₹7,000</span> Onwards
                   </span>
-                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
+                  <a
+                    href="https://enquiry.keraladrives.com"
+                    target="_blank"
+                    className="read-more"
+                  >
                     Enquire <i className="fal fa-angle-right" />
                   </a>
                 </div>
@@ -232,12 +285,11 @@ const page = () => {
                 </div>
                 <div className="content">
                   <span className="location">
-                    <i className="fal fa-map-marker-alt" /> Rameshwaram, Tamilnadu
+                    <i className="fal fa-map-marker-alt" /> Rameshwaram,
+                    Tamilnadu
                   </span>
                   <h5 className="text-white">
-
                     Find peace at this spiritual and historic gem
-
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -245,7 +297,11 @@ const page = () => {
                   <span className="price">
                     <span>₹5,500</span> Onwards
                   </span>
-                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
+                  <a
+                    href="https://enquiry.keraladrives.com"
+                    target="_blank"
+                    className="read-more"
+                  >
                     Enquire <i className="fal fa-angle-right" />
                   </a>
                 </div>
@@ -276,8 +332,8 @@ const page = () => {
                     <i className="fal fa-map-marker-alt" /> Coorg, Karnataka
                   </span>
                   <h5 className="text-white">
-                    Explore the "Scotland of India" and its lush coffee plantations!
-
+                    Explore the "Scotland of India" and its lush coffee
+                    plantations!
                   </h5>
                   {/* <span className="time">3 days 2 nights - Couple</span> */}
                 </div>
@@ -285,7 +341,11 @@ const page = () => {
                   <span className="price">
                     <span>₹6,000</span> Onwards
                   </span>
-                  <a href="https://enquiry.keraladrives.com" target="_blank" className="read-more">
+                  <a
+                    href="https://enquiry.keraladrives.com"
+                    target="_blank"
+                    className="read-more"
+                  >
                     Enquire <i className="fal fa-angle-right" />
                   </a>
                 </div>
@@ -312,7 +372,8 @@ const page = () => {
                   </h2>
                 </div>
                 <p>
-                  We don&apos;t just plan trips, we craft experiences that stay with you forever.
+                  We don&apos;t just plan trips, we craft experiences that stay
+                  with you forever.
                 </p>
                 <div className="divider counter-text-wrap mt-45 mb-55">
                   <span>
@@ -340,7 +401,9 @@ const page = () => {
                       >
                         <Counter end={500} />
                       </span>
-                      <span className="counter-title">Stunning  Destinations</span>
+                      <span className="counter-title">
+                        Stunning Destinations
+                      </span>
                     </div>
                   </div>
                   <div className="col-6">
@@ -413,7 +476,9 @@ const page = () => {
                   data-aos-offset={50}
                 >
                   <SectionTitle
-                    title={"Explore Popular Destinations in Kerala and South India"}
+                    title={
+                      "Explore Popular Destinations in Kerala and South India"
+                    }
                     subtitle2="most popular experience"
                     countValue={500}
                   />
@@ -430,7 +495,6 @@ const page = () => {
                     data-aos-offset={50}
                   >
                     <div className="image">
-
                       <img
                         src="/assets/images/destinations/munnar.jpg"
                         alt="Destination"
@@ -440,7 +504,7 @@ const page = () => {
                       <h6>
                         <Link href="/destination-details/munnar">Munnar</Link>
                       </h6>
-                      
+
                       <a href="/destination-details/munnar" className="more">
                         <i className="fas fa-chevron-right" />
                       </a>
@@ -466,9 +530,11 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h6>
-                        <Link href="/destination-details/alappuzha">Alappuzha, Kerala</Link>
+                        <Link href="/destination-details/alappuzha">
+                          Alappuzha, Kerala
+                        </Link>
                       </h6>
-                      
+
                       <a href="/destination-details/alappuzha" className="more">
                         <i className="fas fa-chevron-right" />
                       </a>
@@ -495,7 +561,7 @@ const page = () => {
                           Hampi, Karnataka
                         </Link>
                       </h6>
-                      
+
                       <a href="/destination-details/hampi" className="more">
                         <i className="fas fa-chevron-right" />
                       </a>
@@ -521,8 +587,11 @@ const page = () => {
                           Rameshwaram, Tamilnadu
                         </Link>
                       </h6>
-                     
-                      <a href="/destination-details/rameshwaram" className="more">
+
+                      <a
+                        href="/destination-details/rameshwaram"
+                        className="more"
+                      >
                         <i className="fas fa-chevron-right" />
                       </a>
                     </div>
@@ -548,7 +617,7 @@ const page = () => {
                           Coorg, Karnataka
                         </Link>
                       </h6>
-                     
+
                       <a href="/destination-details/coorg" className="more">
                         <i className="fas fa-chevron-right" />
                       </a>
@@ -571,9 +640,11 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h6>
-                        <Link href="destination-details/wayanad">Wayanad, Kerala</Link>
+                        <Link href="destination-details/wayanad">
+                          Wayanad, Kerala
+                        </Link>
                       </h6>
-                      
+
                       <a href="/destination-details/wayanad" className="more">
                         <i className="fas fa-chevron-right" />
                       </a>
@@ -598,14 +669,12 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="section-title mb-60">
-                  <h2>
-                    Activities We Provide
-                  </h2>
+                  <h2>Activities We Provide</h2>
                 </div>
                 <div className="features-customer-box">
                   <div className="image">
                     <img
-                      src="assets/images/features/features-box.jpg"
+                      src="assets/images/features/home_activity.jpg"
                       alt="Features"
                     />
                   </div>
@@ -659,9 +728,7 @@ const page = () => {
                       <h5>
                         <Link href="tour-details">Houseboat Cruises</Link>
                       </h5>
-                      <p>
-                        Drift along Kerala&apos;s enchanting backwaters
-                      </p>
+                      <p>Drift along Kerala&apos;s enchanting backwaters</p>
                     </div>
                   </div>
                   <div className="feature-item">
@@ -672,9 +739,7 @@ const page = () => {
                       <h5>
                         <Link href="tour-details">Trekking Adventures</Link>
                       </h5>
-                      <p>
-                        Conquer the green trails of Coorg and Wayanad
-                      </p>
+                      <p>Conquer the green trails of Coorg and Wayanad</p>
                     </div>
                   </div>
                 </div>
@@ -687,9 +752,7 @@ const page = () => {
                       <h5>
                         <Link href="tour-details">Wildlife Safaris</Link>
                       </h5>
-                      <p>
-                        Witness exotic wildlife in their natural habitats
-                      </p>
+                      <p>Witness exotic wildlife in their natural habitats</p>
                     </div>
                   </div>
                   <div className="feature-item">
@@ -701,11 +764,11 @@ const page = () => {
                         <Link href="tour-details">Cultural Tours</Link>
                       </h5>
                       <p>
-                        Be part of South India&apos;s vibrant festivals and art forms
+                        Be part of South India&apos;s vibrant festivals and art
+                        forms
                       </p>
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -713,7 +776,6 @@ const page = () => {
         </div>
       </section>
       {/* Features Area end */}
-
 
       {/* Testimonials Area start */}
       <section className="testimonials-area rel z-1">
@@ -730,7 +792,7 @@ const page = () => {
                   className="testimonial-left-image rmb-55"
                   style={{
                     backgroundImage:
-                      "url(assets/images/testimonials/testimonial-left.jpg)",
+                      "url(assets/images/testimonials/testimonial_camp_image.jpg)",
                   }}
                 />
               </div>
@@ -743,7 +805,8 @@ const page = () => {
                 >
                   <div className="section-title mb-55">
                     <h2>
-                      <span>5280</span> Here&apos;s What Our Travelers Have to Say
+                      <span>5280</span> Here&apos;s What Our Travelers Have to
+                      Say
                     </h2>
                   </div>
                   <Testimonial />
@@ -779,7 +842,9 @@ const page = () => {
             >
               <div
                 className="cta-item"
-                style={{ backgroundImage: "url(assets/images/cta/honeymoon.jpg)" }}
+                style={{
+                  backgroundImage: "url(assets/images/cta/honeymoon.jpg)",
+                }}
               >
                 <span className="category">Honeymoon</span>
                 <h2>Romantic Escapes: Honeymoon in Paradise</h2>
@@ -801,7 +866,10 @@ const page = () => {
             >
               <div
                 className="cta-item"
-                style={{ backgroundImage: "url(assets/images/cta/traditional-package.png)" }}
+                style={{
+                  backgroundImage:
+                    "url(assets/images/cta/traditional-package.png)",
+                }}
               >
                 <span className="category">Traditonal</span>
                 <h2>Step into Tradition, Experience the Essence!</h2>
@@ -820,7 +888,10 @@ const page = () => {
             >
               <div
                 className="cta-item"
-                style={{ backgroundImage: "url(assets/images/cta/educational-package.jpg)" }}
+                style={{
+                  backgroundImage:
+                    "url(assets/images/cta/educational-package.jpg)",
+                }}
               >
                 <span className="category">Educational</span>
                 <h2>Learn, Explore, Grow!</h2>
@@ -833,7 +904,6 @@ const page = () => {
                 </Link>
               </div>
             </div>
-
           </div>
         </div>
       </section>

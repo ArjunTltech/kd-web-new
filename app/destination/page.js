@@ -3,14 +3,55 @@ import SectionTitle from "@/components/SectionTitle";
 import Subscribe from "@/components/Subscribe";
 import ReveloLayout from "@/layout/ReveloLayout";
 import Link from "next/link";
-import { destinations } from "../../constants/destinations"
+import { destinations } from "../../constants/destinations";
+
+export const metadata = {
+  title: "Top Kerala Travel Destinations | Beaches, Hill Stations & Backwaters",
+  description:
+    "Explore the best travel destinations in Kerala, including Munnar hill stations, Alappuzha backwaters, Varkala beaches, and rich cultural heritage sites. Plan your next adventure with Kerala Drives.",
+  keywords: [
+    "top Kerala travel destinations",
+    "Munnar hill stations",
+    "Alappuzha backwaters",
+    "Varkala beaches",
+    "Kerala wildlife sanctuaries",
+    "Kerala cultural spots",
+    "Kerala heritage sites",
+    "best Kerala tourism places",
+    "tourist destinations Kerala",
+    "beautiful places Kerala",
+    "Kerala attractions",
+    "hill stations in Kerala",
+  ],
+  openGraph: {
+    title:
+      "Top Kerala Travel Destinations | Beaches, Hill Stations & Backwaters",
+    description:
+      "Discover Kerala’s top destinations, from Munnar hill stations to Alappuzha backwaters and Varkala beaches. Experience natural beauty, heritage, and wildlife with Kerala Drives.",
+    images: ["/assets/images/banner/destinations-banner.jpg"],
+    type: "website",
+    url: "https://www.keraladrives.com/destinations",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Top Kerala Travel Destinations | Beaches, Hill Stations & Backwaters",
+    description:
+      "Uncover the best travel destinations in Kerala, including stunning beaches, lush hill stations, and serene backwaters. Plan your trip today with Kerala Drives.",
+    images: ["/assets/images/banner/destinations-banner.jpg"],
+  },
+  alternates: {
+    canonical: "https://www.keraladrives.com/destinations",
+  },
+};
 
 const page = () => {
   return (
     <ReveloLayout>
-      <Banner pageTitle={"Destinations"} 
-      pageName={"Honeymoon Packages"}
-      imageUrl="/assets/images/banner/destination-banner.jpg"
+      <Banner
+        pageTitle={"Destinations"}
+        pageName={"Honeymoon Packages"}
+        imageUrl="/assets/images/banner/destination-banner.jpg"
       />
 
       <section className="destinations-page-area pt-95 pb-90 rel z-1">
