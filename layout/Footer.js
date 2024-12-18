@@ -269,16 +269,16 @@ const Footer1 = () => {
                 </div>
                 <ul className="list-style-three">
                   <li>
-                    <Link href="destination-details/munnar">Munnar</Link>
+                    <Link href="/destination-details/munnar">Munnar</Link>
                   </li>
                   <li>
-                    <Link href="destination-details">Coorg</Link>
+                    <Link href="/destination-details/coorg">Coorg</Link>
                   </li>
                   <li>
-                    <Link href="destination-details">Alappuzha</Link>
+                    <Link href="/destination-details/alappuzha">Alappuzha</Link>
                   </li>
                   <li>
-                    <Link href="destination-details">Rameshwaram</Link>
+                    <Link href="/destination-details/rameshwaram">Rameshwaram</Link>
                   </li>
                 </ul>
               </div>
@@ -465,16 +465,16 @@ const Footer2 = ({ insta }) => {
                 </div>
                 <ul className="list-style-three">
                   <li>
-                    <Link href="destination-details/munnar">Munnar</Link>
+                    <Link href="/destination-details/munnar">Munnar</Link>
                   </li>
                   <li>
-                    <Link href="destination-details">Coorg</Link>
+                    <Link href="/destination-details/coorg">Coorg</Link>
                   </li>
                   <li>
-                    <Link href="destination-details">Alappuzha</Link>
+                    <Link href="/destination-details/alappuzha">Alappuzha</Link>
                   </li>
                   <li>
-                    <Link href="destination-details">Rameshwaram</Link>
+                    <Link href="/destination-details/rameshwaram">Rameshwaram</Link>
                   </li>
                 </ul>
               </div>

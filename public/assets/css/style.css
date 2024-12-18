@@ -490,6 +490,79 @@ a.theme-btn {
       background: var(--primary-color);
       border-color: var(--primary-color); }
 
+    /* hero Button */
+      .hero-btn,
+      a.hero-btn {
+        color: white;
+        cursor: pointer;
+        font-weight: 700;
+        overflow: hidden;
+        text-align: center;
+        padding: 16px 48px; /* Larger size */
+        border-radius: 40px;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: capitalize;
+        background: linear-gradient(to bottom, #485054, #545A60); /* Gradient background */
+        border: 2px solid white; /* White border initially */
+        transition: 0.4s ease;
+      }
+      
+      .hero-btn span,
+      a.hero-btn span {
+        transition: 0.4s;
+      }
+      
+      .hero-btn i,
+      a.hero-btn i {
+        transition: 0.4s;
+        margin-left: 12px;
+      }
+      
+      .hero-btn:hover,
+      a.hero-btn:hover {
+        background: var(--primary-color); /* Primary color on hover */
+        color: white; /* Keep text color white */
+        border-color: var(--primary-color); /* Border color matches background */
+      }
+      
+      .hero-btn:hover span:before,
+      a.hero-btn:hover span:before {
+        opacity: 1;
+      }
+      
+      .hero-btn span:before,
+      a.hero-btn span:before {
+        opacity: 0;
+        transition: 0.4s;
+        position: absolute;
+        content: attr(data-hover);
+        transform: translateY(150%);
+      }
+      
+      .hero-btn:hover span,
+      a.hero-btn:hover span {
+        transform: translateY(-150%);
+      }
+      
+      .hero-btn.bgc-secondary,
+      a.hero-btn.bgc-secondary {
+        border: 2px solid white;
+        color: white;
+      }
+      
+      .hero-btn.bgc-secondary:hover,
+      a.hero-btn.bgc-secondary:hover {
+        background: var(--secondary-color); /* Secondary color on hover */
+        color: white;
+        border-color: var(--secondary-color); /* Border color matches background */
+      }
+      
+/** Button style End **/
+
+
 /* Read More */
 .read-more {
   -webkit-box-align: center;
