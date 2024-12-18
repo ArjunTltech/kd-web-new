@@ -56,7 +56,7 @@ const EmbedPopup = () => {
       const a = document.querySelectorAll("a");
       a.forEach((a) => {
         if (
-          a.href.includes("www.youtube.com") ||
+          a.href.includes("www.youtube.com/watch") ||
           a.href.includes("vimeo.com") ||
           a.href.includes("soundcloud.com")
         ) {
