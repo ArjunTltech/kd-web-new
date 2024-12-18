@@ -2,6 +2,53 @@ import Banner from "@/components/Banner";
 import SectionTitle from "@/components/SectionTitle";
 import ReveloLayout from "@/layout/ReveloLayout";
 import Link from "next/link";
+
+
+
+export const metadata = {
+  title: "Gallery | Kerala Drives - Memorable Travel Moments Captured",
+  description:
+    "Discover captivating moments from Kerala Drives tours. Explore our photo gallery showcasing houseboat cruises, cultural experiences, wildlife safaris, and scenic South India destinations.",
+  keywords: [
+    "Kerala Drives gallery",
+    "Kerala tourism photos",
+    "travel moments Kerala",
+    "Kerala houseboat gallery",
+    "wildlife tours photos",
+    "South India travel photos",
+    "Kerala backwater gallery",
+    "cultural tour pictures",
+    "Kerala holiday snapshots",
+    "Munnar travel photos",
+    "Alleppey houseboat images",
+    "Kerala eco-tourism pictures",
+    "family tours gallery",
+    "adventure travel Kerala images",
+    "honeymoon Kerala gallery",
+    "South India destination photos",
+  ],
+  openGraph: {
+    title: "Gallery | Kerala Drives - Memorable Travel Moments Captured",
+    description:
+      "Experience the beauty of Kerala Drives tours through our photo gallery. View stunning images from our journeys across Kerala, Karnataka, and Tamil Nadu.",
+    images: [
+      "https://www.keraladrives.com/assets/images/gallery/gallery_cover_caravan-tourism.jpg",
+    ],
+    type: "website",
+    url: "https://www.keraladrives.com/gallery",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Gallery | Kerala Drives - Memorable Travel Moments Captured",
+    description:
+      "Take a visual journey through the stunning landscapes and unforgettable experiences offered by Kerala Drives. Explore our travel gallery now.",
+    images: [
+      "https://www.keraladrives.com/assets/images/gallery/gallery_cover_caravan-tourism.jpg",
+    ],
+  },
+  alternates: { canonical: "https://www.keraladrives.com/gallery" },
+  metadataBase: new URL("https://www.keraladrives.com"),
+};
 const page = () => {
   return (
     <ReveloLayout>
