@@ -75,7 +75,7 @@ const CookieConsent = () => {
                             </button>
                             <button
                                 className="btn btn-success btn-md"
-                                onClick={handleAcceptAll}
+                                onClick={handleAcceptAll} 
                             >
                                 Accept All
                             </button>
