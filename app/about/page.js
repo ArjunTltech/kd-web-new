@@ -270,7 +270,7 @@ const page = () => {
               >
                 <img src="assets/images/team/guide4.jpg" alt="Guide" />
                 <div className="content">
-                  <h6>Sajan Sajan Vohab</h6>
+                  <h6>Sajan  Vohab</h6>
                   <span className="designation">Founder / CEO</span>
                   <div className="social-style-one inner-content">
                     <Link href="contact">
