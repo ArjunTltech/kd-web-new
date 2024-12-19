@@ -71,7 +71,7 @@ const PrivacyPolicy = () => {
   return (
     <ReveloLayout insta>
       <section className="page-banner-two rel z-1 ">
-        <div className="container-fluid">
+        <div className="container-fluid" >
           <hr className="mt-0" />
           <div className="container">
             <div className="banner-inner pt-15 pb-25">
@@ -85,7 +85,7 @@ const PrivacyPolicy = () => {
               </h2>
             </div>
 
-            <div className="comments mt-30  mb-60 ">
+            <div className="comments mt-30  mb-60  " style={{backgroundColor:"#f5f5f5"}}>
               <div
                 className="comment-body mb-5"
                 data-aos="fade-up"
