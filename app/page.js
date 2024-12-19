@@ -71,8 +71,22 @@ const page = () => {
               backgroundImage: "url(assets/images/hero/hero-banner.jpg)",
             }}
           />
+          <div className="search-button text-center position-absolute top-50 start-50 translate-middle">
+            <a
+              className="hero-btn"
+              data-aos="fade-up"
+              data-aos-delay="800"
+              href="https://enquiry.keraladrives.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span data-hover="Enquire">Enquire</span>
+              <i className="far fa-arrow-right" />
+            </a>
+          </div>
         </div>
         {/* <SearchFilter /> */}
+              
       </section>
       {/* Hero Area End */}
       {/* Destinations Area start */}
@@ -158,7 +172,8 @@ const page = () => {
                       <i className="fal fa-map-marker-alt" /> Munnar, Kerala
                     </span>
                     <h6 className="text-white">
-                      Breathe in the fresh mountain air amidst endless tea gardens
+                      Breathe in the fresh mountain air amidst endless tea
+                      gardens
                     </h6>
                     {/* <span className="time">3 days 2 nights - Couple</span> */}
                   </div>
@@ -805,10 +820,7 @@ const page = () => {
                   data-aos-offset={50}
                 >
                   <div className="section-title mb-55">
-                    <h2>
-                      <span>5280</span> Here&apos;s What Our Travelers Have to
-                      Say
-                    </h2>
+                    <h2>Here&apos;s What Our Travelers Have to Say</h2>
                   </div>
                   <Testimonial />
                   <div className="divider style-one">
@@ -874,7 +886,10 @@ const page = () => {
               >
                 <span className="category">Traditonal</span>
                 <h2>Step into Tradition, Experience the Essence!</h2>
-                <Link href="tour-details" className="theme-btn style-two">
+                <Link
+                  href="/traditional-experiences"
+                  className="theme-btn style-two"
+                >
                   <span data-hover="Explore Package">Explore Package</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
@@ -897,7 +912,7 @@ const page = () => {
                 <span className="category">Educational</span>
                 <h2>Learn, Explore, Grow!</h2>
                 <Link
-                  href="tour-details"
+                  href="/educational-tours"
                   className="theme-btn style-two bgc-secondary"
                 >
                   <span data-hover="Explore Package">Explore Package</span>

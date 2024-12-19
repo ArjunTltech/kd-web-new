@@ -108,61 +108,69 @@ const page = () => {
       {/* Features Area start */}
       <section className="about-features-area">
         <div className="container">
-        <div className="row align-items-stretch">
-  {/* Left Column */}
-  <div className="col-xl-6 col-lg-6 col-md-12 col-12">
-    <div
-      className="about-feature-boxes"
-      data-aos="fade-up"
-      data-aos-delay={100}
-      data-aos-duration={1500}
-      data-aos-offset={50}
-    >
-      <div className="feature-item style-three bgc-secondary">
-        <div className="icon-title">
-          <div className="icon">
-            <i className="flaticon-award-symbol" />
-          </div>
-          <h5>
-            <Link href="destination-details">Our Mission</Link>
-          </h5>
-        </div>
-        <div className="content">
-          <p>
-          At Kerala Drives, we offer customizable travel packages suited to your preferences, budget, and timeline, from budget-friendly trips to luxury tours. We specialize in experiential journeys through Kerala’s diverse landscapes, from misty mountains to tranquil backwaters.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+          <div className="row align-items-stretch">
+            {/* Left Column */}
+            <div className="col-xl-6 col-lg-6 col-md-12 col-12">
+              <div
+                className="about-feature-boxes"
+                data-aos="fade-up"
+                data-aos-delay={100}
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="feature-item style-three bgc-secondary">
+                  <div className="icon-title">
+                    <div className="icon">
+                      <i className="flaticon-award-symbol" />
+                    </div>
+                    <h5>
+                      <Link href="destination-details">Our Mission</Link>
+                    </h5>
+                  </div>
+                  <div className="content">
+                    <p>
+                      At Kerala Drives, we offer customizable travel packages
+                      suited to your preferences, budget, and timeline, from
+                      budget-friendly trips to luxury tours. We specialize in
+                      experiential journeys through Kerala’s diverse landscapes,
+                      from misty mountains to tranquil backwaters.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-  {/* Right Column */}
-  <div className="col-xl-6 col-lg-6 col-md-12 col-12">
-    <div
-      className="about-feature-boxes"
-      data-aos="fade-up"
-      data-aos-delay={200}
-      data-aos-duration={1500}
-      data-aos-offset={50}
-    >
-      <div className="feature-item style-three bgc-primary">
-        <div className="icon-title">
-          <div className="icon">
-            <i className="flaticon-tourism" />
+            {/* Right Column */}
+            <div className="col-xl-6 col-lg-6 col-md-12 col-12">
+              <div
+                className="about-feature-boxes"
+                data-aos="fade-up"
+                data-aos-delay={200}
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="feature-item style-three bgc-primary">
+                  <div className="icon-title">
+                    <div className="icon">
+                      <i className="flaticon-tourism" />
+                    </div>
+                    <h5>
+                      <Link href="destination-details">Our Vision</Link>
+                    </h5>
+                  </div>
+                  <div className="content">
+                    <p>
+                      Kerala Drives is committed to being your trusted partner
+                      in discovering Kerala’s breathtaking beauty, curating
+                      unforgettable experiences. Our goal is to showcase the
+                      best of God’s own country, leaving you with memories to
+                      cherish forever.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <h5>
-            <Link href="destination-details">Our Vision</Link>
-          </h5>
-        </div>
-        <div className="content">
-          <p>
-            Kerala Drives is committed to being your trusted partner in discovering Kerala’s breathtaking beauty, curating unforgettable experiences. Our goal is to showcase the best of God’s own country, leaving you with memories to cherish forever.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
         </div>
       </section>
       {/* Features Area end */}
@@ -170,47 +178,58 @@ const page = () => {
       <section className="about-us-area pt-70 pb-100 rel z-1">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-xl-5 col-lg-6">
-              <div
-                className="about-us-content rmb-55"
-                data-aos="fade-left"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="section-title mb-25">
-                  <h2>
-                    Why to Choose Us
-                  </h2>
-                </div>
-                <p>
-                At Kerala Drives, we don’t just plan trips; we craft experiences that stay with you forever.
-                </p>
-                <div className="row pt-25">
-                  <div className="col-6">
-                    <div className="counter-item counter-text-wrap">
-                      <span className="count-text plus">
-                        <Counter end={500} />
-                      </span>
-                      <span className="counter-title">Popular Destination</span>
-                    </div>
-                  </div>
-                  <div className="col-6">
-                    <div className="counter-item counter-text-wrap">
-                      <span className="count-text k-plus">
-                        <Counter end={10} />
-                      </span>
-                      <span className="counter-title">Satisfied Clients</span>
-                    </div>
-                  </div>
-                </div>
-                <Link href="/destination" className="theme-btn mt-10 style-two">
-                  <span data-hover="Explore Destinations">
-                    Explore Destinations
-                  </span>
-                  <i className="fal fa-arrow-right" />
-                </Link>
-              </div>
-            </div>
+          <div className="col-xl-5 col-lg-6">
+  <div
+    className="about-us-content rmb-55"
+    data-aos="fade-left"
+    data-aos-duration={1500}
+    data-aos-offset={50}
+  >
+    <div className="section-title mb-25">
+      <h2>Why Choose Us</h2>
+    </div>
+    <ul className="professional-points">
+    <li>
+        <strong>Tailored Packages:</strong> Customized trips designed to fit your budget, preferences, and schedule.
+      </li>
+      <li>
+        <strong>Authentic Experiences:</strong> Immerse yourself in Kerala's rich culture, scenic backwaters, and serene landscapes.
+      </li>
+      <li>
+        <strong>Expert Support:</strong> Dedicated travel specialists ensure a smooth and seamless journey.
+      </li>
+      <li>
+        <strong>All-Inclusive Services:</strong> Comprehensive solutions, covering accommodations, transportation, and activities.
+      </li>
+      <li>
+        <strong>Sustainable Tourism:</strong> Promoting responsible travel to preserve Kerala’s natural beauty and heritage.
+      </li>
+    </ul>
+    <div className="row pt-25">
+      <div className="col-6">
+        <div className="counter-item counter-text-wrap">
+          <span className="count-text plus">
+            <Counter end={500} />
+          </span>
+          <span className="counter-title">Popular Destinations</span>
+        </div>
+      </div>
+      <div className="col-6">
+        <div className="counter-item counter-text-wrap">
+          <span className="count-text k-plus">
+            <Counter end={10} />
+          </span>
+          <span className="counter-title">Satisfied Clients</span>
+        </div>
+      </div>
+    </div>
+    <Link href="/destination" className="theme-btn mt-10 style-two">
+      <span data-hover="Explore Destinations">Explore Destinations</span>
+      <i className="fal fa-arrow-right" />
+    </Link>
+  </div>
+</div>
+
             <div
               className="col-xl-7 col-lg-6"
               data-aos="fade-right"
@@ -270,10 +289,13 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <p className="col-xl-8 col-lg-8 col-sm-6" data-aos="fade-up"
+            <p
+              className="col-xl-8 col-lg-8 col-sm-6"
+              data-aos="fade-up"
               data-aos-delay={150}
               data-aos-duration={1500}
-              data-aos-offset={50}>
+              data-aos-offset={50}
+            >
               Welcome to Kerala Drives, a travel agency that specializes in
               providing unique travel experiences in God's own country, Kerala.
               Our passion for travel and exploration led us to create Kerala
@@ -395,7 +417,7 @@ const page = () => {
           >
             <img src="assets/images/video/video-bg.jpg" alt="Video" />
             <a
-              href="https://youtu.be/QkGTIixpvYw?si=-K63ngdKF4FpUIcl"
+              href="https://www.youtube.com/watch?v=QkGTIixpvYw"
               className="mfp-iframe video-play"
               tabIndex={-1}
             >
@@ -411,82 +433,6 @@ const page = () => {
       </div>
       {/* Video Area end */}
       {/* Testimonials Area start */}
-      <section className="testimonials-area py-100 rel z-1">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div
-                className="testimonial-left-content rmb-50"
-                data-aos="fade-right"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <img
-                  src="assets/images/testimonials/testimonial-left2.png"
-                  alt="Testimonial"
-                />
-                <div className="happy-customer text-white bgc-primary">
-                  <h6>850K+ Happy Customer</h6>
-                  <div className="feature-authors mb-15">
-                    <img
-                      src="assets/images/features/feature-author1.jpg"
-                      alt="Author"
-                    />
-                    <img
-                      src="assets/images/features/feature-author2.jpg"
-                      alt="Author"
-                    />
-                    <img
-                      src="assets/images/features/feature-author3.jpg"
-                      alt="Author"
-                    />
-                    <span>4k+</span>
-                  </div>
-                  <hr />
-                  <p>Positive Reviews</p>
-                  <div className="testi-header">
-                    <div className="ratting">
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div
-                className="testimonial-right-content"
-                data-aos="fade-left"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="section-title mb-55">
-                  <h2>
-                    <span>5280</span> Global Clients Say About Us Services
-                  </h2>
-                </div>
-                <Testimonial />
-                <div className="divider style-one">
-                  <Link
-                    href="https://www.google.com/maps/place/Kerala+Drives+Tours+%26+Travels/@8.5824746,76.8616363,898m/data=!3m1!1e3!4m8!3m7!1s0x3b05be56ffffffff:0x1c586a8fbc63e2b4!8m2!3d8.5824693!4d76.8642112!9m1!1b1!16s%2Fg%2F11kptjgzb3?entry=ttu&g_ep=EgoyMDI0MTIxMC4wIKXMDSoASAFQAw%3D%3D"
-                    className="theme-btn mt-10 style-two"
-                    target="_blank" // Opens in a new tab
-                    rel="noopener noreferrer" // Improves security
-                  >
-                    <span data-hover="Check out our reviews!">
-                      Check out our reviews!
-                    </span>
-                    <i className="fal fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       {/* Testimonials Area end */}
     </ReveloLayout>
   );

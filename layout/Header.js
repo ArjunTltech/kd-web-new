@@ -81,9 +81,6 @@ const Menu = () => {
                 <li>
                   <Link href="/faqs">FAQs</Link>
                 </li>
-                <li>
-                  <Link href="/404">404 Error</Link>
-                </li>
               </ul>
               <div className="dropdown-btn">
                 <span className="far fa-angle-down" />
@@ -345,9 +342,6 @@ const Header2 = ({ sidebarClick }) => {
                 </li>
                 <li>
                   <Link href="/contact">Contact Us</Link>
-                </li>
-                <li>
-                  <Link href="/404">404 Error</Link>
                 </li>
               </ul>
               <div
