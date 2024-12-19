@@ -89,7 +89,7 @@ const TermsAndConditions = () => {
               </h2>
             </div>
 
-            <div className="comments  mt-30  mb-60">
+            <div className="comments  mt-30  mb-60" style={{backgroundColor:"#f5f5f5"}}>
               <div
                 className="comment-body"
                 data-aos="fade-up"
