@@ -49,6 +49,9 @@ const Menu = () => {
             <li>
               <Link href="/about">About</Link>
             </li>
+            <li>
+              <Link href="/destination">Destinations</Link>
+            </li>
             <li className="dropdown">
               <a href="#">Packages</a>
               <ul>
@@ -69,9 +72,7 @@ const Menu = () => {
                 <span className="far fa-angle-down" />
               </div>
             </li>
-            <li>
-              <Link href="/destination">Destinations</Link>
-            </li>
+            
             <li className="dropdown">
               <a href="#">Explore</a>
               <ul>
@@ -100,9 +101,6 @@ const Header = ({ header }) => {
   switch (header) {
     case 1:
       return <Header1 sidebarClick={sidebarClick} />;
-    case 2:
-      return <Header2 sidebarClick={sidebarClick} />;
-
     default:
       return <Header3 sidebarClick={sidebarClick} />;
   }
@@ -140,6 +138,7 @@ const Header1 = ({ sidebarClick }) => {
                 <Link
                   href="https://enquiry.keraladrives.com/" target="_blank"
                   className="theme-btn style-two bgc-secondary"
+                  style={{fontSize:"18px"}}
                 >
                   <span data-hover="Enquire">Enquire</span>
                   <i className="fal fa-arrow-right" />
@@ -154,254 +153,7 @@ const Header1 = ({ sidebarClick }) => {
     </Fragment>
   );
 };
-const Header2 = ({ sidebarClick }) => {
-  const [activeMenu, setActiveMenu] = useState("");
-  const [multiMenu, setMultiMenu] = useState("");
-  const activeMenuSet = (value) =>
-    setActiveMenu(activeMenu === value ? "" : value),
-    activeLi = (value) =>
-      value === activeMenu ? { display: "block" } : { display: "none" };
-  const multiMenuSet = (value) =>
-    setMultiMenu(multiMenu === value ? "" : value),
-    multiMenuActiveLi = (value) =>
-      value === multiMenu ? { display: "block" } : { display: "none" };
 
-  return (
-    <Fragment>
-      <header className="main-header header-two">
-        {/*Header-Upper*/}
-        <div className="header-upper">
-          <div className="container-fluid clearfix">
-            <div className="header-inner rel d-flex align-items-center justify-content-between">
-              <div className="logo-outer d-block">
-                <div className="logo">
-                  <Link href="/">
-                    <img
-                      src="/assets/images/logos/logo-white.png"
-                      alt="Logo"
-                      title="Logo"
-                      className="img-fluid"
-                      style={{ height: "50px" }}
-                    />
-                  </Link>
-                </div>
-              </div>
-              {/* Menu Button */}
-              <div className="menu-btns py-10">
-                {/* menu sidbar */}
-                <div className="menu-sidebar" onClick={() => sidebarClick()}>
-                  <button className="bg-transparent">
-                    <span className="icon-bar" />
-                    <span className="icon-bar" />
-                    <span className="icon-bar" />
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/*End Header Upper*/}
-      </header>
-      <section className="hidden-bar">
-        <div className="inner-box">
-          <div className="cross-icon" onClick={() => sidebarClick()}>
-            <span className="fal fa-times" />
-          </div>
-          <div className="logo text-lg-center">
-            <Link href="/">
-            <img
-                      src="/assets/images/logos/kdlogo-black.png"
-                      alt="Logo"
-                      title="Logo"
-                      className="img-fluid"
-                      style={{ height: "50px" }}
-                    />
-            </Link>
-          </div>
-          <hr className="my-40" />
-          <ul className="sidebar-menu">
-            <li className="dropdown current">
-              <a href="#" onClick={() => activeMenuSet("home")}>
-                Home
-              </a>
-              <ul style={activeLi("home")}>
-                <li>
-                  <Link href="/">Travel Agency</Link>
-                </li>
-                <li>
-                  <Link href="index2">City Tou</Link>
-                </li>
-                <li>
-                  <Link href="index3">Tour Package</Link>
-                </li>
-              </ul>
-              <div
-                className="dropdown-btn"
-                onClick={() => activeMenuSet("home")}
-              >
-                <span className="far fa-angle-down" />
-              </div>
-            </li>
-            <li>
-              <Link href="/about">About</Link>
-            </li>
-            <li className="dropdown">
-              <a href="#" onClick={() => activeMenuSet("Tours")}>
-                Tours
-              </a>
-              <ul style={activeLi("Tours")}>
-                <li>
-                  <Link href="/tour-list">Tour List</Link>
-                </li>
-                <li>
-                  <Link href="/tour-grid">Tour Grid</Link>
-                </li>
-                <li>
-                  <Link href="/tour-sidebar">Tour Sidebar</Link>
-                </li>
-                <li>
-                  <Link href="/tour-details">Tour Details</Link>
-                </li>
-                <li>
-                  <Link href="/tour-guide">Tour Guide</Link>
-                </li>
-              </ul>
-              <div
-                className="dropdown-btn"
-                onClick={() => activeMenuSet("Tours")}
-              >
-                <span className="far fa-angle-down" />
-              </div>
-            </li>
-            <li className="dropdown">
-              <a href="#" onClick={() => activeMenuSet("Destinations")}>
-                Destinations
-              </a>
-              <ul style={activeLi("Destinations")}>
-                <li>
-                  <Link href="/destination">Destination 01</Link>
-                </li>
-                <li>
-                  <Link href="/destination2">Destination 02</Link>
-                </li>
-                <li>
-                  <Link href="/destination-details">Destination Details</Link>
-                </li>
-              </ul>
-              <div
-                className="dropdown-btn"
-                onClick={() => activeMenuSet("Destinations")}
-              >
-                <span className="far fa-angle-down" />
-              </div>
-            </li>
-            <li className="dropdown">
-              <a href="#" onClick={() => activeMenuSet("Explore")}>
-                Explore
-              </a>
-              <ul style={activeLi("Explore")}>
-                <li>
-                  <Link href="/pricing">Pricing</Link>
-                </li>
-                <li>
-                  <Link href="/faqs">faqs</Link>
-                </li>
-                <li className="/dropdown">
-                  <a href="#">Gallery</a>
-                  <ul style={multiMenuActiveLi("Gallery")}>
-                    <li>
-                      <Link href="gallery">Gallery Grid</Link>
-                    </li>
-                    <li>
-                      <Link href="/gellery-slider">Gallery Slider</Link>
-                    </li>
-                  </ul>
-                  <div
-                    className="/dropdown-btn"
-                    onClick={() => multiMenuSet("Gallery")}
-                  >
-                    <span className="far fa-angle-down" />
-                  </div>
-                </li>
-                <li className="dropdown">
-                  <a href="#">products</a>
-                  <ul style={multiMenuActiveLi("products")}>
-                    <li>
-                      <Link href="/shop">Our Products</Link>
-                    </li>
-                    <li>
-                      <Link href="/product-details">Product Details</Link>
-                    </li>
-                  </ul>
-                  <div
-                    className="dropdown-btn"
-                    onClick={() => multiMenuSet("products")}
-                  >
-                    <span className="far fa-angle-down" />
-                  </div>
-                </li>
-                <li>
-                  <Link href="/contact">Contact Us</Link>
-                </li>
-              </ul>
-              <div
-                className="dropdown-btn"
-                onClick={() => activeMenuSet("Explore")}
-              >
-                <span className="far fa-angle-down" />
-              </div>
-            </li>
-            <li className="dropdown">
-              <a href="#" onClick={() => activeMenuSet("blog")}>
-                blog
-              </a>
-              <ul style={activeLi("blog")}>
-                <li>
-                  <Link href="/blog">blog List</Link>
-                </li>
-                <li>
-                  <Link href="/blog-details">blog details</Link>
-                </li>
-              </ul>
-              <div
-                className="dropdown-btn"
-                onClick={() => activeMenuSet("blog")}
-              >
-                <span className="far fa-angle-down" />
-              </div>
-            </li>
-          </ul>
-          <Link
-            href="https://enquiry.keraladrives.com/" target="_blank"
-            className="theme-btn style-two style-three mt-15 mb-55"
-          >
-            <span data-hover="Enquire">Enquire</span>
-            <i className="fal fa-arrow-right" />
-          </Link>
-          <hr className="mb-65" />
-          <h6>Social Media</h6>
-          {/*Social Icons*/}
-          <div className="social-style-two mt-10">
-            <Link href="contact">
-              <i className="fab fa-twitter" />
-            </Link>
-            <Link href="contact">
-              <i className="fab fa-facebook-f" />
-            </Link>
-            <Link href="contact">
-              <i className="fab fa-instagram" />
-            </Link>
-            <a href="#">
-              <i className="fab fa-pinterest-p" />
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <div className="form-back-drop" onClick={() => sidebarClick()} />
-    </Fragment>
-  );
-};
 
 const Header3 = ({ sidebarClick }) => {
   return (
@@ -434,6 +186,8 @@ const Header3 = ({ sidebarClick }) => {
                 <Link
                   href="https://enquiry.keraladrives.com/" target="_blank"
                   className="theme-btn style-two bgc-secondary"
+                  style={{color:"black", fontSize:"18px"}}
+
                 >
                   <span data-hover="Enquire">Enquire</span>
                   <i className="fal fa-arrow-right" />

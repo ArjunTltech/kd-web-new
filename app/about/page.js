@@ -65,7 +65,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="row">
-                  <div className="col-lg-8 pe-lg-5 me-lg-5">
+                  <div className="col-lg-8 pe-lg-5 me-lg-5 " style={{width:"100%"}}>
                     <div className="section-title mb-25">
                       <h2>Crafting Dreams, One Journey at a Time</h2>
                     </div>
