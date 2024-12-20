@@ -80,7 +80,7 @@ const page = () => {
                     </div>
                   </div>
                   <div className="col-md-8">
-                    <p>
+                    <p className="content-font">
                       With over a decade of experience, we bring unparalleled
                       expertise in curating extraordinary travel experiences.
                     </p>
@@ -128,7 +128,7 @@ const page = () => {
                     </h5>
                   </div>
                   <div className="content">
-                    <p>
+                    <p >
                       At Kerala Drives, we offer customizable travel packages
                       suited to your preferences, budget, and timeline, from
                       budget-friendly trips to luxury tours. We specialize in
@@ -188,8 +188,8 @@ const page = () => {
     <div className="section-title mb-25">
       <h2>Why Choose Us</h2>
     </div>
-    <ul className="professional-points">
-    <li>
+    <ul className="professional-points content-font">
+    <li >
         <strong>Tailored Packages:</strong> Customized trips designed to fit your budget, preferences, and schedule.
       </li>
       <li>
@@ -290,7 +290,7 @@ const page = () => {
               </div>
             </div>
             <p
-              className="col-xl-8 col-lg-8 col-sm-6"
+              className="col-xl-8 col-lg-8 col-sm-6 content-font"
               data-aos="fade-up"
               data-aos-delay={150}
               data-aos-duration={1500}

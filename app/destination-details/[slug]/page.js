@@ -65,10 +65,10 @@ const page = ({ params }) => {
                                     {/* <span className="h6 mb-15">Welcome to </span> */}
                                     <h3>{destination.tagline}</h3>
                                 </div>
-                                <p>
+                                <p className="content-font">
                                     {destination.description.split('. ').slice(0, 2).join('. ') + '.'}
                                 </p>
-                                <p>
+                                <p className="content-font">
                                     {destination.description.split('. ').slice(2).join('. ') + '.'}
                                 </p>
                                 <Link

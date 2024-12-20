@@ -387,7 +387,7 @@ const page = () => {
                     Your Travel Partner for Seamless and Memorable Journeys
                   </h2>
                 </div>
-                <p>
+                <p className="content-font">
                   We don&apos;t just plan trips, we craft experiences that stay
                   with you forever.
                 </p>
@@ -723,7 +723,7 @@ const page = () => {
                         Years
                       </span>
                     </div>
-                    <p>We pride ourselves offering personalized itineraries</p>
+                    <p className="content-font">We pride ourselves offering personalized itineraries</p>
                   </div>
                 </div>
               </div>
@@ -744,7 +744,7 @@ const page = () => {
                       <h5>
                         <Link href="tour-details">Houseboat Cruises</Link>
                       </h5>
-                      <p>Drift along Kerala&apos;s enchanting backwaters</p>
+                      <p className="content-font">Drift along Kerala&apos;s enchanting backwaters</p>
                     </div>
                   </div>
                   <div className="feature-item">
@@ -755,7 +755,7 @@ const page = () => {
                       <h5>
                         <Link href="tour-details">Trekking Adventures</Link>
                       </h5>
-                      <p>Conquer the green trails of Coorg and Wayanad</p>
+                      <p className="content-font">Conquer the green trails of Coorg and Wayanad</p>
                     </div>
                   </div>
                 </div>
@@ -768,7 +768,7 @@ const page = () => {
                       <h5>
                         <Link href="tour-details">Wildlife Safaris</Link>
                       </h5>
-                      <p>Witness exotic wildlife in their natural habitats</p>
+                      <p className="content-font">Witness exotic wildlife in their natural habitats</p>
                     </div>
                   </div>
                   <div className="feature-item">
@@ -779,7 +779,7 @@ const page = () => {
                       <h5>
                         <Link href="tour-details">Cultural Tours</Link>
                       </h5>
-                      <p>
+                      <p className="content-font">
                         Be part of South India&apos;s vibrant festivals and art
                         forms
                       </p>
