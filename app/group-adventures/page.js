@@ -57,7 +57,7 @@ const page = () => {
       />
       {/* Adventures Grid Area start */}
       <section className="tour-grid-page py-100 rel z-2">
-        <div className="container mb-50">
+        <div className="container ">
         <div className="row justify-content-center">
             {groupAdventureTours.map((packageItem, index) => (
               <div key={index} className="col-xl-4 col-md-6 d-flex justify-content-center">
@@ -72,6 +72,17 @@ const page = () => {
               </div>
             ))}
           </div>
+        </div>
+        <div className="text-center px-3 py-4 mb-50">
+        <h3 className="fw-semibold mb-3 h5 h3-lg">Looking for a customized package?</h3>
+          <a
+            target="_blank"
+            href="https://enquiry.keraladrives.com/"
+            className="subtitle"
+            role="button"
+          >
+            Contact Us
+          </a>
         </div>
       </section>
     </ReveloLayout>

@@ -65,7 +65,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="row">
-                  <div className="col-lg-8 pe-lg-5 me-lg-5 " style={{width:"100%"}}>
+                  <div className="col-lg-8 pe-lg-5 me-lg-5 " style={{ width: "100%" }}>
                     <div className="section-title mb-25">
                       <h2>Crafting Dreams, One Journey at a Time</h2>
                     </div>
@@ -81,8 +81,7 @@ const page = () => {
                   </div>
                   <div className="col-md-8">
                     <p className="content-font">
-                      With over a decade of experience, we bring unparalleled
-                      expertise in curating extraordinary travel experiences.
+                    With over seven years of experience, we specialize in crafting unforgettable travel experiences.
                     </p>
                     <ul className="list-style-two mt-35">
                       <li>Affordable Luxury</li>
@@ -107,128 +106,129 @@ const page = () => {
       {/* About Area end */}
       {/* Features Area start */}
       <section className="about-features-area">
-        <div className="container">
-          <div className="row align-items-stretch">
-            {/* Left Column */}
-            <div className="col-xl-6 col-lg-6 col-md-12 col-12">
-              <div
-                className="about-feature-boxes"
-                data-aos="fade-up"
-                data-aos-delay={100}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="feature-item style-three bgc-secondary">
-                  <div className="icon-title">
-                    <div className="icon">
-                      <i className="flaticon-award-symbol" />
-                    </div>
-                    <h5>
-                      <Link href="destination-details">Our Mission</Link>
-                    </h5>
-                  </div>
-                  <div className="content">
-                    <p >
-                      At Kerala Drives, we offer customizable travel packages
-                      suited to your preferences, budget, and timeline, from
-                      budget-friendly trips to luxury tours. We specialize in
-                      experiential journeys through Kerala’s diverse landscapes,
-                      from misty mountains to tranquil backwaters.
-                    </p>
-                  </div>
-                </div>
-              </div>
+      <div className="container">
+  <div className="row align-items-stretch">
+    {/* Left Column */}
+    <div className="col-xl-6 col-lg-6 col-md-12 col-12">
+      <div
+        className="about-feature-boxes h-100"
+        data-aos="fade-up"
+        data-aos-delay={100}
+        data-aos-duration={1500}
+        data-aos-offset={50}
+      >
+        <div className="feature-item style-three bgc-secondary h-100 d-flex flex-column">
+          <div className="icon-title">
+            <div className="icon">
+              <i className="flaticon-award-symbol" />
             </div>
-
-            {/* Right Column */}
-            <div className="col-xl-6 col-lg-6 col-md-12 col-12">
-              <div
-                className="about-feature-boxes"
-                data-aos="fade-up"
-                data-aos-delay={200}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="feature-item style-three bgc-primary">
-                  <div className="icon-title">
-                    <div className="icon">
-                      <i className="flaticon-tourism" />
-                    </div>
-                    <h5>
-                      <Link href="destination-details">Our Vision</Link>
-                    </h5>
-                  </div>
-                  <div className="content">
-                    <p>
-                      Kerala Drives is committed to being your trusted partner
-                      in discovering Kerala’s breathtaking beauty, curating
-                      unforgettable experiences. Our goal is to showcase the
-                      best of God’s own country, leaving you with memories to
-                      cherish forever.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <h5>
+              <Link href="destination-details">Our Mission</Link>
+            </h5>
+          </div>
+          <div className="content flex-grow-1">
+            <p className="content-font">
+              At Kerala Drives, we offer customizable travel packages
+              suited to your preferences, budget, and timeline, from
+              budget-friendly trips to luxury tours. We specialize in
+              experiential journeys through Kerala’s diverse landscapes,
+              from misty mountains to tranquil backwaters.
+            </p>
           </div>
         </div>
+      </div>
+    </div>
+
+    {/* Right Column */}
+    <div className="col-xl-6 col-lg-6 col-md-12 col-12">
+      <div
+        className="about-feature-boxes h-100"
+        data-aos="fade-up"
+        data-aos-delay={200}
+        data-aos-duration={1500}
+        data-aos-offset={50}
+      >
+        <div className="feature-item style-three bgc-primary h-100 d-flex flex-column">
+          <div className="icon-title">
+            <div className="icon">
+              <i className="flaticon-tourism" />
+            </div>
+            <h5>
+              <Link href="destination-details">Our Vision</Link>
+            </h5>
+          </div>
+          <div className="content flex-grow-1">
+            <p className="content-font">
+              Kerala Drives is committed to being your trusted partner
+              in discovering Kerala’s breathtaking beauty, curating
+              unforgettable experiences. Our goal is to showcase the
+              best of God’s own country, leaving you with memories to
+              cherish forever.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       </section>
       {/* Features Area end */}
       {/* About Us Area start */}
       <section className="about-us-area pt-70 pb-100 rel z-1">
         <div className="container">
           <div className="row align-items-center">
-          <div className="col-xl-5 col-lg-6">
-  <div
-    className="about-us-content rmb-55"
-    data-aos="fade-left"
-    data-aos-duration={1500}
-    data-aos-offset={50}
-  >
-    <div className="section-title mb-25">
-      <h2>Why Choose Us</h2>
-    </div>
-    <ul className="professional-points content-font">
-    <li >
-        <strong>Tailored Packages:</strong> Customized trips designed to fit your budget, preferences, and schedule.
-      </li>
-      <li>
-        <strong>Authentic Experiences:</strong> Immerse yourself in Kerala's rich culture, scenic backwaters, and serene landscapes.
-      </li>
-      <li>
-        <strong>Expert Support:</strong> Dedicated travel specialists ensure a smooth and seamless journey.
-      </li>
-      <li>
-        <strong>All-Inclusive Services:</strong> Comprehensive solutions, covering accommodations, transportation, and activities.
-      </li>
-      <li>
-        <strong>Sustainable Tourism:</strong> Promoting responsible travel to preserve Kerala’s natural beauty and heritage.
-      </li>
-    </ul>
-    <div className="row pt-25">
-      <div className="col-6">
-        <div className="counter-item counter-text-wrap">
-          <span className="count-text plus">
-            <Counter end={500} />
-          </span>
-          <span className="counter-title">Popular Destinations</span>
-        </div>
-      </div>
-      <div className="col-6">
-        <div className="counter-item counter-text-wrap">
-          <span className="count-text k-plus">
-            <Counter end={10} />
-          </span>
-          <span className="counter-title">Satisfied Clients</span>
-        </div>
-      </div>
-    </div>
-    <Link href="/destination" className="theme-btn mt-10 style-two">
-      <span data-hover="Explore Destinations">Explore Destinations</span>
-      <i className="fal fa-arrow-right" />
-    </Link>
-  </div>
-</div>
+            <div className="col-xl-5 col-lg-6">
+              <div
+                className="about-us-content rmb-55"
+                data-aos="fade-left"
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="section-title mb-25">
+                  <h2>Why Choose Us</h2>
+                </div>
+                <ul className="professional-points content-font">
+                  <li >
+                    <strong>Tailored Packages:</strong> Customized trips designed to fit your budget, preferences, and schedule.
+                  </li>
+                  <li>
+                    <strong>Authentic Experiences:</strong> Immerse yourself in Kerala's rich culture, scenic backwaters, and serene landscapes.
+                  </li>
+                  <li>
+                    <strong>Expert Support:</strong> Dedicated travel specialists ensure a smooth and seamless journey.
+                  </li>
+                  <li>
+                    <strong>All-Inclusive Services:</strong> Comprehensive solutions, covering accommodations, transportation, and activities.
+                  </li>
+                  <li>
+                    <strong>Sustainable Tourism:</strong> Promoting responsible travel to preserve Kerala’s natural beauty and heritage.
+                  </li>
+                </ul>
+                <div className="row pt-25">
+                  <div className="col-6">
+                    <div className="counter-item counter-text-wrap">
+                      <span className="count-text plus">
+                        <Counter end={500} />
+                      </span>
+                      <span className="counter-title">Popular Destinations</span>
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    <div className="counter-item counter-text-wrap">
+                      <span className="count-text k-plus">
+                        <Counter end={10} />
+                      </span>
+                      <span className="counter-title">Satisfied Clients</span>
+                    </div>
+                  </div>
+                </div>
+                <Link href="/destination" className="theme-btn mt-10 style-two">
+                  <span data-hover="Explore Destinations">Explore Destinations</span>
+                  <i className="fal fa-arrow-right" />
+                </Link>
+              </div>
+            </div>
 
             <div
               className="col-xl-7 col-lg-6"
@@ -268,7 +268,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/team/guide4.jpg" alt="Guide" />
+                <img className="" src="assets/images/team/ceo-image.png" alt="Guide" />
                 <div className="content">
                   <h6>Sajan  Vohab</h6>
                   <span className="designation">Founder / CEO</span>
@@ -296,18 +296,19 @@ const page = () => {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              Welcome to Kerala Drives, a travel agency that specializes in
-              providing unique travel experiences in God's own country, Kerala.
-              Our passion for travel and exploration led us to create Kerala
-              Drives, where we curate customized travel packages that allow you
-              to explore Kerala's diverse landscapes, rich culture, and
-              heritage.At Kerala Drives, we are committed to providing you with
-              personalized attention and the highest level of service. Our team
-              consists of travel experts who are well-versed in Kerala's
-              geography, culture, and history. Our years of experience in the
-              travel industry have equipped us with the knowledge and expertise
-              to provide you with unforgettable travel experiences.
+              Sajan Vohab, the visionary behind Kerala Drives, brings with him a deep passion for travel and exploration. His love for Kerala's breathtaking landscapes, rich culture, and vibrant heritage inspired the creation of this travel agency. Under his leadership, Kerala Drives has grown into a trusted name for curating unique, personalized travel experiences that showcase the heart and soul of God’s Own Country. <br /><br />
+
+              A Message from Our Founder:
+              “At Kerala Drives, we believe that every traveler deserves an experience that is as unique and special as Kerala itself. Our mission is to go beyond the ordinary and craft journeys that resonate with your interests, ensuring unforgettable memories.”<br /><br />
+
+              Sajan’s extensive experience in the travel industry, combined with his in-depth knowledge of Kerala’s geography and traditions, has positioned Kerala Drives as a leader in delivering personalized, high-quality travel services. </p><br /><br />
+            <p className="content-font ms-5"  data-aos="fade-up"
+              data-aos-delay={150}
+              data-aos-duration={1500}
+              data-aos-offset={50}>
+              Whether it's the serene backwaters, pristine beaches, lush hill stations, or the rich cultural tapestry of Kerala, Sajan and his dedicated team are committed to providing you with unmatched attention and care, ensuring that your journey is seamless, enjoyable, and full of discovery.
             </p>
+
           </div>
         </div>
       </section>

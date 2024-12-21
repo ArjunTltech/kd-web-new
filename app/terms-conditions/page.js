@@ -107,7 +107,7 @@ const TermsAndConditions = () => {
                           {section.points.map((point, pointIndex) => (
                             <li
                               key={pointIndex}
-                              className="mb-2 text-gray-700 text-sm"
+                              className="mb-2 text-gray-700 content-font"
                             >
                               {point}
                             </li>
