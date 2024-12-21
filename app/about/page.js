@@ -81,8 +81,7 @@ const page = () => {
                   </div>
                   <div className="col-md-8">
                     <p className="content-font">
-                      With over a decade of experience, we bring unparalleled
-                      expertise in curating extraordinary travel experiences.
+                    With over seven years of experience, we specialize in crafting unforgettable travel experiences.
                     </p>
                     <ul className="list-style-two mt-35">
                       <li>Affordable Luxury</li>

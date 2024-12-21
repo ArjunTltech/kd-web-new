@@ -50,7 +50,7 @@ const page = () => {
     <ReveloLayout>
       <Banner
         pageTitle={"Destinations"}
-        pageName={"Honeymoon Packages"}
+        pageName={"Destinations"}
         imageUrl="/assets/images/banner/destination-banner.jpg"
       />
 
