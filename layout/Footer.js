@@ -301,6 +301,9 @@ const Footer1 = () => {
                     Trivandrum, Kerala, 695582
                   </li>
                   <li>
+                    <i className="fal fa-location" />Kanyakumari , Kochi , Wayanad
+                  </li>
+                  <li>
                     <i className="fal fa-envelope" />{" "}
                     <a href="mailto:info@keraladrives.com">
                       info@keraladrives.com
@@ -494,6 +497,9 @@ const Footer2 = ({ insta }) => {
                   <li>
                     <i className="fal fa-map-marked-alt" /> S.M.M Vetturoad,
                     Trivandrum, Kerala, 695582
+                  </li>
+                  <li>
+                    <i className="fal fa-location" />Kanyakumari , Kochi , Wayanad
                   </li>
                   <li>
                     <i className="fal fa-envelope" />{" "}
