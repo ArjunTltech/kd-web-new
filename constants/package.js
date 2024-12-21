@@ -44,15 +44,15 @@ export const groupAdventureTours = [
     link: "destination",
     enquireUrl: "https://enquiry.keraladrives.com",
   },
-  // {
-  //   image: "assets/images/packages/rock-climbing.jpg",
-  //   title: "Rock Climbing Adventure",
-  //   description: "Challenge yourself with an exhilarating rock climbing experience in Kerala's hills.",
-  //   duration: "1 day",
-  //   people: "8 people",
-  //   link: "destination",
-  //   enquireUrl: "https://enquiry.keraladrives.com",
-  // },
+  {
+    image: "/assets/images/packages/vagamon-paragliding.jpg",
+    title: "Paragliding (Vagamon)",
+    description: "Soar through the skies and witness breathtaking views of Vagamon.",
+    duration: "1 day",
+    people: "6 people",
+    link: "destination",
+    enquireUrl: "https://enquiry.keraladrives.com",
+},
 ];
 
 export const traditionalExperiences = [
@@ -74,15 +74,15 @@ export const traditionalExperiences = [
     link: "destination",
     enquireUrl: "https://enquiry.keraladrives.com",
   },
-  // {
-  //   image: "assets/images/packages/temple-tour.jpg",
-  //   title: "Spiritual Temple Tour",
-  //   description: "Visit ancient temples of Kerala and immerse yourself in spirituality.",
-  //   duration: "2 days",
-  //   people: "Flexible group size",
-  //   link: "destination",
-  //   enquireUrl: "https://enquiry.keraladrives.com",
-  // },
+  {
+    image: "assets/images/packages/temple-image.jpg",
+    title: "Spiritual Temple Tour",
+    description: "Visit ancient temples of Kerala and immerse yourself in spirituality.",
+    duration: "2 days",
+    people: "Flexible group size",
+    link: "destination",
+    enquireUrl: "https://enquiry.keraladrives.com",
+  },
 ];
 
 export const educationalTours = [
@@ -104,13 +104,13 @@ export const educationalTours = [
     link: "destination",
     enquireUrl: "https://enquiry.keraladrives.com",
   },
-  // {
-  //   image: "assets/images/packages/wayanad.jpg",
-  //   title: "Wildlife Conservation Tour (Wayanad)",
-  //   description: "Learn about wildlife conservation efforts in Wayanad and explore its biodiversity.",
-  //   duration: "3 days",
-  //   people: "15 students",
-  //   link: "destination",
-  //   enquireUrl: "https://enquiry.keraladrives.com",
-  // },
+  {
+    image: "/assets/images/packages/Wayanad-Wildlife.jpg",
+    title: "Wildlife Safari (Wayanad)",
+    description: "Learn about wildlife conservation efforts in Wayanad and explore its biodiversity.",
+    duration: "3 days",
+    people: "15 students",
+    link: "destination",
+    enquireUrl: "https://enquiry.keraladrives.com",
+  },
 ];

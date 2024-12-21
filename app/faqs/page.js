@@ -193,7 +193,7 @@ const Page = () => {
                     }
                     active={active}
                   >
-                    <p>{data.answer}</p>
+                    <p className="content-font">{data.answer}</p>
                   </RaveloAccordion>
                 ))}
               </Accordion>
