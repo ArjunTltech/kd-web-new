@@ -106,71 +106,72 @@ const page = () => {
       {/* About Area end */}
       {/* Features Area start */}
       <section className="about-features-area">
-        <div className="container">
-          <div className="row align-items-stretch">
-            {/* Left Column */}
-            <div className="col-xl-6 col-lg-6 col-md-12 col-12">
-              <div
-                className="about-feature-boxes"
-                data-aos="fade-up"
-                data-aos-delay={100}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="feature-item style-three bgc-secondary">
-                  <div className="icon-title">
-                    <div className="icon">
-                      <i className="flaticon-award-symbol" />
-                    </div>
-                    <h5>
-                      <Link href="destination-details">Our Mission</Link>
-                    </h5>
-                  </div>
-                  <div className="content">
-                    <p >
-                      At Kerala Drives, we offer customizable travel packages
-                      suited to your preferences, budget, and timeline, from
-                      budget-friendly trips to luxury tours. We specialize in
-                      experiential journeys through Kerala’s diverse landscapes,
-                      from misty mountains to tranquil backwaters.
-                    </p>
-                  </div>
-                </div>
-              </div>
+      <div className="container">
+  <div className="row align-items-stretch">
+    {/* Left Column */}
+    <div className="col-xl-6 col-lg-6 col-md-12 col-12">
+      <div
+        className="about-feature-boxes h-100"
+        data-aos="fade-up"
+        data-aos-delay={100}
+        data-aos-duration={1500}
+        data-aos-offset={50}
+      >
+        <div className="feature-item style-three bgc-secondary h-100 d-flex flex-column">
+          <div className="icon-title">
+            <div className="icon">
+              <i className="flaticon-award-symbol" />
             </div>
-
-            {/* Right Column */}
-            <div className="col-xl-6 col-lg-6 col-md-12 col-12">
-              <div
-                className="about-feature-boxes"
-                data-aos="fade-up"
-                data-aos-delay={200}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="feature-item style-three bgc-primary">
-                  <div className="icon-title">
-                    <div className="icon">
-                      <i className="flaticon-tourism" />
-                    </div>
-                    <h5>
-                      <Link href="destination-details">Our Vision</Link>
-                    </h5>
-                  </div>
-                  <div className="content">
-                    <p>
-                      Kerala Drives is committed to being your trusted partner
-                      in discovering Kerala’s breathtaking beauty, curating
-                      unforgettable experiences. Our goal is to showcase the
-                      best of God’s own country, leaving you with memories to
-                      cherish forever.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <h5>
+              <Link href="destination-details">Our Mission</Link>
+            </h5>
+          </div>
+          <div className="content flex-grow-1">
+            <p className="content-font">
+              At Kerala Drives, we offer customizable travel packages
+              suited to your preferences, budget, and timeline, from
+              budget-friendly trips to luxury tours. We specialize in
+              experiential journeys through Kerala’s diverse landscapes,
+              from misty mountains to tranquil backwaters.
+            </p>
           </div>
         </div>
+      </div>
+    </div>
+
+    {/* Right Column */}
+    <div className="col-xl-6 col-lg-6 col-md-12 col-12">
+      <div
+        className="about-feature-boxes h-100"
+        data-aos="fade-up"
+        data-aos-delay={200}
+        data-aos-duration={1500}
+        data-aos-offset={50}
+      >
+        <div className="feature-item style-three bgc-primary h-100 d-flex flex-column">
+          <div className="icon-title">
+            <div className="icon">
+              <i className="flaticon-tourism" />
+            </div>
+            <h5>
+              <Link href="destination-details">Our Vision</Link>
+            </h5>
+          </div>
+          <div className="content flex-grow-1">
+            <p className="content-font">
+              Kerala Drives is committed to being your trusted partner
+              in discovering Kerala’s breathtaking beauty, curating
+              unforgettable experiences. Our goal is to showcase the
+              best of God’s own country, leaving you with memories to
+              cherish forever.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       </section>
       {/* Features Area end */}
       {/* About Us Area start */}
