@@ -38,7 +38,7 @@ export const groupAdventureTours = [
   {
     image: "assets/images/packages/backwater-boating.jpg",
     title: "Backwater Boating (Alleppey)",
-    description: "Explore the tranquil backwaters of Alleppey with a group boating experience.",
+    description: "Discover Alleppey's tranquil backwaters on a group boat tour.",
     duration: "1 day",
     people: "15 people",
     link: "destination",

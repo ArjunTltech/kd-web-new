@@ -54,7 +54,7 @@ const page = () => {
         search={true}
       />
       {/* Educational Tours Grid Area start */}
-      <section className="tour-grid-page py-100 rel z-2">
+      <section className="tour-grid-page pt-100 rel z-2">
         <div className="container">
         <div className="row justify-content-center">
             {educationalTours.map((packageItem, index) => (
