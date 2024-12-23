@@ -9,6 +9,7 @@ import "@css/style.css";
 import "./globals.css";
 import 'rc-slider/assets/index.css';
 import CookieConsent from "@/components/popup/CookieConsent";
+import { Toaster } from "react-hot-toast";
 
 export const metadata = {
   title: "Kerala Drives - Travel & Tour Booking",
@@ -56,6 +57,17 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>{children}
       <CookieConsent />
+      <Toaster
+        position="bottom-center"
+        reverseOrder={false}
+        toastOptions={{
+          duration: 3000,
+          style: {
+            fontSize: '14px',
+            fontFamily: 'Arial, sans-serif',
+          },
+        }}
+      />
       </body>
 
     </html>

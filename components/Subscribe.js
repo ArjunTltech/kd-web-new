@@ -1,4 +1,5 @@
 import Counter from "./Counter";
+import NewsletterForm from "./newsletterForm";
 
 const Subscribe = () => {
   return (
@@ -21,14 +22,10 @@ const Subscribe = () => {
               <div className="section-title counter-text-wrap mb-45">
                 <h2>Subscribe Our Newsletter to Get more offer &amp; Tips</h2>
                 <p>
-                  One site{" "}
-                  <span className="count-text plus">
-                    <Counter end={34500} />
-                  </span>{" "}
-                  most popular experience you’ll remember
+                  Unlock Memorable Experiences with Our Newsletter
                 </p>
               </div>
-              <form className="newsletter-form mb-15" action="#">
+              {/* <form className="newsletter-form mb-15" action="#">
                 <input
                   id="news-email"
                   type="email"
@@ -42,7 +39,8 @@ const Subscribe = () => {
                   <span data-hover="Subscribe">Subscribe</span>
                   <i className="fal fa-arrow-right" />
                 </button>
-              </form>
+              </form> */}
+              <NewsletterForm/>
               <p>No credit card requirement. No commitments</p>
             </div>
             <div
