@@ -1,4 +1,5 @@
 import Counter from "@/components/Counter";
+import NewsletterForm from "@/components/newsletterForm";
 import Link from "next/link";
 
 const Footer = ({ footer, insta }) => {
@@ -174,28 +175,10 @@ const Footer1 = () => {
               <div className="section-title counter-text-wrap mb-35">
                 <h2>Subscribe Newsletter</h2>
                 <p>
-                  One site{" "}
-                  <span className="count-text plus">
-                    <Counter end={34500} />
-                  </span>{" "}
-                  most popular experience you’ll remember
+                  Unlock Memorable Experiences with Our Newsletter
                 </p>
               </div>
-              <form className="newsletter-form mb-50" action="#">
-                <input
-                  id="news-email"
-                  type="email"
-                  placeholder="Email Address"
-                  required=""
-                />
-                <button
-                  type="submit"
-                  className="theme-btn bgc-secondary style-two"
-                >
-                  <span data-hover="Subscribe">Subscribe</span>
-                  <i className="fal fa-arrow-right" />
-                </button>
-              </form>
+              <NewsletterForm/>
             </div>
           </div>
         </div>
