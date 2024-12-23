@@ -217,8 +217,19 @@ const page = () => {
                   />
                 </div>
               </div>
+              
             </div>
           </div>
+          <div className="col-lg-12 text-center">
+              <Link
+                href="https://g.co/kgs/CJqapid"
+                target="_blank"
+                className="theme-btn style-two bgc-secondary"
+              >
+                <span data-hover="View All Gallery">View All Gallery</span>
+                <i className="fal fa-arrow-right" />
+              </Link>
+            </div>
         </div>
       </section>
       {/* Gallery Area end */}
