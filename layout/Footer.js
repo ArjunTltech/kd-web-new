@@ -284,7 +284,7 @@ const Footer1 = () => {
                     Trivandrum, Kerala, 695582
                   </li>
                   <li>
-                    <i className="fal fa-location" />Kanyakumari , Kochi , Wayanad
+                    <i className="fal fa-location" />Kanyakumari , Kochi , Wayanad, UAE
                   </li>
                   <li>
                     <i className="fal fa-envelope" />{" "}
