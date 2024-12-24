@@ -10,6 +10,7 @@ import "./globals.css";
 import 'rc-slider/assets/index.css';
 import CookieConsent from "@/components/popup/CookieConsent";
 import { Toaster } from "react-hot-toast";
+import GoogleAnalytics from "@/components/googleAnalytics";
 
 export const metadata = {
   title: "Kerala Drives - Travel & Tour Booking",
@@ -68,6 +69,7 @@ export default function RootLayout({ children }) {
           },
         }}
       />
+       <GoogleAnalytics />
       </body>
 
     </html>
