@@ -19,7 +19,7 @@ export const metadata = {
       "Disclaimer | Limitations, Risks & Terms | Kerala Drives Tours and Travels",
     description:
       "Learn about travel risks, limitations, and third-party link responsibilities in the Kerala Drives Tours and Travels disclaimer.",
-    images: ["/assets/images/logo.png"],
+    images: ["https://opengraph.b-cdn.net/production/images/3ac603a7-4c0f-40be-9096-ceb0e0503306.jpg?token=OEsCLJ4kJUG0OJ_D5JL7Y8exNVSphVspNrMITq_1xQ4&height=230&width=280&expires=33271363388"],
     type: "website",
     url: "https://www.keraladrives.com/disclaimer",
   },
@@ -29,7 +29,7 @@ export const metadata = {
       "Disclaimer | Limitations, Risks & Terms | Kerala Drives Tours and Travels",
     description:
       "Understand the limitations, risks, and responsibilities outlined in the Kerala Drives Tours and Travels disclaimer.",
-    images: ["/assets/images/logo.png"],
+    images: ["https://opengraph.b-cdn.net/production/images/3ac603a7-4c0f-40be-9096-ceb0e0503306.jpg?token=OEsCLJ4kJUG0OJ_D5JL7Y8exNVSphVspNrMITq_1xQ4&height=230&width=280&expires=33271363388"],
   },
   alternates: {
     canonical: "https://www.keraladrives.com/disclaimer",
