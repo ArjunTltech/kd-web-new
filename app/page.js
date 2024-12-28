@@ -743,7 +743,7 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h5>
-                        <Link href="tour-details">Houseboat Cruises</Link>
+                        <span href="tour-details">Houseboat Cruises</span>
                       </h5>
                       <p className="content-font">Drift along Kerala&apos;s enchanting backwaters</p>
                     </div>
@@ -754,7 +754,7 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h5>
-                        <Link href="tour-details">Trekking Adventures</Link>
+                        <span href="tour-details">Trekking Adventures</span>
                       </h5>
                       <p className="content-font">Conquer the green trails of Coorg and Wayanad</p>
                     </div>
@@ -767,7 +767,7 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h5>
-                        <Link href="tour-details">Wildlife Safaris</Link>
+                        <span href="tour-details">Wildlife Safaris</span>
                       </h5>
                       <p className="content-font">Witness exotic wildlife in their natural habitats</p>
                     </div>
@@ -778,7 +778,7 @@ const page = () => {
                     </div>
                     <div className="content">
                       <h5>
-                        <Link href="tour-details">Cultural Tours</Link>
+                        <span href="tour-details">Cultural Tours</span>
                       </h5>
                       <p className="content-font">
                         Be part of South India&apos;s vibrant festivals and art

@@ -123,7 +123,7 @@ const page = () => {
               <i className="flaticon-award-symbol" />
             </div>
             <h5>
-              <Link href="destination-details">Our Mission</Link>
+              <span >Our Mission</span>
             </h5>
           </div>
           <div className="content flex-grow-1">
@@ -154,7 +154,7 @@ const page = () => {
               <i className="flaticon-tourism" />
             </div>
             <h5>
-              <Link href="destination-details">Our Vision</Link>
+              <Link >Our Vision</Link>
             </h5>
           </div>
           <div className="content flex-grow-1">
@@ -355,7 +355,7 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="destination-details">Affordable Luxury</Link>
+                    <span >Affordable Luxury</span>
                   </h5>
                   <p>Top-tier experiences at competitive prices</p>
                 </div>
@@ -374,7 +374,7 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="destination-details">Personalized Plans</Link>
+                    <span >Personalized Plans</span>
                   </h5>
                   <p>Itineraries tailored to your preferences</p>
                 </div>
@@ -393,7 +393,7 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="destination-details">24/7 Support</Link>
+                    <span >24/7 Support</span>
                   </h5>
                   <p>Round-the-clock assistance from our friendly team</p>
                 </div>
@@ -412,7 +412,7 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h5>
-                    <Link href="destination-details">Hassle-Free Travel</Link>
+                    <span >Hassle-Free Travel</span>
                   </h5>
                   <p>From booking to final departure, we handle it all</p>
                 </div>

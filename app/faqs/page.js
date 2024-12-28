@@ -218,7 +218,7 @@ const Page = () => {
                 </div>
                 <div className="content">
                   <h6>
-                    <Link href="destination-details">500+ Destinations</Link>
+                    <span >500+ Destinations</span>
                   </h6>
                   <p>
                     Adventure seekers can embark on thrilling journeys through
@@ -240,7 +240,7 @@ const Page = () => {
                 </div>
                 <div className="content">
                   <h6>
-                    <Link href="destination-details">Best Price Guarantee</Link>
+                    <span >Best Price Guarantee</span>
                   </h6>
                   <p>
                     Competitive pricing that ensures value for every traveler's
@@ -262,7 +262,7 @@ const Page = () => {
                 </div>
                 <div className="content">
                   <h6>
-                    <Link href="destination-details">Diverse Destinations</Link>
+                    <span >Diverse Destinations</span>
                   </h6>
                   <p>
                     Explore a wide range of destinations from cultural sites to
