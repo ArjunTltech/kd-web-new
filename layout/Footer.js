@@ -162,6 +162,9 @@ const Footer1 = () => {
                   <Link href="https://www.youtube.com/channel/UC3tmfmBZf5Ufqo2JSEwj6BA" target="_blank">
                     <i className="fab fa-youtube" />
                   </Link>
+                  <Link href="https://in.pinterest.com/keraladrives195/" target="_blank">
+                    <i className="fab fa-pinterest" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -178,7 +181,7 @@ const Footer1 = () => {
                   Unlock Memorable Experiences with Our Newsletter
                 </p>
               </div>
-              <NewsletterForm/>
+              <NewsletterForm />
             </div>
           </div>
         </div>

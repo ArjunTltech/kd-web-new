@@ -250,7 +250,7 @@ const Sidebar = ({ sidebarClick }) => {
             </form>
           </div>
           {/*Social Icons*/}
-          <div className="social-style-one">
+          {/* <div className="social-style-one">
             <Link href="contact">
               <i className="fab fa-twitter" />
             </Link>
@@ -263,7 +263,7 @@ const Sidebar = ({ sidebarClick }) => {
             <a href="#">
               <i className="fab fa-pinterest-p" />
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
     </Fragment>
