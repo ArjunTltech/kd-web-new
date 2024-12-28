@@ -28,7 +28,7 @@ export const metadata = {
       "Top Kerala Travel Destinations | Beaches, Hill Stations & Backwaters",
     description:
       "Discover Kerala’s top destinations, from Munnar hill stations to Alappuzha backwaters and Varkala beaches. Experience natural beauty, heritage, and wildlife with Kerala Drives.",
-    images: ["/assets/images/banner/destination-banner.jpg"],
+    images: ["https://opengraph.b-cdn.net/production/images/3ac603a7-4c0f-40be-9096-ceb0e0503306.jpg?token=OEsCLJ4kJUG0OJ_D5JL7Y8exNVSphVspNrMITq_1xQ4&height=230&width=280&expires=33271363388"],
     type: "website",
     url: "https://www.keraladrives.com/destinations",
   },
@@ -38,7 +38,7 @@ export const metadata = {
       "Top Kerala Travel Destinations | Beaches, Hill Stations & Backwaters",
     description:
       "Uncover the best travel destinations in Kerala, including stunning beaches, lush hill stations, and serene backwaters. Plan your trip today with Kerala Drives.",
-    images: ["/assets/images/banner/destination-banner.jpg"],
+    images: ["https://opengraph.b-cdn.net/production/images/3ac603a7-4c0f-40be-9096-ceb0e0503306.jpg?token=OEsCLJ4kJUG0OJ_D5JL7Y8exNVSphVspNrMITq_1xQ4&height=230&width=280&expires=33271363388"],
   },
   alternates: {
     canonical: "https://www.keraladrives.com/destinations",

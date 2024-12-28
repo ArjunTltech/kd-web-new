@@ -24,7 +24,7 @@ export const metadata = {
     title: "About Kerala Drives | Your Expert Tour Guide for Kerala & Beyond",
     description:
       "Discover what makes Kerala Drives the preferred choice for travelers seeking unique and unforgettable experiences in Kerala.",
-    images: ["/assets/images/about/about-banner.jpg"],
+    images: ["https://opengraph.b-cdn.net/production/images/5c8a5c93-8792-49e9-847c-712042c8df9a.jpg?token=_8HYyOtokuW-o3dmiQlvqwax0hI3ifzhzHU7m8NKCCM&height=350&width=400&expires=33271363005"],
     type: "website",
     url: "https://www.keraladrives.com/about",
   },
@@ -33,7 +33,7 @@ export const metadata = {
     title: "About Kerala Drives | Your Expert Tour Guide for Kerala & Beyond",
     description:
       "Your travel partner for personalized and sustainable tours across Kerala and South India.",
-    images: ["/assets/images/about/about-banner.jpg"],
+    images: ["https://opengraph.b-cdn.net/production/images/5c8a5c93-8792-49e9-847c-712042c8df9a.jpg?token=_8HYyOtokuW-o3dmiQlvqwax0hI3ifzhzHU7m8NKCCM&height=350&width=400&expires=33271363005"],
   },
   alternates: { canonical: "https://www.keraladrives.com/about" },
 };
@@ -245,73 +245,91 @@ const page = () => {
       </section>
       {/* About Us Area end */}
       {/* Team Area start */}
-      <section className="about-team-area pb-70 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-12">
-              <div
-                className="section-title text-center counter-text-wrap mb-50"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <SectionTitle title={"Meet Our Experience Founder"} />
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div
-                className="team-item hover-content"
-                data-aos="fade-up"
-                data-aos-delay={150}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <img className="" src="assets/images/team/ceo-image.png" alt="Guide" />
-                <div className="content">
-                  <h6>Sajan  Vohab</h6>
-                  <span className="designation">Founder / CEO</span>
-                  <div className="social-style-one inner-content">
-                    <Link href="contact">
-                      <i className="fab fa-twitter" />
-                    </Link>
-                    <Link href="contact">
-                      <i className="fab fa-facebook-f" />
-                    </Link>
-                    <Link href="contact">
-                      <i className="fab fa-instagram" />
-                    </Link>
-                    <a href="#">
-                      <i className="fab fa-pinterest-p" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <p
-              className="col-xl-8 col-lg-8 col-sm-6 content-font"
-              data-aos="fade-up"
-              data-aos-delay={150}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              Sajan Vohab, the visionary behind Kerala Drives, brings with him a deep passion for travel and exploration. His love for Kerala's breathtaking landscapes, rich culture, and vibrant heritage inspired the creation of this travel agency. Under his leadership, Kerala Drives has grown into a trusted name for curating unique, personalized travel experiences that showcase the heart and soul of God’s Own Country. <br /><br />
+      <section className="about-team-area pb-70 rel z-1 py-5">
+  <div className="container">
+    {/* Title Section */}
+    <div className="row justify-content-center">
+      <div className="col-lg-12">
+        <div
+          className="section-title text-center counter-text-wrap mb-4 mb-lg-5"
+          data-aos="fade-up"
+          data-aos-duration={1500}
+          data-aos-offset={50}
+        >
+          <SectionTitle title={"Meet Our Experience Founder"} />
+        </div>
+      </div>
+    </div>
 
-              A Message from Our Founder:
-              “At Kerala Drives, we believe that every traveler deserves an experience that is as unique and special as Kerala itself. Our mission is to go beyond the ordinary and craft journeys that resonate with your interests, ensuring unforgettable memories.”<br /><br />
+    {/* Content Section */}
+    <div className="row justify-content-center">
+      {/* Founder Description - Stacks on mobile */}
+      <div className="col-xl-8 col-lg-8 col-md-12">
+        <div
+          className="content-wrapper px-3 px-md-4"
+          data-aos="fade-up"
+          data-aos-delay={150}
+          data-aos-duration={1500}
+          data-aos-offset={50}
+        >
+          <p className="content-font mb-4">
+            Sajan Vohab, the visionary behind Kerala Drives, brings with him a deep passion for travel and exploration. His love for Kerala's breathtaking landscapes, rich culture, and vibrant heritage inspired the creation of this travel agency. Under his leadership, Kerala Drives has grown into a trusted name for curating unique, personalized travel experiences that showcase the heart and soul of God's Own Country.
+          </p>
 
-              Sajan’s extensive experience in the travel industry, combined with his in-depth knowledge of Kerala’s geography and traditions, has positioned Kerala Drives as a leader in delivering personalized, high-quality travel services. </p><br /><br />
-            <p className="content-font ms-5"  data-aos="fade-up"
-              data-aos-delay={150}
-              data-aos-duration={1500}
-              data-aos-offset={50}>
-              Whether it's the serene backwaters, pristine beaches, lush hill stations, or the rich cultural tapestry of Kerala, Sajan and his dedicated team are committed to providing you with unmatched attention and care, ensuring that your journey is seamless, enjoyable, and full of discovery.
+          <div className="message-box my-4 p-3 bg-light rounded">
+            <h5 className="mb-3">A Message from Our Founder:</h5>
+            <p className="content-font fst-italic">
+              "At Kerala Drives, we believe that every traveler deserves an experience that is as unique and special as Kerala itself. Our mission is to go beyond the ordinary and craft journeys that resonate with your interests, ensuring unforgettable memories."
             </p>
+          </div>
 
+          <p className="content-font mb-4">
+            Sajan's extensive experience in the travel industry, combined with his in-depth knowledge of Kerala's geography and traditions, has positioned Kerala Drives as a leader in delivering personalized, high-quality travel services.
+          </p>
+
+          <p className="content-font">
+            Whether it's the serene backwaters, pristine beaches, lush hill stations, or the rich cultural tapestry of Kerala, Sajan and his dedicated team are committed to providing you with unmatched attention and care, ensuring that your journey is seamless, enjoyable, and full of discovery.
+          </p>
+        </div>
+      </div>
+
+      {/* Founder Image - Takes full width on mobile, appropriate width on larger screens */}
+      <div className="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4 mb-lg-0">
+        <div
+          className="team-item hover-content text-center"
+          data-aos="fade-up"
+          data-aos-delay={150}
+          data-aos-duration={1500}
+          data-aos-offset={50}
+        >
+          <img 
+            className="img-fluid mx-auto" 
+            src="assets/images/team/sajan.png" 
+            alt="Guide" 
+          />
+          <div className="content mt-3">
+            <h6 className="mb-2">Sajan Vohab</h6>
+            <span className="designation d-block mb-3">Founder / CEO</span>
+            <div className="social-style-one inner-content">
+              <Link href="contact" className="mx-2">
+                <i className="fab fa-twitter" />
+              </Link>
+              <Link href="contact" className="mx-2">
+                <i className="fab fa-facebook-f" />
+              </Link>
+              <Link href="contact" className="mx-2">
+                <i className="fab fa-instagram" />
+              </Link>
+              <a href="#" className="mx-2">
+                <i className="fab fa-pinterest-p" />
+              </a>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
       {/* Team Area end */}
       {/* Features Area start */}
       <section className="about-feature-two bgc-black pt-100 pb-45 rel z-1">

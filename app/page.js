@@ -33,7 +33,7 @@ export const metadata = {
       "Kerala Drives | Explore South India's Top Travel Destinations & Tours",
     description:
       "Unforgettable houseboat cruises, wildlife safaris, and cultural experiences await you across Kerala, Karnataka, and Tamil Nadu.",
-    images: ["/assets/images/hero/hero-banner.jpg"],
+    images: ["https://opengraph.b-cdn.net/production/images/a85e0ef6-4a30-4188-b8dd-562f59cb3352.jpg?token=sOBGWSayYkOS4jS7y3K4z59AJ_8bj1aY7GXr1U6ZTNo&height=801&width=1200&expires=33271363388"],
     type: "website",
     url: "https://www.keraladrives.com",
   },
@@ -43,7 +43,8 @@ export const metadata = {
       "Kerala Drives | Explore South India's Top Travel Destinations & Tours",
     description:
       "Unforgettable travel experiences across Kerala, Karnataka, and Tamil Nadu. Plan your perfect trip with Kerala Drives.",
-    images: ["/assets/images/hero/hero-banner.jpg"],
+    images: ["https://opengraph.b-cdn.net/production/images/a85e0ef6-4a30-4188-b8dd-562f59cb3352.jpg?token=sOBGWSayYkOS4jS7y3K4z59AJ_8bj1aY7GXr1U6ZTNo&height=801&width=1200&expires=33271363388"],
+    
   },
   alternates: { canonical: "https://www.keraladrives.com" },
   metadataBase: new URL("https://www.keraladrives.com"),

@@ -16,7 +16,7 @@ export const metadata = {
   openGraph: {
     title: "Honeymoon Packages in Kerala | Romantic Tours & Houseboat Getaways",
     description: "Explore romantic Kerala honeymoon tours featuring houseboats, scenic hill stations, and unforgettable couple experiences.",
-    images: ['/assets/images/honeymoon/honeymoon-banner.jpg'],
+    images: ['https://opengraph.b-cdn.net/production/images/80d04b2f-189f-4963-95fc-cee80f16aacd.jpg?token=MyucBltupFwZy5KtXsp2mzUtchpCSpXYJNVwuWcbcy8&height=640&width=960&expires=33271364270'],
     type: 'website',
     url: 'https://www.keraladrives.com/honeymoon-package'
   },
@@ -24,7 +24,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "Honeymoon Packages in Kerala | Romantic Tours & Houseboat Getaways",
     description: "Unwind and celebrate love with Kerala Drives’ scenic honeymoon tours. Book now for backwater cruises and hill station retreats.",
-    images: ['/assets/images/honeymoon/honeymoon-banner.jpg']
+    images: ['https://opengraph.b-cdn.net/production/images/80d04b2f-189f-4963-95fc-cee80f16aacd.jpg?token=MyucBltupFwZy5KtXsp2mzUtchpCSpXYJNVwuWcbcy8&height=640&width=960&expires=33271364270']
   },
   alternates: { canonical: 'https://www.keraladrives.com/honeymoon-package' },
 };

@@ -28,7 +28,7 @@ export const metadata = {
     title: "Educational Tours in Kerala | Explore Science, Nature, and History",
     description:
       "Plan your educational tours with Kerala Drives. Explore Fort Kochi's rich heritage, Munnar's natural wonders, and exciting science trips perfect for students.",
-    images: ["/assets/images/banner/educational-tours.jpg"],
+    images: ["https://opengraph.b-cdn.net/production/images/6e307322-fc9d-49f9-85b3-34684ea09b37.jpg?token=IvO8TUrvUDOKNbBuTDukGIUhcLm3V7_F9oGvQCrZviU&height=800&width=1200&expires=33271363678"],
     type: "website",
     url: "https://www.keraladrives.com/educational-tours",
   },
@@ -37,7 +37,7 @@ export const metadata = {
     title: "Educational Tours in Kerala | Explore Science, Nature, and History",
     description:
       "Kerala Drives offers exciting educational tours to Fort Kochi, Munnar, and more. Perfect for students, schools, and educational groups.",
-    images: ["/assets/images/banner/educational-tours.jpg"],
+    images: ["https://opengraph.b-cdn.net/production/images/6e307322-fc9d-49f9-85b3-34684ea09b37.jpg?token=IvO8TUrvUDOKNbBuTDukGIUhcLm3V7_F9oGvQCrZviU&height=800&width=1200&expires=33271363678"],
   },
   alternates: {
     canonical: "https://www.keraladrives.com/educational-tours",

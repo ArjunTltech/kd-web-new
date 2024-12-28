@@ -17,7 +17,7 @@ export const metadata = {
     title: "Terms and Conditions | Guidelines for Kerala Drives Services",
     description:
       "Review the terms and conditions to understand the rules, user agreements, and policies for booking tours with Kerala Drives.",
-    images: ["/assets/images/logo.png"],
+    images: ["https://opengraph.b-cdn.net/production/images/3ac603a7-4c0f-40be-9096-ceb0e0503306.jpg?token=OEsCLJ4kJUG0OJ_D5JL7Y8exNVSphVspNrMITq_1xQ4&height=230&width=280&expires=33271363388"],
     type: "website",
     url: "https://www.keraladrives.com/terms-and-conditions",
   },
@@ -26,7 +26,7 @@ export const metadata = {
     title: "Terms and Conditions | Guidelines for Kerala Drives Services",
     description:
       "Learn about the rules, user agreements, and legal guidelines for using Kerala Drives Tours and Travels services.",
-    images: ["/assets/images/logo.png"],
+    images: ["https://opengraph.b-cdn.net/production/images/3ac603a7-4c0f-40be-9096-ceb0e0503306.jpg?token=OEsCLJ4kJUG0OJ_D5JL7Y8exNVSphVspNrMITq_1xQ4&height=230&width=280&expires=33271363388"],
   },
   alternates: {
     canonical: "https://www.keraladrives.com/terms-and-conditions",
