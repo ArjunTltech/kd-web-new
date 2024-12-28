@@ -33,6 +33,8 @@ export async function POST(request) {
 
   } catch (error) {
     // Handle duplicate email error
+    console.log(error);
+    
     if (error.code === 'P2002') {
       return NextResponse.json(
         { error: 'This email is already subscribed' },
