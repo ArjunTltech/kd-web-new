@@ -24,7 +24,7 @@ export const metadata = {
     title: "About Kerala Drives | Your Expert Tour Guide for Kerala & Beyond",
     description:
       "Discover what makes Kerala Drives the preferred choice for travelers seeking unique and unforgettable experiences in Kerala.",
-    images: ["/assets/images/about/about-banner.jpg"],
+    images: ["https://opengraph.b-cdn.net/production/images/5c8a5c93-8792-49e9-847c-712042c8df9a.jpg?token=_8HYyOtokuW-o3dmiQlvqwax0hI3ifzhzHU7m8NKCCM&height=350&width=400&expires=33271363005"],
     type: "website",
     url: "https://www.keraladrives.com/about",
   },
@@ -33,7 +33,7 @@ export const metadata = {
     title: "About Kerala Drives | Your Expert Tour Guide for Kerala & Beyond",
     description:
       "Your travel partner for personalized and sustainable tours across Kerala and South India.",
-    images: ["/assets/images/about/about-banner.jpg"],
+    images: ["https://opengraph.b-cdn.net/production/images/5c8a5c93-8792-49e9-847c-712042c8df9a.jpg?token=_8HYyOtokuW-o3dmiQlvqwax0hI3ifzhzHU7m8NKCCM&height=350&width=400&expires=33271363005"],
   },
   alternates: { canonical: "https://www.keraladrives.com/about" },
 };
