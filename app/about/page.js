@@ -154,7 +154,7 @@ const page = () => {
               <i className="flaticon-tourism" />
             </div>
             <h5>
-              <Link >Our Vision</Link>
+              <span >Our Vision</span>
             </h5>
           </div>
           <div className="content flex-grow-1">
@@ -310,7 +310,7 @@ const page = () => {
           <div className="content mt-3">
             <h6 className="mb-2">Sajan Vohab</h6>
             <span className="designation d-block mb-3">Founder / CEO</span>
-            <div className="social-style-one inner-content">
+            {/* <div className="social-style-one inner-content">
               <Link href="contact" className="mx-2">
                 <i className="fab fa-twitter" />
               </Link>
@@ -323,7 +323,7 @@ const page = () => {
               <a href="#" className="mx-2">
                 <i className="fab fa-pinterest-p" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
