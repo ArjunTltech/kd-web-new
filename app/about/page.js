@@ -123,7 +123,7 @@ const page = () => {
               <i className="flaticon-award-symbol" />
             </div>
             <h5>
-              <span >Our Mission</span>
+              <span className="text-white" >Our Mission</span>
             </h5>
           </div>
           <div className="content flex-grow-1">
@@ -154,7 +154,7 @@ const page = () => {
               <i className="flaticon-tourism" />
             </div>
             <h5>
-              <span >Our Vision</span>
+              <span  className="text-white" >Our Vision</span>
             </h5>
           </div>
           <div className="content flex-grow-1">
