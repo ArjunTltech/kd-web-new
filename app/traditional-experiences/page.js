@@ -30,7 +30,7 @@ export const metadata = {
       "Traditional Kerala Experiences | Kathakali, Kalaripayattu & Ayurveda Retreats",
     description:
       "Explore Kerala’s vibrant culture with Kathakali dance, Kalaripayattu martial arts, and Ayurveda wellness therapies for an authentic cultural retreat.",
-    images: ["/assets/images/banner/traditional-experiance.jpg"],
+    images: ["https://opengraph.b-cdn.net/production/images/09d782d5-bf91-46b1-9e1b-8ae32b30db5c.png?token=boAP-E9uoS05YyOpK8zv2h5cdvOkqXq2MW4e3sx24Yo&height=566&width=1200&expires=33271364427"],
     type: "website",
     url: "https://www.keraladrives.com/traditional-experiences",
   },
@@ -40,7 +40,7 @@ export const metadata = {
       "Traditional Kerala Experiences | Kathakali, Kalaripayattu & Ayurveda Retreats",
     description:
       "Discover Kerala’s rich traditions through Kathakali, Kalaripayattu, and Ayurveda retreats with Kerala Drives.",
-    images: ["/assets/images/banner/traditional-experiences.jpg"],
+    images: ["https://opengraph.b-cdn.net/production/images/09d782d5-bf91-46b1-9e1b-8ae32b30db5c.png?token=boAP-E9uoS05YyOpK8zv2h5cdvOkqXq2MW4e3sx24Yo&height=566&width=1200&expires=33271364427"],
   },
   alternates: {
     canonical: "https://www.keraladrives.com/traditional-experiences",

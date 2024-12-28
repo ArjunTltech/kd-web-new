@@ -16,7 +16,7 @@ export const metadata = {
     title: "Privacy Policy | How Kerala Drives Protects Your Data & Privacy",
     description:
       "Understand how we collect, use, and protect your personal information while ensuring the highest standards of privacy and security.",
-    images: ["/assets/images/logo.png"],
+    images: ["https://opengraph.b-cdn.net/production/images/3ac603a7-4c0f-40be-9096-ceb0e0503306.jpg?token=OEsCLJ4kJUG0OJ_D5JL7Y8exNVSphVspNrMITq_1xQ4&height=230&width=280&expires=33271363388"],
     type: "website",
     url: "https://www.keraladrives.com/privacy-policy",
   },
@@ -25,7 +25,7 @@ export const metadata = {
     title: "Privacy Policy | How Kerala Drives Protects Your Data & Privacy",
     description:
       "Read Kerala Drives' privacy policy to learn how we handle and protect your personal data responsibly.",
-    images: ["/assets/images/logo.png"],
+    images: ["https://opengraph.b-cdn.net/production/images/3ac603a7-4c0f-40be-9096-ceb0e0503306.jpg?token=OEsCLJ4kJUG0OJ_D5JL7Y8exNVSphVspNrMITq_1xQ4&height=230&width=280&expires=33271363388"],
   },
   alternates: {
     canonical: "https://www.keraladrives.com/privacy-policy",

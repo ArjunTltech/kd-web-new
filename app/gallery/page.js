@@ -32,7 +32,7 @@ export const metadata = {
     description:
       "Experience the beauty of Kerala Drives tours through our photo gallery. View stunning images from our journeys across Kerala, Karnataka, and Tamil Nadu.",
     images: [
-      "https://www.keraladrives.com/assets/images/gallery/gallery_cover_caravan-tourism.jpg",
+      "https://opengraph.b-cdn.net/production/images/8aa9d82c-b524-4dd7-ae38-f5396952b2b1.jpg?token=I2pG_PbTjh1-bJ7ZkIgE8pMXI4EU8dRaNbOdMTUm4AU&height=350&width=400&expires=33271363965",
     ],
     type: "website",
     url: "https://www.keraladrives.com/gallery",
@@ -43,7 +43,7 @@ export const metadata = {
     description:
       "Take a visual journey through the stunning landscapes and unforgettable experiences offered by Kerala Drives. Explore our travel gallery now.",
     images: [
-      "https://www.keraladrives.com/assets/images/gallery/gallery_cover_caravan-tourism.jpg",
+      "https://opengraph.b-cdn.net/production/images/8aa9d82c-b524-4dd7-ae38-f5396952b2b1.jpg?token=I2pG_PbTjh1-bJ7ZkIgE8pMXI4EU8dRaNbOdMTUm4AU&height=350&width=400&expires=33271363965",
     ],
   },
   alternates: { canonical: "https://www.keraladrives.com/gallery" },

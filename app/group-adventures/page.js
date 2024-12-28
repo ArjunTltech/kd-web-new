@@ -27,7 +27,7 @@ export const metadata = {
       "Group Adventure Tours in Kerala | Trekking, Boating & Team Activities",
     description:
       "Plan unforgettable group adventures in Kerala with trekking in Munnar, backwater boating in Alleppey, and thrilling team-building activities.",
-    images: ["/assets/images/banner/group-banner.jpg"],
+    images: ["https://opengraph.b-cdn.net/production/images/8aa9d82c-b524-4dd7-ae38-f5396952b2b1.jpg?token=I2pG_PbTjh1-bJ7ZkIgE8pMXI4EU8dRaNbOdMTUm4AU&height=350&width=400&expires=33271363965"],
     type: "website",
     url: "https://www.keraladrives.com/group-adventures",
   },
@@ -37,7 +37,7 @@ export const metadata = {
       "Group Adventure Tours in Kerala | Trekking, Boating & Team Activities",
     description:
       "Explore the best group adventure activities in Kerala with trekking, boating, and team-building tours. Perfect for friends, families, and corporate groups.",
-    images: ["/assets/images/banner/group-banner.jpg"],
+    images: ["https://opengraph.b-cdn.net/production/images/8aa9d82c-b524-4dd7-ae38-f5396952b2b1.jpg?token=I2pG_PbTjh1-bJ7ZkIgE8pMXI4EU8dRaNbOdMTUm4AU&height=350&width=400&expires=33271363965"],
   },
   alternates: {
     canonical: "https://www.keraladrives.com/group-adventures",
